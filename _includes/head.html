@@ -86,6 +86,8 @@
   <!--[if lt IE 8]>
     <link rel="stylesheet" href="/css/bootstrap-ie7.css">
   <![endif]-->
-
+  {% if jekyll.environment == "production" %}
+    {% include analytics.html %}
+  {% endif %}
 
 </head>
