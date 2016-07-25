@@ -1,15 +1,20 @@
 ---
-layout: case-study
-type: "Case Study"
+title: Helping dental students learn on the move
+date: 0001-01-01 00:00:00 Z
 permalink: "/case-study/helping-dental-students-learn-on-the-move/"
-description: "Pocketworks offer advice, design and development around the implementation of apps for business."
-title: "Helping dental students learn on the move"
-tagline: "The Medical Protection Society offer increased value to students"
-client: "Medical Protection Society"
-grid-title: "A new channel for engaging customers"
-image: "mps-thumb.jpg"
-challenge: "Develop a new marketing channel to attract and engage dental students as new customers, allowing for personalised marketing"
-outcome: "Your Future, an Android and iPhone app that allows MPS to distribute valuable information to final year students and young dentists, to help them get through their final year and post-grad interviews"
+layout: case-study
+type: Case Study
+description: Pocketworks offer advice, design and development around the implementation
+  of apps for business.
+tagline: The Medical Protection Society offer increased value to students
+client: Medical Protection Society
+grid-title: A new channel for engaging customers
+image: mps-thumb.jpg
+challenge: Develop a new marketing channel to attract and engage dental students as
+  new customers, allowing for personalised marketing
+outcome: Your Future, an Android and iPhone app that allows MPS to distribute valuable
+  information to final year students and young dentists, to help them get through
+  their final year and post-grad interviews
 ---
 
 Graduate doctors and dentists must have insurance to practice. MPS are one of the UK's leading providers, selling over £320M of professional insurance each year.

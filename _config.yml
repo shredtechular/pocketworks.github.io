@@ -1,40 +1,35 @@
-# Site settings
+---
 title: pocketworks
-site_url: "http://www.pocketworks.co.uk/"
-version: 1.0
-excerpt_separator: <!--more-->
-baseurl: ""
 timezone: UTC
-
-# Collections
 collections:
   posts:
     title: Posts
     output: true
-
-# Build settings
+  uploads:
+    title: Uploads
+    output: true
+site_url: http://www.pocketworks.co.uk/
+version: 1.0
+excerpt_separator: "<!--more-->"
+baseurl: ''
 permalink: "/blog/:title/"
 sass:
   sass_dir: _sass
   style: compressed
-include: ['_pages']
+include:
+- _pages
 exclude:
-  - .gitignore
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
-# Markdown settings
+- ".gitignore"
+- README.md
+- Gemfile
+- Gemfile.lock
 markdown: kramdown
 kramdown:
-  auto_ids:       true
-  auto_id_stripping:    true
-
+  auto_ids: true
+  auto_id_stripping: true
 gems:
-  - jekyll-feed
-
-# HTML Compression settings
+- jekyll-feed
 compress_html:
-  clippings: [ ]
+  clippings: []
   blanklines: false
   profile: false
