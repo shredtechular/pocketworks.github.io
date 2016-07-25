@@ -32,5 +32,39 @@
 
   <meta content="{{ site.site_url }}{{ site.baseurl }}/images/apple-touch-icon-72x72.png" itemprop="image">
 
+  <!-- Twitter Card data -->
+  <meta content="summary" name="twitter:card">
+  <meta content="@thepocketworks" name="twitter:site">
+  <meta content="{{ header.og-meta.title }}" name="twitter:title">
+  <meta content="{{ header.og-meta.desc }}" name="twitter:description">
+  <meta content="{{ site.site_url }}{{ site.baseurl }}/images/icon-large.png" name="twitter:image">
+
+  <!-- Open Graph data -->
+  <meta content="{{ header.og-meta.title }}" property="og:title">
+  <meta content="website" property="og:type">
+  <meta content="{{ site.site_url }}" property="og:url">
+  <meta content="{{ site.site_url }}{{ site.baseurl }}/images/icon-large.png" property="og:image">
+  <meta content="{{ header.og-meta.desc }}"  property="og:description">
+  <meta content="{{ header.og-meta.name }}" property="og:site_name">
+
+  <!-- Atom RSS Feed -->
+  {% feed_meta %}
+
+  <!-- styles -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap-theme.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+  <!-- skin -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/skin/default.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,700,800,400' rel='stylesheet' type='text/css'>
+
+  <!-- mobile icons -->
+  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicon.ico" />
+  <link rel="apple-touch-icon" href="{{ site.baseurl }}/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="{{ site.baseurl }}/images/apple-touch-icon-114x114.png">
+
+
 
 </head>
