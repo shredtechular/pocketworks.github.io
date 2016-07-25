@@ -16,25 +16,19 @@ Graduate doctors and dentists must have insurance to practice. MPS are one of th
 
 When attending student fayres, MPS give out USB sticks with essential information on them. This has been a fairly common practice for companies exhibiting at events.
 
-The problem with USB sticks is they offer no means of tracking how often the materials are used. They are expensive to produce and there is no way to keep the contained articles and files up to date.
-They wanted to explore how mobile apps could replace their USB sticks, creating a solution that would be more useful to students.
+The problem with USB sticks is they offer no means of tracking how often the materials are used. They are expensive to produce and there is no way to keep the contained articles and files up to date.  They wanted to explore how mobile apps could replace their USB sticks, creating a solution that would be more useful to students.
 
 > They wanted to explore how mobile apps could replace their USB sticks, creating a solution that would be more useful to students.
 
-The Your Future app is a pocket guide book for students in their final year. It contains usfeul information relating to passing exams and finding employment.
-MPS incentivises students to download the app at student fayres.
+The Your Future app is a pocket guide book for students in their final year. It contains usfeul information relating to passing exams and finding employment.  MPS incentivises students to download the app at student fayres.
 
-The app is integrated with their NetFinity content management system (CMS).
-This means marketing can push the latest content to students at any time. Updating content is low cost, and more importantly gives students a reason to keep returning to the app.
-Marketing can notify students when updates have happened, using the built-in push messaging. Messages can be sent en-masse all students, or just those with specific interests.
-The open rates for targeted and relevant push messages can be up to 85%.
+The app is integrated with their NetFinity content management system (CMS).  This means marketing can push the latest content to students at any time. Updating content is low cost, and more importantly gives students a reason to keep returning to the app.  Marketing can notify students when updates have happened, using the built-in push messaging. Messages can be sent en-masse all students, or just those with specific interests.  The open rates for targeted and relevant push messages can be up to 85%.
 
 > Messages can be sent en-masse all students, or just those with specific interests.
 The open rates for targeted and relevant push messages can be up to 85%.
 
-<figure>
-<img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&url=https://pocketworks-website.s3.amazonaws.com/portfolio/mps-thumb.jpg" class="img-responsive">
-<figcaption></figcaption>
+<figure markdown="1">
+![Need Alt Tag](https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&url=https://pocketworks-website.s3.amazonaws.com/portfolio/mps-thumb.jpg){: .img-responsive}
 </figure>
 
 <br/>
