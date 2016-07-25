@@ -1,11 +1,16 @@
 # Site settings
-JEKYLL_ENV: production
 title: pocketworks
 site_url: "http://www.pocketworks.co.uk/"
 version: 1.0
 excerpt_separator: <!--more-->
-
 baseurl: ""
+timezone: UTC
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
 
 # Build settings
 permalink: "/blog/:title/"
