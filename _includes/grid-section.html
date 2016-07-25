@@ -1,0 +1,56 @@
+{% comment %}
+<!--
+  Grid Section
+
+  This partial is for areas on the site that have a 3 or 2 column grid of
+  posts.  Currently, this grid is used on the home, work, and products
+  pages.
+
+-->
+{% endcomment %}
+
+<section class="section bg-white" >
+    <div class="container">
+        <div class="row mar-bot0 mar-top40">
+
+        	{% for item in page.grid-items %}
+
+      	    {% for post in site.posts %}
+      	    	{% if post.url == item %}
+
+			    <div class='col-xs-12 col-sm-6 col-md-{% if page.cols %}{{ page.cols }}{% else %}4{% endif %} card'>
+			      <div class="col-xs-12 surround{% if page.theme %} {{ page.theme }}{% endif %}">
+			        <div class="row brand hidden">
+			          <!-- image here-->
+			        </div>
+			        <div class="row top">
+			          <a href="{{ item prepend: site.baseurl }}"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/portfolio/{{ post.image }}" class="img-responsive" /></a>
+			        </div>
+			        <div class="row content">
+			          <div class="subtitle">
+			          	<h3>
+			          		{% if post.client %}<strong>{{ post.client }} </strong>{% endif %}
+			          		{{ post.type }}
+			          	</h3>
+			          </div>
+			          <h2><a href="{{ post.title | prepend: site.baseurl }}">{{ post.grid-title }}</a></h4>
+			        </div>
+			      </div>
+			    </div>
+
+			    		{% endif %}
+        		{% endfor %}
+
+        	{% endfor %}
+
+        </div>
+
+        {% if include.view_all %}
+        <div class="row mar-bot0">
+          <div class="col-md-12 align-center">
+            <a href="{{ site.baseurl }}/our_work/" class="btn btn-lg">View all of our work</a>
+          </div>
+        </div>
+        {% endif %}
+      </div>
+</section>

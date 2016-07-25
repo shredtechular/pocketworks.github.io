@@ -1,0 +1,40 @@
+{% comment %}
+<!--
+  Header
+
+  This partial is included on every page except to consistently
+  display the same header on each page.
+
+-->
+{% endcomment %}
+
+{% assign header = site.data.header-footer-content.global.header %}
+
+<section id="header"></section>
+<div class="navbar navbar-fixed-top" role="navigation"
+   data-0="line-height:100px; height:100px; background-color:rgba(255,255,255,0.7);"
+   data-300="line-height:45px; height:45px; background-color:rgba(255,255,255,1.0);">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="fa fa-bars color-white"></span>
+      </button>
+      <h1><a class="navbar-brand" href="/" data-0="line-height:80px;" data-300="line-height:45px;">
+            <img src="{{ site.baseurl }}/images/logo.png" style="height: 30px;">
+          </a>
+      </h1>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:0px;">
+
+        {% for item in header.nav-items %}
+
+            <li {% if page.url == item.url %}class="active"{% endif %}><a href="{{ item.url prepend: site.baseurl }}">{{ item.title }}</a></li>
+
+        {% endfor %}
+
+      </ul>
+    </div>
+    <!--/.navbar-collapse -->
+  </div>
+</div>
