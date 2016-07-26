@@ -6,14 +6,16 @@ layout: case-study
 type: Case Study
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.
-tagline: An iPad booking taxi kiosk to improve customer satisfaction and reduce the burdon on staff
+tagline: An iPad booking taxi kiosk to improve customer satisfaction and reduce the
+  burdon on staff
 client: Hilton DoubleTree
-client-article: "Many UK taxi firms"
+client-article: Many UK taxi firms
 grid-title: Reducing queues at hotel reception desks
 image: portfolio/kiosk-thumb.jpg
-hero-image: "kiosk_dbt_02.jpg"
+hero-image: kiosk_dbt_02.jpg
 challenge: Reducing the wait time at hotel reception desks
-outcome: An iPad booking taxi kiosk that improves customer satisfaction and reduces the burdon on staff
+outcome: An iPad booking taxi kiosk that improves customer satisfaction and reduces
+  the burdon on staff
 cols: 8
 ---
 
