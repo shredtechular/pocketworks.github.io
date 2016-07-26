@@ -1,7 +1,4 @@
 ---
----
-
----
 global:
   phone: "0113 400 1454"
   email: "hello@pocketworks.co.uk"
@@ -41,3 +38,4 @@ global:
     - text: "Telephone ~~global-phone~~ Email: ~~global-email~~"
     - text: "Monarch House, Queen Street, Leeds, LS1 2TW"
     - text: "Registered UK Company Number 08041956"
+---
