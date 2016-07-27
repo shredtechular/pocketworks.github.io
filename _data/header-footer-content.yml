@@ -1,41 +1,43 @@
 ---
 global:
-  phone: "0113 400 1454"
-  email: "hello@pocketworks.co.uk"
-  tagline: "a mobile apps company"
+  phone: 0113 400 1454
+  email: hello@pocketworks.co.uk
+  tagline: a mobile apps company
   header:
     og-meta:
-      name: "Pocketworks Mobile Apps"
-      title: "Pocketworks - Modern, simple and attractive mobile apps for business"
-      desc: "Our clients are using mobile for long-term business advantage. We are their technology experts, offering mobile advice, design and development."
+      name: Pocketworks Mobile Apps
+      title: Pocketworks - Modern, simple and attractive mobile apps for business
+      desc: Our clients are using mobile for long-term business advantage. We are
+        their technology experts, offering mobile advice, design and development.
     nav-items:
-      - title: "Home"
-        url: "/"
-      - title: "Work"
-        url: "our_work/"
-      - title: "Products"
-        url: "products/"
-      - title: "About"
-        url: "about/"
-      - title: "Careers"
-        url: "jobs/"
-      - title: "Blog"
-        url: "adventures/"
-      - title: "Contact"
-        url: "contact/"
+    - title: Home
+      url: "/"
+    - title: Work
+      url: our_work/
+    - title: Products
+      url: products/
+    - title: About
+      url: about/
+    - title: Careers
+      url: jobs/
+    - title: Blog
+      url: adventures/
+    - title: Contact
+      url: contact/
   footer:
     social-nav-items:
-    - icon: "rss"
-      url: "http://feeds.feedburner.com/pocketworksmobile"
-    - icon: "facebook"
-      url: "http://facebook.com/thepocketworks"
-    - icon: "twitter"
-      url: "http://twitter.com/thepocketworks"
-    - icon: "linkedin"
-      url: "http://www.linkedin.com/company/pocketworks-mobile-ltd"
+    - icon: rss
+      url: http://feeds.feedburner.com/pocketworksmobile
+    - icon: facebook
+      url: http://facebook.com/thepocketworks
+    - icon: twitter
+      url: http://twitter.com/thepocketworks
+    - icon: linkedin
+      url: http://www.linkedin.com/company/pocketworks-mobile-ltd
     blurb-lines:
-    - text: "Copyright &copy; 2016 Pocketworks Mobile Ltd"
-    - text: "Telephone ~~global-phone~~ Email: ~~global-email~~"
-    - text: "Monarch House, Queen Street, Leeds, LS1 2TW"
-    - text: "Registered UK Company Number 08041956"
+    - text: Copyright &copy; 2016 Pocketworks Mobile Ltd
+    - text: 'Telephone ~~global-phone~~ Email: ~~global-email~~'
+    - text: Monarch House, Queen Street, Leeds, LS1 2TW
+    - text: Registered UK Company Number 08041956
 ---
+

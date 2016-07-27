@@ -1,18 +1,19 @@
 ---
-title: "Turning lights on across the UK"
+title: Turning lights on across the UK
 date: 0001-01-01 00:00:00 Z
 permalink: "/case-study/turning-lights-on-across-the-uk/"
 layout: case-study
 type: Case Study
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.
-tagline: "Helping Energenie enter the UK smarthome hardware market"
+tagline: Helping Energenie enter the UK smarthome hardware market
 client: Energenie
 grid-title: Helping Energenie enter the SmartHome market
 image: energenie-mi-home-booth-2.jpg
 hero-image: energenie-mihome-android-scene.jpg
-challenge: "Design and develop apps for controlling lights and home appliances"
-outcome: Mi|Home, an Android and iPhone app that allows consumers to remote-control their homes
+challenge: Design and develop apps for controlling lights and home appliances
+outcome: Mi|Home, an Android and iPhone app that allows consumers to remote-control
+  their homes
 ---
 
 When consumers have the ability to control their home’s climate control and energy usage remotely from a smartphone or a web application from a remote location, they can save money without sacrificing convenience and comfort.

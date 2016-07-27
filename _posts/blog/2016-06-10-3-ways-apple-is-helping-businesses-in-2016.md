@@ -1,5 +1,6 @@
 ---
 title: 3 ways Apple is helping businesses in 2016
+date: 2016-06-10 00:00:00 Z
 layout: case-study
 type: Blog
 description: Pocketworks offer advice, design and development around the implementation
