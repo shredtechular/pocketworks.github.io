@@ -16,6 +16,16 @@ grid-items:
 - "/blog/2016-06-10-3-ways-apple-is-helping-businesses-in-2016/"
 - "/case-study/turning-lights-on-across-the-uk/"
 - "/case-study/reducing-queues-at-hotel-reception-desks/"
+quote:
+  blurb: "\"Our mobile success makes Uber less of a threat\""
+  author: "Andy Pennock, Veezu"
+advice:
+  header: "Advice"
+  sub-header: "Face to face selling with iPads"
+  desc: "How to modernise your field sales by deploying mobile technology."
+  url: "/ipad-sales-apps/"
+  link-text: "Read more"
+  bg-img: "office-dim.jpg"
 ---
 
 ## We design, develop and evolve mobile products. We [work]({{ site.baseurl }}/our_work/) with funded startups and mature businesses. You can hire us as your [dedicated mobile team]({{ site.baseurl }}/about/) to manage the entire lifecycle of your product; from ideas and research through to development, hosting and maintenance.

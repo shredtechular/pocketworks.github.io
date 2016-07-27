@@ -1,0 +1,43 @@
+{% comment %}
+<!--
+  Clients Section
+
+  This partial is for areas on the site that include a list of clients.
+  Currently this partial is included on the homepage
+
+-->
+{% endcomment %}
+
+{% assign clients = site.data.clients.clients %}
+<section class="section bg-white hidden-xs hidden-sm">
+  <div class="container">
+    <div class="row hidden">
+      <div class="section-header">
+        <h2 class="section-heading animated" data-animation="bounceInUp">{{ clients.header }}</h2>
+
+        <p>{{ clients.desc }}</p>
+
+      </div>
+    </div>
+
+    {% for row in clients.rows %}
+    <div class="row mar-bot40 align-center">
+
+      {% for cli in row.row %}
+
+        {% comment %}
+          <!-- Calculating column offset based on row size -->
+        {% endcomment %}
+        {% assign col_offset = row.row.size | times: 2 %}
+        {% assign col_offset = 12 | minus: col_offset %}
+        {% assign col_offset = col_offset | divided_by: 2 %}
+        <div class="{% if forloop.index == 1 %}col-md-offset-{{ col_offset }} {% endif %}col-md-2">
+          <img src="/images/client_logos/{{ cli.client.image }}" class="grayscalex" alt="{{ cli.client.name }}">
+        </div>
+      {% endfor %}
+    </div>
+
+    {% endfor %}
+
+  </div>
+</section>

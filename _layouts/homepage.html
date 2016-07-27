@@ -2,6 +2,9 @@
 layout: default
 ---
 
+{% assign global = site.data.header-footer-content.global %}
+
+
 {% include white-hero.html hero_img=page.hero-img %}
 
 <section class="section" >
@@ -17,3 +20,63 @@ layout: default
 </section>
 
 {% include grid-section.html view_all="true" %}
+
+<section class="section" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="align-center">
+            <h1>{{ page.quote.blurb }}<br/><small>{{ page.quote.author }}</small></h1>
+
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-black pad-top0" style="height: 500px; background-image: url(https://pocketworks-website.s3.amazonaws.com/{{ page.advice.bg-img }}); background-position: 0%; background-size: 100%; background-repeat: no-repeat">
+  <div class="container">
+    <div class="row">
+      <div class='col-xs-12 col-sm-6 col-sm-offset-6 card' style="min-height:300px">
+        <div class="col-xs-12 surround" style="min-height:320px">
+          <div class="row content">
+            <br/>
+            <h3>{{ page.advice.header }}</h3>
+            <h2><a href="{{ page.advice.url | prepend: site.baseurl }}">{{ page.advice.sub-header }}</a></h2>
+            <p>{{ page.advice.desc }}</p>
+
+            <a href="{{ page.advice.url | prepend: site.baseurl }}" class="btn btn-border">{{ page.advice.link-text }}</a>
+            <br/><br/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include clients.html %}
+
+<section id="" class="section clearfix bg-white">
+<div class="container">
+  <div class="row mar-bot40">
+    <div class="col-md-3">
+      <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=264&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/PocketInsightsAppAnalytics.jpg" class="img-responsive"/>
+    </div>
+    <div class="col-md-6">
+      <h3>Report: What drives app downloads?</h3>
+      <ul>
+        <li>Convert your app store analytics into an actionable Marketing Effectiveness Report</li>
+        <li>Answer key questions such as: Are people finding my app by searching in the app store? Did they find my web page first? How effective is my social media or SMS marketing?</li>
+        <li>Learn how to interpret the data to increase your customer base, make better use of your marketing budget, and generate revenue</li>
+      </ul>
+      <p><a href="mailto:{{ global.email }}" class="">Request this PocketINSIGHTS report by email</a></p>
+
+    </div>
+    <div class="col-md-3">
+      <h3>Monthly insights in your inbox</h3>
+      <p>PocketINSIGHTS is a series of intelligence reports provided by our mobile strategy team. The reports are designed to give executives the intelligence they need to take positive next steps with their mobile apps.
+        </p>
+    </div>
+  </div>
+</div>
+</section>

@@ -1,0 +1,32 @@
+---
+clients:
+  header: "Trusted by local and global brands"
+  desc: "We've worked with SMEs, charities and leading global brands"
+  rows:
+    - row:
+        - client:
+            name: "Fresenius Medical Care"
+            image: "freseniuslogo.png"
+        - client:
+            name: "BOSE"
+            image: "boselogo.png"
+        - client:
+            name: "intel"
+            image: "intellogo.png"
+        - client:
+            name: "Lockheed Martin"
+            image: "lockheedlogo.png"
+        - client:
+            name: "Yorkshire Air Ambulance"
+            image: "YAAlogo.png"
+    - row:
+        - client:
+            name: "ebay"
+            image: "ebaylogo.png"
+        - client:
+            name: "yahoo"
+            image: "yahoologo.png"
+        - client:
+            name: "ASDA"
+            image: "asdalogo.png"
+---
