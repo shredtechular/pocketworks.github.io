@@ -8,7 +8,7 @@
 -->
 {% endcomment %}
 
-{% assign header = site.data.header-footer-content.header %}
+{% assign header = site.data.header-footer-content.global.header %}
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
@@ -43,7 +43,7 @@
   <meta content="{{ header.og-meta.title }}" property="og:title">
   <meta content="website" property="og:type">
   <meta content="{{ site.site_url }}" property="og:url">
-  <meta content="{{ site.site_url }}{{ site.baseurl }}/images/icon-large.png" property="og:image">
+  <meta content="{{ site.site_url }}{{ site.baseurl }}images/icon-large.png" property="og:image">
   <meta content="{{ header.og-meta.desc }}"  property="og:description">
   <meta content="{{ header.og-meta.name }}" property="og:site_name">
 
