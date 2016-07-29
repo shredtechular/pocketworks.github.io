@@ -17,18 +17,15 @@ grid-items:
 - "/case-study/turning-lights-on-across-the-uk/"
 - "/case-study/reducing-queues-at-hotel-reception-desks/"
 quote:
-  blurb: "\"Our mobile success makes Uber less of a threat\""
-  author: "Andy Pennock, Veezu"
+  blurb: '"Our mobile success makes Uber less of a threat"'
+  author: Andy Pennock, Veezu
 advice:
-  header: "Advice"
-  sub-header: "Face to face selling with iPads"
-  desc: "How to modernise your field sales by deploying mobile technology."
+  header: Advice
+  sub-header: Face to face selling with iPads
+  desc: How to modernise your field sales by deploying mobile technology.
   url: "/ipad-sales-apps/"
   link-text: "Read more"
   bg-img: "office-dim.jpg"
-insights:
-  bg-img: "PocketInsightsAppAnalytics.jpg"
-  header: "Report: What drives app downloads?"
 ---
 
 {% assign global = site.data.header-footer-content.global %}
