@@ -8,7 +8,20 @@
 -->
 {% endcomment %}
 
-{% assign footer = site.data.header-footer-content.global %}
+{% assign footer = site.data.header-footer-content.global.footer %}
+
+{% comment %}<!-- Get Telephone & Email information from global contact info -->{% endcomment %}
+{% assign contact_info = site.data.contact-information.contact-info.location.data %}
+{% assign tele = "" %}
+{% assign email = "" %}
+
+{% for item in contact_info %}
+  {% if item.label == "Telephone" %}
+    {% assign tele = item.value %}
+  {% elsif item.label == "Email" %}
+    {% assign email = item.value %}
+  {% endif %}
+{% endfor %}
 
 <section id="footer" class="section footer">
   <div class="container">
@@ -16,7 +29,7 @@
       <div class="col-sm-12 align-center">
         <ul class="social-network social-circle">
 
-          {% for item in footer.footer.social-nav-items %}
+          {% for item in footer.social-nav-items %}
 
           <li><a href="{{ item.url }}" class="icoRss" title="Rss"><i class="fa fa-{{ item.icon }}"></i></a></li>
 
@@ -30,8 +43,8 @@
       <div class="col-sm-12">
         <p>
 
-          {% for line in footer.footer.blurb-lines %}
-            {{ line.text | replace: "~~global-phone~~", footer.phone | replace: "~~global-email~~", footer.email }}<br/>
+          {% for line in footer.blurb-lines %}
+            {{ line.text | replace: "~~global-phone~~", tele | replace: "~~global-email~~", email }}<br/>
           {% endfor %}
 
         </p>

@@ -2,9 +2,6 @@
 layout: default
 ---
 
-{% assign global = site.data.header-footer-content.global %}
-
-
 {% include white-hero.html hero_img=page.hero-img %}
 
 <section class="section" >
@@ -12,7 +9,13 @@ layout: default
         <div class="row">
             <div class="col-md-12">
                 <div class="align-center">
+
+                  {% if page.content contains '<!--more-->' %}
+                    {{ page.content | split:'<!--more-->' | first }}
+                  {% else %}
                     {{ content }}
+                  {% endif %}
+
                 </div>
             </div>
         </div>
@@ -56,27 +59,17 @@ layout: default
 
 {% include clients.html %}
 
+<!-- pocket insights section -->
 <section id="" class="section clearfix bg-white">
 <div class="container">
   <div class="row mar-bot40">
-    <div class="col-md-3">
-      <img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=264&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/PocketInsightsAppAnalytics.jpg" class="img-responsive"/>
-    </div>
-    <div class="col-md-6">
-      <h3>Report: What drives app downloads?</h3>
-      <ul>
-        <li>Convert your app store analytics into an actionable Marketing Effectiveness Report</li>
-        <li>Answer key questions such as: Are people finding my app by searching in the app store? Did they find my web page first? How effective is my social media or SMS marketing?</li>
-        <li>Learn how to interpret the data to increase your customer base, make better use of your marketing budget, and generate revenue</li>
-      </ul>
-      <p><a href="mailto:{{ global.email }}" class="">Request this PocketINSIGHTS report by email</a></p>
 
-    </div>
-    <div class="col-md-3">
-      <h3>Monthly insights in your inbox</h3>
-      <p>PocketINSIGHTS is a series of intelligence reports provided by our mobile strategy team. The reports are designed to give executives the intelligence they need to take positive next steps with their mobile apps.
-        </p>
-    </div>
+    {% if page.content contains '<!--more-->' %}
+      {{ page.content | split:'<!--more-->' | last }}
+    {% else %}
+      {{ content }}
+    {% endif %}
+
   </div>
 </div>
 </section>

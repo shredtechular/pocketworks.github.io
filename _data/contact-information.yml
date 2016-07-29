@@ -1,0 +1,16 @@
+---
+contact-info:
+  location:
+    header: "Leeds Office, UK"
+    data:
+      - label: "Telephone"
+        value: "0113 400 1454"
+      - label: "Email"
+        value: "hello@pocketworks.co.uk"
+      - label: "Address"
+        value: "Monarch House, Queen Street, Leeds, LS1 2TW"
+      - label: "By Car"
+        value: "A 5 minute drive from the M1 and M62 <a href=\"https://www.google.co.uk/maps/dir//Pocketworks,+Queen+St,+Leeds+LS1+2TW/@53.797074,-1.6247694,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x48795ea129e684b1:0xeae2d6d8f48ffa8b!2m2!1d-1.5547304!2d53.796993!3e0\">(Google Maps directions)</a>. Paid council operated parking on street just outside entrance."
+      - label: "By Train or Plane"
+        value: "We're based in the heart of Leeds City Centre: a 10 minute walk from Leeds train station (see maps below), or a 15 minute taxi journey from Leeds Bradford airport (LBA)."
+---

@@ -1,7 +1,5 @@
 ---
 global:
-  phone: 0113 400 1454
-  email: hello@pocketworks.co.uk
   tagline: a mobile apps company
   header:
     og-meta:
@@ -11,7 +9,7 @@ global:
         their technology experts, offering mobile advice, design and development.
     nav-items:
     - title: Home
-      url: "/"
+      url: ""
     - title: Work
       url: our_work/
     - title: Products

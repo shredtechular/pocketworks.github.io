@@ -26,9 +26,38 @@ advice:
   url: "/ipad-sales-apps/"
   link-text: "Read more"
   bg-img: "office-dim.jpg"
+insights:
+  bg-img: "PocketInsightsAppAnalytics.jpg"
+  header: "Report: What drives app downloads?"
 ---
+
+{% assign global = site.data.header-footer-content.global %}
 
 ## We design, develop and evolve mobile products. We [work]({{ site.baseurl }}/our_work/) with funded startups and mature businesses. You can hire us as your [dedicated mobile team]({{ site.baseurl }}/about/) to manage the entire lifecycle of your product; from ideas and research through to development, hosting and maintenance.
 
 [How we bring success]({{ site.baseurl }}/enterprise-mobile-app-development/){: .btn .btn-lg}
+
+<!--more-->
+
+<div class="col-md-3" markdown="1">
+![Report: What drives app downloads?](https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=264&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/PocketInsightsAppAnalytics.jpg){: .img-responsive}
+</div>
+
+<div class="col-md-6" markdown="1">
+### Report: What drives app downloads?
+
+-  Convert your app store analytics into an actionable Marketing Effectiveness Report
+-  Answer key questions such as: Are people finding my app by searching in the app store? Did they find my web page first? How effective is my social media or SMS marketing?
+-  Learn how to interpret the data to increase your customer base, make better use of your marketing budget, and generate revenue
+
+[Request this PocketINSIGHTS report by email](mailto:{{ global.email }})
+</div>
+
+<div class="col-md-3" markdown="1">
+### Monthly insights in your inbox
+
+PocketINSIGHTS is a series of intelligence reports provided by our mobile strategy team. The reports are designed to give executives the intelligence they need to take positive next steps with their mobile apps.
+</div>
+
+
 
