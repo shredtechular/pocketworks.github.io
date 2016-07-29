@@ -28,7 +28,17 @@ advice:
   bg-img: office-dim.jpg
 ---
 
-{% assign global = site.data.header-footer-content.global %}
+{% comment %}<!-- Get Telephone & Email information from global contact info -->{% endcomment %}
+{% assign contact_info = site.data.contact-information.contact-info.location.data %}
+{% assign tele = "" %}
+{% assign email = "" %}
+
+{% for item in contact_info %}
+  {% if item.label == "Email" %}
+    {% assign email = item.value %}
+  {% endif %}
+{% endfor %}
+
 
 ## We design, develop and evolve mobile products. We [work]({{ site.baseurl }}/our_work/) with funded startups and mature businesses. You can hire us as your [dedicated mobile team]({{ site.baseurl }}/about/) to manage the entire lifecycle of your product; from ideas and research through to development, hosting and maintenance.
 
@@ -47,7 +57,7 @@ advice:
 -  Answer key questions such as: Are people finding my app by searching in the app store? Did they find my web page first? How effective is my social media or SMS marketing?
 -  Learn how to interpret the data to increase your customer base, make better use of your marketing budget, and generate revenue
 
-[Request this PocketINSIGHTS report by email](mailto:{{ global.email }})
+[Request this PocketINSIGHTS report by email](mailto:{{ email }})
 </div>
 
 <div class="col-md-3" markdown="1">
