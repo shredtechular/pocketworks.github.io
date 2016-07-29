@@ -28,8 +28,9 @@
       <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:0px;">
 
         {% for item in header.nav-items %}
+          {% assign item_url = item.url | prepend: "/" %}
 
-            <li {% if page.url == item.url %}class="active"{% endif %}><a href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
+          <li {% if page.url == item_url %}class="active"{% endif %}><a href="{{ site.baseurl }}/{{ item.url }}">{{ item.title }}</a></li>
 
         {% endfor %}
 
