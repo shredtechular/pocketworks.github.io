@@ -24,8 +24,8 @@ advice:
   sub-header: Face to face selling with iPads
   desc: How to modernise your field sales by deploying mobile technology.
   url: "/ipad-sales-apps/"
-  link-text: "Read more"
-  bg-img: "office-dim.jpg"
+  link-text: Read more
+  bg-img: office-dim.jpg
 ---
 
 {% assign global = site.data.header-footer-content.global %}

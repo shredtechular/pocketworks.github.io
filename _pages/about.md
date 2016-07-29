@@ -1,9 +1,9 @@
 ---
-title: ""
+title: ''
 permalink: "/about/"
 layout: page
-description: ""
-keywords: ""
+description: ''
+keywords: ''
 grid-items:
 - "/case-study/helping-dental-students-learn-on-the-move/"
 - "/case-study/asdas-first-mobile-app/"
@@ -11,3 +11,4 @@ grid-items:
 - "/case-study/turning-lights-on-across-the-uk/"
 - "/case-study/reducing-queues-at-hotel-reception-desks/"
 ---
+

@@ -9,7 +9,7 @@ global:
         their technology experts, offering mobile advice, design and development.
     nav-items:
     - title: Home
-      url: ""
+      url: ''
     - title: Work
       url: our_work/
     - title: Products

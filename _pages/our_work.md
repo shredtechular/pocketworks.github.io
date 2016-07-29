@@ -1,9 +1,9 @@
 ---
-title: "Work: advice, prototypes, mobile apps and web portals"
+title: 'Work: advice, prototypes, mobile apps and web portals'
 permalink: "/our_work/"
 layout: page
-description: ""
-keywords: ""
+description: ''
+keywords: ''
 grid-items:
 - "/case-study/helping-dental-students-learn-on-the-move/"
 - "/case-study/asdas-first-mobile-app/"
