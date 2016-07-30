@@ -2,6 +2,13 @@
 layout: default
 ---
 
-{% assign contact = site.data.contact-information.contact-info %}
-
 {% include feat-blue.html %}
+
+{% if page.grid-items %}
+  {% include grid-section.html %}
+{% endif %}
+
+{% if page.sectors-section %}
+  {% include sectors.html %}
+{% endif %}
+

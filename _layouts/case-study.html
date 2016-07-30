@@ -2,7 +2,18 @@
 layout: default
 ---
 
-<section class="blog-right section pad-top10 pad-bot10" style="background-image: url(https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&amp;resize_w=800&amp;url=https://pocketworks-website.s3.amazonaws.com/{% if page.hero-image %}{{ page.hero-image }}{% else %}{{ page.image }}{% endif %}); background-size: 100; background-position: center 10%">
+{% if page.hero-image %}
+  {% assign img = "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/" | append: page.hero-image %}
+{% else %}
+  {% assign sliced_url = page.image | slice: 0, 4 %}
+  {% if sliced_url == "http" %}
+    {% assign img = page.image %}
+  {% else %}
+    {% assign img = "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/" | append: page.image %}
+  {% endif %}
+{% endif %}
+
+<section class="blog-right section pad-top10 pad-bot10" style="background-image: url({{ img }}); background-size: 100; background-position: center 10%">
   <div class="container">
     <div class="row mar-top40"></div>
   </div>

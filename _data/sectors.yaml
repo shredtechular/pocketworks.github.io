@@ -1,0 +1,32 @@
+---
+sectors:
+  header: ""
+  desc: ""
+  global-link-text: "Read More"
+  rows:
+  - row:
+    - sector:
+        header: "On-Demand Apps"
+        desc: "Taxi apps, private hire, bespoke dispatch systems, food delivery and order tracking"
+        image: "round-on-demand-apps.jpg"
+        alt: "On Demand Apps Picture"
+        url: "/on-demand-apps"
+    - sector:
+        header: "Hardware Devices"
+        desc: "Apps for medical device control, home automation, industrial electronic devices and IoT"
+        image: "round-hardware-control-apps.jpg"
+        alt: "Hardware Devices Picture"
+        url: "/medicaldevices-and-iot-apps"
+    - sector:
+        header: "Sales, Survey &amp; Data Capture"
+        desc: "iPad selling, eDetailing, digital pocket guides, field surveys, CRM, call management and data reporting."
+        image: "round-sales-teams-apps.jpg"
+        alt: "Sales, Survey &amp; Data Capture Picture"
+        url: "/ipad-sales-apps"
+    - sector:
+        header: "For Startups"
+        desc: "MVPs, concept validation, customer interviews, UX, iOS, Droid, Web, APIs and full stack development"
+        image: "round-startup-apps.jpg"
+        alt: "For Startups Picture"
+        url: "/apps-for-startups"
+---
