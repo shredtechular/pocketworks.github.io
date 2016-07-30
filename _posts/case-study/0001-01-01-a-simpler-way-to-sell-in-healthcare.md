@@ -4,14 +4,16 @@ date: 0001-01-01 00:00:00 Z
 permalink: "/case-study/a-simpler-way-to-sell-in-healthcare/"
 layout: case-study
 type: Case Study
-description: "Pocketworks offer advice, design and development around the implementation of apps for business."
-tagline: "End-to-end iPad selling solution for Fresenius Medical Care"
-client: "FRESENIUS MEDICAL CARE"
-client-article: "ENERGENIE"
-grid-title: "Increasing sales team efficiency with iPads"
+description: Pocketworks offer advice, design and development around the implementation
+  of apps for business.
+tagline: End-to-end iPad selling solution for Fresenius Medical Care
+client: FRESENIUS MEDICAL CARE
+client-article: ENERGENIE
+grid-title: Increasing sales team efficiency with iPads
 image: https://media.glassdoor.com/o/1a/fa/dc/24/kontrolle-von-dialyseger%C3%A4ten-bei-fresenius-medical-care.jpg
-challenge: "Modernise the tools used by the Fresenius sales team"
-outcome: "Pocketworks delivered a sales content management platform with accompanying iPad sales app. Reps had instant access to current and legally compliant sales materials."
+challenge: Modernise the tools used by the Fresenius sales team
+outcome: Pocketworks delivered a sales content management platform with accompanying
+  iPad sales app. Reps had instant access to current and legally compliant sales materials.
 ---
 
 Fresenius Medical Care believed iPads could reduce their marketing costs and facilitate legal compliance.

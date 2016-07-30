@@ -1,16 +1,17 @@
 ---
-title: "Helping a taxi startup to scale"
+title: Helping a taxi startup to scale
 date: 0001-01-01 00:00:00 Z
 permalink: "/case-study/helping-a-taxi-startup-to-scale/"
 layout: case-study
 type: Case Study
-description: "Pocketworks offer advice, design and development around the implementation of apps for business."
-tagline: "Helping Veezu increase taxi booking efficiency across the UK"
-client: "VEEZU"
-grid-title: "Helping a taxi startup to scale"
-image: "http://i3.walesonline.co.uk/incoming/article10701782.ece/ALTERNATES/s615/Paul-Raglan-chief-executive-officer-at-Veezu-4.jpg"
-challenge: "Deploying a taxi booking app to several UK cities without loss of service"
-outcome: "Consumer booking apps launched in Leeds, Cardiff, Newport, Bridgend and Birmingham"
+description: Pocketworks offer advice, design and development around the implementation
+  of apps for business.
+tagline: Helping Veezu increase taxi booking efficiency across the UK
+client: VEEZU
+grid-title: Helping a taxi startup to scale
+image: http://i3.walesonline.co.uk/incoming/article10701782.ece/ALTERNATES/s615/Paul-Raglan-chief-executive-officer-at-Veezu-4.jpg
+challenge: Deploying a taxi booking app to several UK cities without loss of service
+outcome: Consumer booking apps launched in Leeds, Cardiff, Newport, Bridgend and Birmingham
 ---
 
 Veezu is a large and established UK taxi operator. They focus on investing in new technology to raise the bar and create a best-in-class offering for all B2C and B2B customers.
