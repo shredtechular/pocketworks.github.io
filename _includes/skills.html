@@ -12,7 +12,6 @@
 
 {% assign skills = site.data.skills.skills %}
 
-
 <section id="section-about" class="section clearfix">
   <div class="container">
 
@@ -27,13 +26,13 @@
 
     <div class="row align-center mar-bot40{% if row.hidden %} hidden{% endif %}">
 
-      {% for s in row.row %}
+      {% for s in row.column %}
 
-      <div class="col-md-{{ s.skill.cols }}{% if row.hidden %} hidden{% endif %}">
+      <div class="col-md-{{ row.row-cols }}{% if row.hidden %} hidden{% endif %}">
         <div class="team-member">
           <div class="team-detail">
-            <h4>{{ s.skill.header }}</h4>
-            <span>{{ s.skill.desc }}</span>
+            <h4>{{ s.header }}</h4>
+            <span>{{ s.desc }}</span>
           </div>
         </div>
       </div>
