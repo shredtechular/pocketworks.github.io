@@ -11,14 +11,12 @@ layout: default
 {% endif %}
 {% include feat-blue.html title-align = alignment %}
 
-{% if page.grid-items %}
-  {% include grid-section.html %}
-{% endif %}
-
-{% if page.sectors-section %}
-  {% include sectors.html %}
-{% endif %}
-
-{% if page.skills-section %}
-  {% include skills.html %}
-{% endif %}
+<section class="bg-white pad-top40">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

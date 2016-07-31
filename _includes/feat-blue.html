@@ -1,10 +1,13 @@
 <section class="featured bg-blue" >
   <div class="container">
     <div class="row">
-      <div class="col-md-8{% if include.title-align == "right" %} col-md-offset-4{% endif %}">
-        <div {% if include.title-align == "right" %}class="align-right"{% endif %}>
+      <div class="col-md-8{% if include.title-align == "right" %} col-md-offset-4{% elsif include.title-align == "center" %} col-md-offset-2{% endif %}">
+        <div {% if include.title-align == "right" %}class="align-right"{% elsif include.title-align == "center" %}class="align-center"{% endif %}>
           <h1 class="slogan color-white">{{ page.feat-title }}</h1>
 
+          {% if page.feat-desc %}
+          <p>{{ page.feat-desc }}</p>
+          {% endif %}
         </div>
       </div>
     </div>
