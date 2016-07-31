@@ -1,9 +1,9 @@
-#!/usr/bin/env
+#!/bin/bash
 
-bash set -e # halt script on error
+bash set -e
 zip -r website.zip _site
 
 curl -H "Content-Type: application/zip" \
      -H "Authorization: Bearer $NETLIFYKEY" \
      --data-binary "@website.zip" \
-     https://api.netlify.com/api/v1/sites/AUDITOR-CHARLES-23057/deploys
+     https://api.netlify.com/api/v1/sites/pocketworks-staging.netlify.com/deploys -v

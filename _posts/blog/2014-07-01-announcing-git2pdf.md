@@ -5,8 +5,8 @@ layout: case-study
 type: Blog
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.
-grid-title: "Git2Pdf: Scrum and Kanban cards on the wall"
-image: "git2pdf-thumb.jpg"
+grid-title: 'Git2Pdf: Scrum and Kanban cards on the wall'
+image: git2pdf-thumb.jpg
 ---
 
 Some great new things are coming from Apple this summer. 1. Reduced app review times.  2. Subscription pricing for apps in any category. 3. Paid app listing promotions on the app store.

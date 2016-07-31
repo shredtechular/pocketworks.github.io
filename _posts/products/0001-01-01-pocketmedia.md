@@ -1,12 +1,15 @@
 ---
-title: "PocketMEDIA - the sales solution for iPads"
+title: PocketMEDIA - the sales solution for iPads
+date: 0001-01-01 00:00:00 Z
 permalink: "/pocketmedia/"
 layout: product-pocketmedia
-type: "Product"
-description: "PocketMEDIA is a mobile tool for giving interactive, personalised presentations. It helps sales and marketing teams keep everyone on the same page with the latest sales materials."
-image: "ipad-sales-tool-thumb.jpg"
+type: Product
+description: PocketMEDIA is a mobile tool for giving interactive, personalised presentations.
+  It helps sales and marketing teams keep everyone on the same page with the latest
+  sales materials.
+image: ipad-sales-tool-thumb.jpg
 hero-img: "/images/pocketmedia/pocketmedia-sales-call-list.png"
-grid-title: "PocketMEDIA: iPad sales tool for teams"
+grid-title: 'PocketMEDIA: iPad sales tool for teams'
 ---
 
 {: .slogan .color-white #pocketmedia-header }
