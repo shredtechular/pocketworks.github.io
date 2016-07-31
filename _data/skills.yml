@@ -3,62 +3,62 @@ skills:
   header: What we do
   desc: ''
   rows:
-  - row:
+  - row: 
     row-cols: 4
     column:
-    - skill:
+    - skill: 
       header: Planning
       desc: Your mobile app project is more likely to succeed if it's based on a clear
         strategy that your team is bought into. You'll get better results through
         iterative, ongoing program. That's why we ask clients to commit to 6-12 month
         product roadmap rather than a one-shot release.
-    - skill:
+    - skill: 
       header: Delivery
       desc: We create apps in a way that combines thinking, doing, measuring and then
         building on what works. When you hire Pocketworks, you're hiring a fully skilled
         end-to-end software solutions team experienced in mobile applications, web
         design, cloud apps and databases.
-    - skill:
+    - skill: 
       header: Management
       desc: It's critical that things go well after your first launch. We're all about
         protecting your reputation and preparing for long term growth. Our support
         plans cover everything from being on standby for important events, to bug
         fixes, uptime monitoring and quarterly reviews.
-  - row:
+  - row: 
     row-cols: 3
     column:
-    - skill:
+    - skill: 
       header: Advice &amp; Emerging Trends
       desc: We watch the changing industry and keep you updated with relevant insights
         to help you identify your best next steps
-    - skill:
+    - skill: 
       header: Express Prototyping
       desc: Why blow £50K on an app that might not work? Prototyping and concept validation
         is the fastest, least-risk route to market with your mobile app
-    - skill:
+    - skill: 
       header: App Development
       desc: We're finely tuned to create great apps. We do planning, UX, Windows,
         Android, iOS, QA, integration and web
-    - skill:
+    - skill: 
       header: User Experience
       desc: User experience design allows us create your product in a way that your
         customers and staff will enjoy using.
-  - row:
+  - row: 
     row-cols: 3
     hidden: true
     column:
-    - skill:
+    - skill: 
       header: Web
       desc: Web is hugely relevant in any digital initiative.  That's why we have
         in-house web expertise, delivering web sites, web portals and APIs.
-    - skill:
+    - skill: 
       header: Push Messaging
       desc: You can send push messages to engage your audience and increase retention.
         We're sending over 1M push messages a month.
-    - skill:
+    - skill: 
       header: On-Demand Apps
       desc: ''
-    - skill:
+    - skill: 
       header: Databases &amp; Integration
       desc: Successful projects last years. Our clients benefit from fast progress,
         responsive support and proactive maintenance
