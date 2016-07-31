@@ -582,12 +582,16 @@ section.featured.home {
  	padding: 0px
 }
 
- section.featured h1.slogan b {
+ section.featured h1.slogan b, section.featured h1.slogan strong {
       /*color: #333;*/
 
       font-weight: 400;
       /*text-transform: uppercase;*/
   }
+
+section.featured h1.slogan#pocketmedia-header {
+  line-height: 70px;
+}
 
 section.featured h2.slogan {
     color: #333;
@@ -615,12 +619,17 @@ section.featured p.smaller {
     color: #222;
 }
 
-section.featured p.smaller b{
+section.featured p.smaller b, section.featured p.smaller strong{
     /*color: #333;*/
 
     /*text-shadow: 2px 1px #000;*/
     font-weight: 500;
     color: #222;
+}
+
+section.featured p.small-links {
+  font-size: 19px;
+  font-weight: 300;
 }
 
  /* inner heading */

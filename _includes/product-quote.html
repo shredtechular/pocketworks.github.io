@@ -1,0 +1,28 @@
+{% comment %}
+<!--
+  Product Quotes Section
+
+  This partial is for the quote section that appears on product pages.  The
+  data for this section is coming from the _data/product-applications.yml file.
+
+-->
+{% endcomment %}
+
+{% assign quote_content = site.data.products[include.product].quote %}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 hidden-xs">
+        <div class="team-member">
+          <figure class="member-photo"><img src="{{ quote_content.img }}" alt="{{ quote_content.alt }}" /></figure>
+        </div>
+      </div>
+      <div class="col-md-7">
+        <blockquote>{{ quote_content.text }}</blockquote>
+        <p>{{ quote_content.author }}</p>
+      </div>
+    </div>
+
+  </div>
+</section>

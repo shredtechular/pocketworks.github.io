@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<section class="bg-white pad-top40" style="padding-top: 100px;">
+  <div class="container">
+    <div class="row section-header pad-bot40">
+      {{ content }}
+    </div>
+    <div class="row mar-bot10">
+      <div class="col-md-4">
+        {% include forms/form-ipad-product.html %}
+      </div>
+       <div class="col-md-8">
+
+        <img src="{{ page.hero-img }}" class="img-responsive">
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include product-applications.html product="ipad" section="applications" %}
+
+{% include product-steps.html product="ipad" show-badge-nums="true" section="steps" %}
+
+{% include product-quote.html product="ipad" %}
+
+{% include product-divider.html img="/images/pocketmedia/people_using.jpeg" %}
+
+{% include product-applications.html product="ipad" section="applications-forms" %}
+
+{% include product-text-white.html %}

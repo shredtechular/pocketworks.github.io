@@ -1,0 +1,33 @@
+{% comment %}
+<!--
+  Product white bg text Section
+
+  This partial is for white background text sections that appears on product
+  pages.  The data for this section is coming from the
+  _data/product-applications.yml file.
+
+-->
+{% endcomment %}
+
+{% assign text_content = site.data.products.ipad.solutions %}
+
+<section class="bg-white pad-top20 pad-bot40">
+  <div class="container">
+    <div class="row section-header">
+      <div class="col-md-12 align-center">
+
+        <h3>{{ text_content.header }}</h3>
+
+        {% for item in text_content.items %}
+        <p>{{ item }}</p>
+        {% endfor %}
+
+        <p>
+          <br/>
+          <a class="btn btn-cta btn-lg" href="{{ text_content.btn-url | prepend: site.baseurl }}"><b>{{ text_content.btn-text }}</b></a>
+        </p>
+
+      </div>
+    </div>
+  </div>
+</section>

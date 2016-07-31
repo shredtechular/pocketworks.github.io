@@ -1,0 +1,40 @@
+{% comment %}
+<!--
+  IPAD Forms Section
+
+  This partial is for the IPad form.  It can be included on any page or
+  layout that needs a skills section.  Currently, this grid is used on the
+  ipad product page.
+
+-->
+{% endcomment %}
+
+{% assign form_content = site.data.products.ipad.forms %}
+
+{% for intro_item in form_content.intro %}
+
+  <h3>{{ intro_item.header }}</h3>
+  <p>{{ intro_item.desc }}</p>
+
+{% endfor %}
+
+<form action="https://www.elformo.com/forms/8a91416c-f344-463f-b75a-39c6b36b884f" method="post" role="form" class="contactForm">
+    <input type="hidden" name="redirect_to" value="http://pocketworks.co.uk/ipad-forms">
+
+    {% for field in form_content.fields %}
+
+    <div class="form-group">
+
+      {% if field.type == "textarea" %}
+        <textarea placeholder="{{ field.placeholder }}" class="form-control" name="{{ field.name }}" rows="5" data-rule="{{ field.validation-rule }}" data-msg="{{ field.validation-msg }}"></textarea>
+      {% else %}
+        <input type="{{ field.type }}" name="{{ field.name }}" class="form-control" id="{{ field.name }}" placeholder="{{ field.placeholder }}" data-rule="{{ field.validation-rule }}" data-msg="{{ field.validation-msg }}" />
+      {% endif %}
+
+      <div class="validation"></div>
+    </div>
+
+    {% endfor %}
+
+    <button type="submit" class="btn btn-theme pull-left">{{ form_content.btn-text }}</button>
+</form>

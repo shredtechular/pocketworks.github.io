@@ -1,0 +1,45 @@
+{% comment %}
+<!--
+  Product Steps Section
+
+  This partial is for the stpes section that appears on product pages.  The
+  data for this section is coming from the _data/product-applications.yml file.
+
+-->
+{% endcomment %}
+
+{% assign steps = site.data.products[include.product][include.section] %}
+
+<section class="section bg-white" id="{{ steps.id }}">
+  <div class="container">
+
+    {% if steps.header %}
+    <div class="row section-header pad-bot40">
+        <h2 class="section-heading">{{ steps.header }}</h2>
+    </div>
+    {% endif %}
+
+    <div class="row align-center">
+
+    {% for step in steps.items %}
+
+      <div class="col-md-3">
+        <div class="row mar-bot20">
+          <img src="{{ step.img | prepend: site.baseurl }}">
+        </div>
+        <div class="row">
+          {% if include.show-badge-nums %}
+            <span class="badge">{{ forloop.index }}</span>
+          {% else %}
+            {{ forloop.index }}.
+          {% endif %}
+          {{ step.text }}
+        </div>
+      </div>
+
+    {% endfor %}
+
+    </div>
+
+  </div>
+</section>

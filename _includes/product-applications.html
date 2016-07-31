@@ -1,0 +1,54 @@
+{% comment %}
+<!--
+  Product Applications Section
+
+  This partial is for the grey, 2-column "applications" section that appears on
+  product pages.  The data for this section is coming from the
+  _data/product-applications.yml file.
+
+-->
+{% endcomment %}
+
+{% assign app_content = site.data.products.[include.product][include.section] %}
+
+<section class="pad-top40 pad-bot40" id="{{ app_content.id }}">
+  <div class="container">
+
+    <div class="row mar-bot20 mar-top35">
+      <div class="section-header">
+        <h2 class="section-heading animated">{{ app_content.header }}</h2>
+        {% if app_content.desc %}
+        <p>{{ app_content.desc }}</p>
+        {% endif %}
+      </div>
+    </div>
+
+    {% for row in app_content.rows %}
+    <div class="row mar-bot10">
+
+      {% for col in row.row %}
+      <div class="col-sm-6 align-center">
+        <h3>{{ col.app.header }}</h3>
+        <p>{{ col.app.desc }}</p>
+
+      </div>
+      {% endfor %}
+
+    </div>
+    {% endfor %}
+
+    {% if app_content.final-btn or app_content.final-link %}
+    <div class="row">
+      <div class="container align-center">
+        {% if app_content.final-btn %}
+          <p><a class="btn btn-lg btn-cta" href="{{ app_content.final-btn.btn-url }}">{{ app_content.final-btn.btn-text }}</a></p>
+        {% endif %}
+        {% if app_content.final-link %}
+          <a href="{{ app_content.final-link.link-url }}">{{ app_content.final-link.link-text }}</a>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+</section>

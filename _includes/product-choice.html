@@ -1,0 +1,30 @@
+{% comment %}
+<!--
+  Product Choice Section
+
+  This partial is for the choice section that appears on the pocketmedia
+  product page.  The data for this section is coming from the
+  _data/product-applications.yml file.
+
+-->
+{% endcomment %}
+
+{% assign choice_content = site.data.products.pocketmedia.choice %}
+
+<section class="section">
+  <div class="container">
+    <div class="row section-header pad-bot40">
+      <div class="col-md-8 col-md-offset-2">
+        <h2 class="section-heading">{{ choice_content.header }}</h2>
+        <p>{{ choice_content.tagline }}</p>
+      </div>
+    </div>
+
+    <div class="row align-center">
+      <div class="col-md-9">
+        <img src="{{ choice_content.img | prepend: site.baseurl }}" class="img-responsive">
+      </div>
+      <div class="colr-md-3">{{ choice_content.desc }}</div>
+    </div>
+  </div>
+</section>

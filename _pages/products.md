@@ -4,11 +4,20 @@ permalink: "/products/"
 layout: page
 description: ''
 keywords: ''
+feat-title: "Products: Tools for doing business"
+feat-blue-align: "right"
 grid-items:
-- "/case-study/helping-dental-students-learn-on-the-move/"
-- "/case-study/asdas-first-mobile-app/"
-- "/blog/2016-06-10-3-ways-apple-is-helping-businesses-in-2016/"
-- "/case-study/turning-lights-on-across-the-uk/"
-- "/case-study/reducing-queues-at-hotel-reception-desks/"
+- url: "/ipad-forms/"
+- url: "/pocketmedia/"
+- url: "http://yuml.me/"
+  type: "product"
+  title: "yUML: Used by Intel, eBay and Lockheed"
+  image: "yuml-thumb.jpg"
+- url: "/blog/2014-07-01-announcing-git2pdf/"
+  type: "product"
+- url: "http://appsend.me"
+  type: "product"
+  title: "AppSend.me: Track your mobile marketing links"
+  image: "appsendme.jpg"
 ---
 

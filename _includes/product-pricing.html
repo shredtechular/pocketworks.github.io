@@ -1,0 +1,50 @@
+{% comment %}
+<!--
+  Product Pricing Section
+
+  This partial is for the grey, 3-column "pricing" section that appears on
+  product pages.  The data for this section is coming from the
+  _data/product-applications.yml file.
+
+-->
+{% endcomment %}
+
+{% assign price_content = site.data.products.[include.product].pricing %}
+
+<section class="section" id="{{ price_content.costs }}">
+  <div class="container">
+
+    <div class="row align-center">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="row section-header pad-bot40">
+          <h2 class="section-heading">{{ price_content.header }}</h2>
+
+          {% for item in price_content.header-desc-items %}
+            <p>{{ item }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row">
+
+    {% for col in price_content.columns %}
+      <div class="col-md-4 align-center">
+        <h2>{{ col.header }}</h2>
+
+        {% for para in col.paras %}
+          <p>
+          {% for item in para.para %}
+            {% if forloop.index > 0 %}<br/>{% endif %}{{ item }}
+          {% endfor %}
+          </p>
+        {% endfor %}
+
+        <p><a class="btn btn-lg {{ col.btn-class }} " href="{{ col.btn-link | prepend: site.baseurl }}">{{ col.btn-text }}</a></p>
+      </div>
+    {% endfor %}
+    </div>
+
+  </div>
+</section>

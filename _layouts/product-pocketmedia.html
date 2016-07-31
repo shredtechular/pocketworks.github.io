@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<section class="featured bg-gray">
+  <div class="container">
+    <div class="row mar-bot40">
+
+      <div class="col-sm-offset-0 col-sm-6">
+        <img src="{{ page.hero-img | prepend: site.baseurl }}" class="img-responsive">
+      </div>
+
+      <div class="col-sm col-sm-6">
+      {{ content }}
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{% include product-quote.html product="pocketmedia" %}
+
+{% include product-divider.html img="/images/pocketmedia/people_using.jpeg" %}
+
+{% include product-steps.html product="pocketmedia" section="example" %}
+
+{% include product-applications.html product="pocketmedia" section="features" %}
+
+{% include product-coming-soon-white.html %}
+
+{% include product-choice.html %}
+
+{% include product-steps.html product="pocketmedia" section="process" %}
+
+{% include product-pricing.html product="pocketmedia" %}
