@@ -21,7 +21,7 @@ layout: default
             <th>{{ info.label }}</th>
             <td>
               {% if info.label == "Email" %}
-                <a href="{{ info.value }}">{{ info.value }}</a>
+                <a href="mailto:{{ info.value }}">{{ info.value }}</a>
               {% else %}
                 {{ info.value }}
               {% endif %}
