@@ -1,11 +1,12 @@
 ---
-title: "FAQ for the PocketMEDIA iPad Sales App"
+title: FAQ for the PocketMEDIA iPad Sales App
 permalink: "/pocketmedia/faq/"
 layout: faqs
-description: "Questions about how PocketMEDIA can help your marketing department use iPads and eDetailing to improve how they sell."
-feat-title: "FAQ"
-feat-desc: "PocketMEDIA Frequently asked questions"
-feat-blue-align: "center"
+description: Questions about how PocketMEDIA can help your marketing department use
+  iPads and eDetailing to improve how they sell.
+feat-title: FAQ
+feat-desc: PocketMEDIA Frequently asked questions
+feat-blue-align: center
 ---
 
 ### We want something simple so sales reps can access documents on their iPads, can PocketMEDIA help?
