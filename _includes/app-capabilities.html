@@ -1,0 +1,52 @@
+{% comment %}
+<!--
+  Application Capabilities Section
+
+  This partial is for the "capabilities" area on the mobile app development
+  page.  It can be included on any page or layout that needs a skills section.
+  The data for this section is coming
+  from the _data/skills.yml file.  Currently, this grid is used on the our
+  work page.
+
+-->
+{% endcomment %}
+
+<section id="section-about" class="section clearfix bg-white">
+
+  <div class="container">
+
+    <div class="row mar-bot40">
+      <div class="col-md-offset-2 col-md-8">
+        <div class="section-header">
+          <h2 class="section-heading animated" data-animation="bounceInUp">{{ page.app-capabilitis.header }}</h2>
+          <p>{{ page.app-capabilitis.desc }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row pad-bot40">
+      <img src="{{ page.app-capabilitis.img | prepend: site.baseurl }}" class="img-responsive">
+    </div>
+
+    {% for row in page.app-capabilitis.rows %}
+    <div class="row align-left mar-bot40">
+
+      {% for col in row.row %}
+      <div class="col-md-6">
+        <h3>{{ col.header }}</h3>
+        <p>{{ col.desc }}</p>
+      </div>
+      {% endfor %}
+
+    </div>
+    {% endfor %}
+
+
+    <div class="row mar-bot40 pad-top40 align-center">
+      {% for btn in page.app-capabilitis.btns %}
+        <a href="{{ btn.link | prepend: site.baseurl }}" class="btn {{ btn.class }} btn-lg">{{ btn.text }}</a>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
