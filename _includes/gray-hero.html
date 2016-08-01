@@ -1,0 +1,34 @@
+{% comment %}
+<!--
+  Gray Hero
+
+  This partial is for the gray hero space that is currently being used in the
+  ipad sales apps page.  It can easily be included in other layouts and pages if a
+  gray hero space is needed elsewhere in the site.
+
+-->
+{% endcomment %}
+
+{% assign hero_content = site.data.header-footer-content.global %}
+
+<section class="featured bg-gray">
+  <div class="container">
+    <div class="row mar-bot0">
+
+      <div class="col-sm-offset-0 col-sm-6">
+        <img src="{{ page.gray-hero.img }}" class="img-responsive" alt="ipad sales app hero image">
+      </div>
+
+      <div class="col-sm col-sm-6">
+
+        <h1 class="slogan color-white" style="line-height: 70px;">{{ page.gray-hero.title }}</h1>
+
+        {% for item in page.gray-hero.items %}
+          <p class="smaller">{{ item }}</p>
+        {% endfor %}
+
+      </div>
+
+    </div>
+  </div>
+</section>

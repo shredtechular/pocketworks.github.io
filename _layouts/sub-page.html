@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+{% comment %}<!-- Get Telephone & Email information from global contact info -->{% endcomment %}
+{% assign contact_info = site.data.contact-information.contact-info.location.data %}
+{% assign tele = "" %}
+
+{% for item in contact_info %}
+  {% if item.label == "Telephone" %}
+    {% assign tele = item.value %}
+  {% endif %}
+{% endfor %}
+
+{% for include in page.includes %}
+  {% if include == "gray-hero" %}
+    {% include gray-hero.html %}
+  {% endif %}
+{% endfor %}
+
+<section class="section bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <ul>
+          <li><a href="#without-paper">Sell Without Paper</a></li>
+          <li><a href="#share-content">Share Content</a></li>
+          <li><a href="#present-interactively">Present Interactively</a></li>
+          <li><a href="#capture-notes">Capture Notes To CRM</a></li>
+          <li><a href="#push-content">Push Latest Content</a></li>
+          <li><a href="#analytics">Learn From Analytics</a></li>
+          <li><a href="#wifi">Work Without WiFi</a></li>
+        </ul>
+      </div>
+      <div class="col-md-7">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pad-top40 pad-bot40 bg-white">
+  <div class="container">
+    <div class="row mar-bot10">
+      <div class="col-sm-offset-2 col-sm-8">
+        <div class="align-center">
+          <h2 style="line-height: 40px;">{{ page.contact.header }}</h2>
+          <h1>{{ tele }}</h1>
+          <p><a href="{{ page.contact.link | prepend: site.baseurl }}">{{ page.contact.link-text }}</a>{{ page.contact.desc }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
