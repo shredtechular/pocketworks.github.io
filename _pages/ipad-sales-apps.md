@@ -1,22 +1,29 @@
 ---
-title: "Understanding the benefits of iPads Sales Apps in your company"
+title: Understanding the benefits of iPads Sales Apps in your company
 permalink: "/ipad-sales-apps/"
 layout: sub-page
-description: "This list helps you understand the beneifts you can expect when adopting iPads sales apps in your company. Pocketworks can build you a custom sales app, or you can use PocketMEDIA - our out-of-the-box solution for sales teams."
+description: This list helps you understand the beneifts you can expect when adopting
+  iPads sales apps in your company. Pocketworks can build you a custom sales app,
+  or you can use PocketMEDIA - our out-of-the-box solution for sales teams.
 includes:
 - gray-hero
 gray-hero:
-  img-pos: "left"
+  img-pos: left
   img: "/images/portfolio/image-fresenius.png"
-  title: "iPad <b>sales apps</b>"
+  title: iPad <b>sales apps</b>
   items:
-   - "<b>This article explores the benefits, processes and possibilities when introducing iPad sales apps to your sales and marketing teams</b>"
-   - "Pocketworks have been delivering mobile iPad sales apps for over 4 years. We've worked with sales teams around the world to help them sell more effectively using these great technologies."
-   - "If you're looking for an iPad app for your sales team, take a peek at <a href=\"/pocketmedia/\">PocketMEDIA</a>, our simple iPad sales tool."
+  - "<b>This article explores the benefits, processes and possibilities when introducing
+    iPad sales apps to your sales and marketing teams</b>"
+  - Pocketworks have been delivering mobile iPad sales apps for over 4 years. We've
+    worked with sales teams around the world to help them sell more effectively using
+    these great technologies.
+  - If you're looking for an iPad app for your sales team, take a peek at <a href="/pocketmedia/">PocketMEDIA</a>,
+    our simple iPad sales tool.
 contact:
-  header: "If you'd like our help getting an ipad sales solution, please case us on:"
+  header: 'If you''d like our help getting an ipad sales solution, please case us
+    on:'
   link: "/pocketmedia/"
-  link-text: "Read about PocketMEDIA"
+  link-text: Read about PocketMEDIA
   desc: ", our iPad sales solution."
 ---
 
