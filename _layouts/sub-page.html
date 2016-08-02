@@ -16,6 +16,10 @@ layout: default
   {% if include == "gray-hero" %}
     {% include gray-hero.html %}
   {% endif %}
+
+  {% if include == "projects" %}
+    {% include projects.html %}
+  {% endif %}
 {% endfor %}
 
 {% if page.contact.header %}
