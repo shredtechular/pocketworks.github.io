@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<section class="bg-white pad-top40" style="padding-top: 100px;">
+  <div class="container">
+
+    <div class="row section-header pad-bot40">
+      {{ content }}
+    </div>
+
+    <div class="row mar-bot10">
+      <div class="col-md-5  pad-bot40 pad-top40 align-left">
+        {% include forms/form-pocketmedia-product.html %}
+      </div>
+
+      <div class="col-md-7">
+        <img src="{{ page.img }}" class="img-responsive" alt="hero form image">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="section-contact" class="">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-6 pad-top40 pad-bot40">
+
+        <h3>{{ page.demo-details.col1.header }}</h3>
+
+        {% for item in page.demo-details.col1.items %}
+          <p>{{ item }}</p>
+        {% endfor %}
+
+      </div>
+      <div class="col-md-6 pad-top40 pad-bot40">
+
+        <h3>{{ page.demo-details.col2.header }}</h3>
+        <p>{{ page.demo-details.col2.desc }}</p>
+        <ol>
+          {% for item in page.demo-details.col2.items %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ol>
+
+      </div>
+    </div>
+
+  </div>
+</section>

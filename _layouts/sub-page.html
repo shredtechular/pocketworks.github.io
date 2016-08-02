@@ -13,6 +13,10 @@ layout: default
 {% endfor %}
 
 {% for include in page.includes %}
+  {% if include == "form-thank-you" %}
+    {% include forms/form-thank-you.html %}
+  {% endif %}
+
   {% if include == "gray-hero" %}
     {% include gray-hero.html %}
   {% endif %}

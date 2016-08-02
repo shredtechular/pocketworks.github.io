@@ -23,7 +23,7 @@ PocketMEDIA is used by marketing and sales managers who want a simple way of kee
 
 <br/>
 
-[Arrange a FREE trial, customised to your business]({{ site.baseurl }}/demo_sign_up/){: .btn .btn-lg .btn-cta .align-left}
+[Arrange a FREE trial, customised to your business]({{ site.baseurl }}/pocketmedia/demo_sign_up/){: .btn .btn-lg .btn-cta .align-left}
 
 {: .small-links }
 [Easy to understand](#howitworks), [Powerful features](#features), [Flexible pricing](#costs), [FAQ]({{ site.baseurl }}/pocketmedia/faq/)

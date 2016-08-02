@@ -1,0 +1,42 @@
+{% comment %}
+<!--
+  pocketmedia Forms Section
+
+  This partial is for the pocketmedia form.  It can be included on any page or
+  layout that needs a pocketmedia form section.  Currently, this grid is used
+  on the pocketmedia demo sign up page.
+
+-->
+{% endcomment %}
+
+{% assign form_content = site.data.products.pocketmedia.forms %}
+
+<div class="cform" id="">
+  <div id="sendmessage">
+      Your request for a PocketMEDIA trial has been sent. Thank you!
+  </div>
+  <form action="http://getsimpleform.com/messages?form_api_token=4125e0cea9f82860c201cc9681c83887" method="post" role="form" class="contactForm">
+    <input type="hidden" name="redirect_to" value="{{ site.baseurl }}/pocketmedia/demo_sign_up_thanks/">
+
+    {% for field in form_content.fields %}
+
+    <div class="form-group">
+
+      {% if field.type == "textarea" %}
+        <textarea placeholder="{{ field.placeholder }}" class="form-control" name="{{ field.name }}" rows="5" data-rule="{{ field.validation-rule }}" data-msg="{{ field.validation-msg }}"></textarea>
+      {% else %}
+        <label for="{{ field.name }}">{{ field.label }}</label>
+        <input type="{{ field.type }}" name="{{ field.name }}" class="form-control" id="{{ field.name }}" placeholder="{{ field.placeholder }}" data-rule="{{ field.validation-rule }}" data-msg="{{ field.validation-msg }}" />
+      {% endif %}
+
+      <div class="validation"></div>
+    </div>
+
+    {% endfor %}
+
+    <input type="submit" class="btn btn-lg btn-primary pull-right" value="{{ form_content.btn-text }}" />
+
+
+  </form>
+
+</div>
