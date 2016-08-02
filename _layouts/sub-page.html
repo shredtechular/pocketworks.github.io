@@ -18,12 +18,13 @@ layout: default
   {% endif %}
 {% endfor %}
 
+{% if page.contact.header %}
 <section class="section bg-white">
   <div class="container">
     <div class="row">
       <div class="col-md-3">
         <ul>
-          <li><a href="#without-paper">Sell Without Paper</a></li>
+          <li><a href="#sell-without-paper">Sell Without Paper</a></li>
           <li><a href="#share-content">Share Content</a></li>
           <li><a href="#present-interactively">Present Interactively</a></li>
           <li><a href="#capture-notes">Capture Notes To CRM</a></li>
@@ -52,3 +53,4 @@ layout: default
     </div>
   </div>
 </section>
+{% endif %}

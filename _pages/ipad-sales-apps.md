@@ -6,6 +6,7 @@ description: "This list helps you understand the beneifts you can expect when ad
 includes:
 - gray-hero
 gray-hero:
+  img-pos: "left"
   img: "/images/portfolio/image-fresenius.png"
   title: "iPad <b>sales apps</b>"
   items:
@@ -66,7 +67,7 @@ are some examples:
 - This is much faster and cheaper than using monthly or quarterly printed flyers.
 - You can also consider a Bring Your Own Device strategy to keep technology purchasing costs down.
 
-<hr id="share-content" class="pad-top40"/>
+<hr class="pad-top40"/>
 
 ### Share Content
 
@@ -82,7 +83,7 @@ Your sales reps will already share brochures and fact sheets with customers. An 
 - Track the content different sales reps are sharing
 - See if customers are reading the documents you share with them
 
-<hr id="present-interactively" class="pad-top40"/>
+<hr class="pad-top40"/>
 
 ### Present Interactively
 

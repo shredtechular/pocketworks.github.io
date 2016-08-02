@@ -15,7 +15,24 @@
   <div class="container">
     <div class="row mar-bot0">
 
-      <div class="col-sm-offset-0 col-sm-6">
+    {% if page.gray-hero.img-pos == "right" %}
+      <div class="col-sm col-sm-6">
+
+        <h1 class="slogan color-white" style="line-height: 70px;">{{ page.gray-hero.title }}</h1>
+
+        {% for item in page.gray-hero.items %}
+          <p class="smaller">{{ item }}</p>
+        {% endfor %}
+
+      </div>
+
+      <div class="col-sm-6">
+        <img src="{{ page.gray-hero.img }}" class="img-responsive" alt="ipad sales app hero image">
+      </div>
+
+    {% else %}
+
+      <div class="col-sm-6">
         <img src="{{ page.gray-hero.img }}" class="img-responsive" alt="ipad sales app hero image">
       </div>
 
@@ -28,7 +45,7 @@
         {% endfor %}
 
       </div>
-
+    {% endif %}
     </div>
   </div>
 </section>
