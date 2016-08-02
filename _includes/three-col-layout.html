@@ -1,0 +1,48 @@
+{% comment %}
+<!--
+  Three Col Layout
+
+  This partial is for the 3 col layout that is currently being used in the
+  amber taxi booking app page.  It can easily be included in other layouts
+  and pages if a similar hero space is needed elsewhere in the site.
+
+-->
+{% endcomment %}
+
+<section id="" class="section pad-top40 pad-bot10 bg-white">
+  <div class="container">
+    <div class="row mar-bot40">
+      <div class="col-sm-4 align-left">
+
+        <h3 class="section-heading align-left">{{ page.three-col-layout.col1.header }}</h3>
+
+        {% for item in page.three-col-layout.col1.items %}
+        <p>{{ item }}</p>
+        {% endfor %}
+
+      </div>
+
+      <div class="col-sm-4 align-left">
+
+        {% for item in page.three-col-layout.col2.items %}
+        <p>{{ item }}</p>
+        {% endfor %}
+
+      </div>
+      <div class="col-sm-1 align-right"></div>
+
+      <div class="col-sm-3 align-right">
+
+        <div class="section-header">
+          <h2 class="section-heading align-right">{{ page.three-col-layout.col3.header }}</h2>
+        </div>
+
+        {% for item in page.three-col-layout.col3.items %}
+        <p>{{ item }}</p>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>
+

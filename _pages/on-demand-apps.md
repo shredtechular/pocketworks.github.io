@@ -6,6 +6,7 @@ description: "Pocketworks offer advice, design and development around the implem
 includes:
 - gray-hero
 - projects
+- sectors
 gray-hero:
   img-pos: "right"
   img: "/images/portfolio/image-amber.png"

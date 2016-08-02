@@ -17,8 +17,20 @@ layout: default
     {% include gray-hero.html %}
   {% endif %}
 
+  {% if include == "case-study-gray-hero" %}
+    {% include case-study-gray-hero.html %}
+  {% endif %}
+
   {% if include == "projects" %}
     {% include projects.html %}
+  {% endif %}
+
+  {% if include == "three-col-layout" %}
+    {% include three-col-layout.html %}
+  {% endif %}
+
+  {% if include == "sectors" %}
+    {% include sectors.html %}
   {% endif %}
 {% endfor %}
 
