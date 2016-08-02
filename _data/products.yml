@@ -232,7 +232,7 @@ pocketmedia:
     desc: Reduce dead travel time using the sales trip planner. View your upcoming
       appointments on a map, select convenient contacts and create tentative appointments.
     link-text: Learn More
-    link-url: sales-travel-mapper
+    link-url: /pocketmedia/sales-travel-mapper/
   choice:
     img: "/images/pocketmedia/pocketmedia-call-list.png"
     header: From CRM to ERP. Your choice.

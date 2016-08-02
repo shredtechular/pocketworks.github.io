@@ -21,12 +21,20 @@ layout: default
     {% include case-study-gray-hero.html %}
   {% endif %}
 
+  {% if include == "white-hero-sales-travel" %}
+    {% include white-hero-sales-travel.html %}
+  {% endif %}
+
   {% if include == "projects" %}
     {% include projects.html %}
   {% endif %}
 
   {% if include == "three-col-layout" %}
     {% include three-col-layout.html %}
+  {% endif %}
+
+  {% if include == "three-col-sales-travel-layout" %}
+    {% include three-col-sales-travel-layout.html %}
   {% endif %}
 
   {% if include == "sectors" %}

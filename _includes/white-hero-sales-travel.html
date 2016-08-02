@@ -1,0 +1,32 @@
+{% comment %}
+<!--
+  White Hero Sales Travel Section
+
+  This partial is for the white hero space that is currently being used in the
+  site's sales travel section.  It can easily be included in other layouts and
+  pages if a white hero space is needed elsewhere in the site.
+
+-->
+{% endcomment %}
+
+<section class="section bg-white" style="padding-top: 100px;">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-9">
+        <img src="{{ page.white-hero-sales-travel.img }}" class="img-responsive" alt="hero image">
+      </div>
+
+      <div class="col-md-3">
+
+        <h1 class="slogan">{{ page.white-hero-sales-travel.title }}</h1>
+
+        {% for item in page.white-hero-sales-travel.items %}
+        <p>{{ item }}</p>
+        {% endfor %}
+
+      </div>
+
+    </div>
+  </div>
+</section>

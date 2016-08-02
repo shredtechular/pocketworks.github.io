@@ -1,0 +1,25 @@
+{% comment %}
+<!--
+  Three Col Sales Travel Layout
+
+  This partial is for the 3 col layout that is currently being used in the
+  sales travel mapper page.  It can easily be included in other layouts
+  and pages if a similar hero space is needed elsewhere in the site.
+
+-->
+{% endcomment %}
+
+<section class="section ">
+  <div class="container">
+    <div class="row">
+
+    {% for col in page.three-col-sales-travel-layout.cols %}
+      <div class="col-md-4 align-center">
+        <h3>{{ col.header }}</h3>
+        <p>{{ col.desc }}</p>
+      </div>
+    {% endfor %}
+
+    </div>
+  </div>
+</section>
