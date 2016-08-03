@@ -1,5 +1,8 @@
 ---
 employees:
+  - name: "Martyn Keen"
+    img: "/images/about/mk.png"
+    title: Business Development
   - name: "Lee Sommerville"
     img: "/images/about/ls.png"
     title: "Production Lead"
