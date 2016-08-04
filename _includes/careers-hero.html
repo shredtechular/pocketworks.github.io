@@ -1,0 +1,23 @@
+{% comment %}
+<!--
+  Careers Hero
+
+  This partial is for the careers hero space that is currently being used in the
+  careers pages.  It can easily be included in other layouts and pages if a
+  similar hero space is needed elsewhere in the site.
+
+-->
+{% endcomment %}
+
+<section class="featured bg-black" style="height: 500px; background-image: url({{ page.careers-hero.bg-img }}); background-position: 0%; background-size: 100%; background-repeat: no-repeat">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="align-center">
+                    <h1 class="slogan color-white" style="line-height: 1em; background-color: rgba(0,0,0,0.6)">{{ page.careers-hero.title }}</h1>
+                    <p style="background-color: rgba(0,0,0,0.6)">{{ page.careers-hero.desc }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

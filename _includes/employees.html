@@ -47,7 +47,7 @@
 
     {% capture modulo %}{{ forloop.index0 | mod:4 }}{% endcapture %}
 
-    {% if modulo == '0' or forloop.first %}
+    {% if modulo == '0' or forloop.first or modulo == '6' %}
       <div class="row align-center mar-bot40">
     {% endif %}
 

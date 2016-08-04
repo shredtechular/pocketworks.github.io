@@ -1,14 +1,16 @@
 ---
-title: ''
+title: 'Pocketworks - Mobile solutions for sales'
 permalink: "/jobs/"
-layout: page
-description: ''
-keywords: ''
-grid-items:
-- "/case-study/helping-dental-students-learn-on-the-move/"
-- "/case-study/asdas-first-mobile-app/"
-- "/blog/2016-06-10-3-ways-apple-is-helping-businesses-in-2016/"
-- "/case-study/turning-lights-on-across-the-uk/"
-- "/case-study/reducing-queues-at-hotel-reception-desks/"
+layout: sub-page
+type: job
+description: "Pocketworks offer advice, design and development around the implementation of apps for business."
+includes:
+- careers-hero
+- two-col-layout
+- avail-jobs
+careers-hero:
+  bg-img: "/images/portfolio/office.jpg"
+  title: "Jobs at the Pocketworks studio"
+  desc: "Join the Pocketworks team and help us create thoughtful and beautifully engineered technology experiences"
+content-col: 8
 ---
-

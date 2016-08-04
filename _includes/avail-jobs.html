@@ -1,0 +1,35 @@
+{% comment %}
+<!--
+  Available Jobs Layout
+
+  This partial is for the available jobs layout that is currently being used in
+  the jobs page.  It can easily be included in other layouts and pages if a
+  similar layout is needed elsewhere in the site.
+
+-->
+{% endcomment %}
+
+{% assign jobs = site.data.jobs.jobs.available %}
+
+<section class="section bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 pad-top40">
+      <h2>{{ jobs.header }}</h2>
+
+      {% for opening in jobs.jobs %}
+
+      <li>
+        <h3>{{ opening.title }}</h3>
+        <p>{{ opening.desc }}</p>
+        {% if opening.more-info-link %}
+        <a href="{{ site.baseurl }}/jobs{{ opening.more-info-link }}">{{ opening.more-info-link-text }}</a>
+        {% endif %}
+      </li>
+
+      {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>

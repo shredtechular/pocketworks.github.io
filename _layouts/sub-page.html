@@ -25,6 +25,10 @@ layout: default
     {% include case-study-gray-hero.html %}
   {% endif %}
 
+  {% if include == "careers-hero" %}
+    {% include careers-hero.html %}
+  {% endif %}
+
   {% if include == "white-hero-sales-travel" %}
     {% include white-hero-sales-travel.html %}
   {% endif %}
@@ -44,6 +48,15 @@ layout: default
   {% if include == "sectors" %}
     {% include sectors.html %}
   {% endif %}
+
+  {% if include == "two-col-layout" %}
+    {% include two-col-layout.html %}
+  {% endif %}
+
+  {% if include == "avail-jobs" %}
+    {% include avail-jobs.html %}
+  {% endif %}
+
 {% endfor %}
 
 {% if page.contact.header %}
@@ -77,6 +90,16 @@ layout: default
           <h1>{{ tele }}</h1>
           <p><a href="{{ page.contact.link | prepend: site.baseurl }}">{{ page.contact.link-text }}</a>{{ page.contact.desc }}</p>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% elsif page.type == "job" %}
+<section class="section bg-white" id="total-geek">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-{{ page.content-col }} pad-top40">
+        {{ content }}
       </div>
     </div>
   </div>

@@ -1,0 +1,39 @@
+{% comment %}
+<!--
+  Two Col Layout
+
+  This partial is for the 2 col layout that is currently being used in the
+  jobs page.  It can easily be included in other layouts and pages if a similar
+  layout is needed elsewhere in the site.
+
+-->
+{% endcomment %}
+
+{% assign roles = site.data.jobs.jobs %}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>{{ roles.developers.title }}...</h2>
+        <ul>
+
+        {% for item in roles.developers.responsibilities %}
+          <li>{{ item }}</li>
+        {% endfor %}
+
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2>{{ roles.designers.title }}...</h2>
+        <ul>
+
+        {% for item in roles.designers.responsibilities %}
+          <li>{{ item }}</li>
+        {% endfor %}
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
