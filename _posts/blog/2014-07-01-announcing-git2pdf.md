@@ -1,7 +1,7 @@
 ---
 title: 3 ways Apple is helping businesses in 2016
 date: 2014-07-01 00:00:00 Z
-layout: case-study
+layout: blog
 type: Blog
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.
@@ -9,28 +9,48 @@ grid-title: 'Git2Pdf: Scrum and Kanban cards on the wall'
 image: git2pdf-thumb.jpg
 ---
 
-Some great new things are coming from Apple this summer. 1. Reduced app review times.  2. Subscription pricing for apps in any category. 3. Paid app listing promotions on the app store.
+*WARNING: This post is for geeks and technical folk*
+
+We've just created an open source tool to help people visualise their project tasks. It's called git2pdf. It's a simple command line tool to print your github issues, so you can get them out of the dark depths of Github and onto your wall.
+
+It's aimed at anyone managing their creative projects with Github. It helps you visualize our work by making git easy to print you github issues
 
 <!-- more -->
 
-## Faster app review process
+## Why?
 
-Not so long ago, businesses had to wait 7-14 days for Apple to review their iPhone app before approving it for public download. Over the last 6 months, review times have now been reduced from an average of 7 days to 1 day. This is <em>great</em> news for businesses; it means their app developers can get bug fixes out to customers faster than ever before, or they can squeeze in valuable feature development before deadlines.
+At Pocketworks, we tend to put *everything* into [github](http://github.com) - features, bugs, tasks and amends. So this nifty tool means we can get that info out onto our card wall quickly.
 
-![Need alt tag](https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&url=https://pocketworks-website.s3.amazonaws.com/shorter-ios-app-review-times.jpg){: .img-responsive}
+We're also big fans of Kanban, and particularly visualising our work so we can see bottlenecks. git2pdf allows us to get issues out of Github and onto the wall.
 
-These changes are already in place and we are beginning to see much shorter [app review times](http://appreviewtimes.com/ios/annual-trend-graph).
+*Nine Kanban cards printed on an A4 sheet, ready to be cut into cards*
 
-## Sell subscriptions to your app
+![Picture showing a printout of git2pdf]({{ site.baseurl }}/images/git2pdf/git2pdf-printed.jpg){: .img-responsive .thumbnail}
 
-Apple is now allowing any app to charge subscriptions. Previously only certain app categories could charge an a rolling subscription basis.
+## Use it!
 
-Businesses can charge annual or monthly. They can also set their own price tiers such as Silver, Bronze and Gold.
+To get started, just do this in your bash prompt - only tested on Mac and Ruby 2.1:
 
-Note that Apple charge 30% of your app-store revenue in year one, and 15% in year two.
+    ```gem install git2pdf```
 
-## Promote your app in App Store search results
+Usage is a bit like this:
 
-Businesses can now pay to have their App Store app listing appear within search results.
+    ```git2pdf gen pocketworks/amber-ios -u tobinharris -p```
 
-Apple say that 65% of app downloads start with an App Store search, so it is expected this could significantly increase app downloads.
+You can do multiple repositories, and specifiy organisation separately
+
+    ```git2pdf gen "amber-ios, amber-android" -o pocketworks -u tobinharris -p```
+
+See [our public github repo](http://github.com/pocketworks/git2pdf) for more up to date and . It's only in BETA at the moment, so expect wrinkles `:)`
+
+The general process is that you install it, then tell it what repo(s) to print. Then, you use the Mac PDF preview to remove the cards you don't want. The printout looks like this image.
+
+It's great for companies that use [Kanban](http://en.wikipedia.org/wiki/Kanban) or scrum.
+
+*Kanban cards printed and chopped up*
+
+![Picture showing a printout of git2pdf]({{ site.baseurl }}/images/git2pdf/git2pdf-printed-chopped.jpg){: .img-responsive .thumbnail}
+
+*On the task board...*
+
+![Picture showing a printout of git2pdf]({{ site.baseurl }}/images/git2pdf/git2pdf-on-wall.jpg){: .img-responsive .img-round .thumbnail}

@@ -17,17 +17,19 @@
       <div class="col-md-8 pad-top40">
       <h2>{{ jobs.header }}</h2>
 
+      <ul>
       {% for opening in jobs.jobs %}
 
-      <li>
-        <h3>{{ opening.title }}</h3>
-        <p>{{ opening.desc }}</p>
-        {% if opening.more-info-link %}
-        <a href="{{ site.baseurl }}/jobs{{ opening.more-info-link }}">{{ opening.more-info-link-text }}</a>
-        {% endif %}
-      </li>
+        <li style="margin-bottom: 40px;">
+          <h3 style="font-size: 19px;font-weight: bold;margin: 0px;">{{ opening.title }}</h3>
+          <p style="margin:0px">{{ opening.desc }}</p>
+          {% if opening.more-info-link %}
+          <a href="{{ site.baseurl }}/jobs{{ opening.more-info-link }}">{{ opening.more-info-link-text }}</a>
+          {% endif %}
+        </li>
 
       {% endfor %}
+      </ul>
 
       </div>
     </div>

@@ -1,12 +1,13 @@
 ---
 title: 3 ways Apple is helping businesses in 2016
 date: 2016-06-10 00:00:00 Z
-layout: case-study
+layout: blog
 type: Blog
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.
 grid-title: 3 ways Apple is helping businesses in 2016
 image: shorter-ios-app-review-times.jpg
+hero-image: https://pocketworks-website.s3.amazonaws.com/shorter-ios-app-review-times.jpg
 ---
 
 Some great new things are coming from Apple this summer. 1. Reduced app review times.  2. Subscription pricing for apps in any category. 3. Paid app listing promotions on the app store.
@@ -15,9 +16,9 @@ Some great new things are coming from Apple this summer. 1. Reduced app review t
 
 ## Faster app review process
 
-Not so long ago, businesses had to wait 7-14 days for Apple to review their iPhone app before approving it for public download. Over the last 6 months, review times have now been reduced from an average of 7 days to 1 day. This is <em>great</em> news for businesses; it means their app developers can get bug fixes out to customers faster than ever before, or they can squeeze in valuable feature development before deadlines.
+Not so long ago, businesses had to wait 7-14 days for Apple to review their iPhone app before approving it for public download. Over the last 6 months, review times have now been reduced from an average of 7 days to 1 day. This is *_great_* news for businesses; it means their app developers can get bug fixes out to customers faster than ever before, or they can squeeze in valuable feature development before deadlines.
 
-![Need alt tag](https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&url=https://pocketworks-website.s3.amazonaws.com/shorter-ios-app-review-times.jpg){: .img-responsive}
+![Picture showing a printout of git2pdf](https://pocketworks-website.s3.amazonaws.com/shorter-ios-app-review-times.jpg){: .img-responsive}
 
 These changes are already in place and we are beginning to see much shorter [app review times](http://appreviewtimes.com/ios/annual-trend-graph).
 

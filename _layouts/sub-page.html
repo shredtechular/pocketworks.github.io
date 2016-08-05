@@ -57,6 +57,10 @@ layout: default
     {% include avail-jobs.html %}
   {% endif %}
 
+  {% if include == "jobs-divider" %}
+    {% include jobs-divider.html %}
+  {% endif %}
+
 {% endfor %}
 
 {% if page.contact.header %}
