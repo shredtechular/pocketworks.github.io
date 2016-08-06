@@ -6,8 +6,8 @@ type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
 grid-title: 'Git2Pdf: Scrum and Kanban cards on the wall'
-blog-title: 'git2pdf - get your GitHub issues on the wall'
-blog-image: /images/git2pdf/git2pdf-printed.jpg
+blog-title: git2pdf - get your GitHub issues on the wall
+blog-image: "/images/git2pdf/git2pdf-printed.jpg"
 ---
 
 *WARNING: This post is for geeks and technical folk*

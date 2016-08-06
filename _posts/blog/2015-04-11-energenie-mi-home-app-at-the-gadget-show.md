@@ -3,13 +3,13 @@ title: Pocketworks - Mobile solutions for sales
 date: 2015-04-11 00:00:00 Z
 layout: blog
 type: Blog
-author: "Tobin Harris"
+author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: "Energenie Mi|Home at the Gadget Show, April 2015 Birmingham NEC"
-blog-title: "Energenie Mi|Home at the Gadget Show, April 2015 Birmingham NEC"
+grid-title: Energenie Mi|Home at the Gadget Show, April 2015 Birmingham NEC
+blog-title: Energenie Mi|Home at the Gadget Show, April 2015 Birmingham NEC
 image: https://pocketworks-website.s3.amazonaws.com/energenie-mihome-android-scene.jpg
 hero-image: https://pocketworks-website.s3.amazonaws.com/energenie-mihome-android-scene.jpg
-blog-image: "https://pocketworks-website.s3.amazonaws.com/energenie-mihome-android-scene.jpg"
+blog-image: https://pocketworks-website.s3.amazonaws.com/energenie-mihome-android-scene.jpg
 ---
 
 We took a trip out to see our friends at Energenie exhibiting at the April 2015 Gadget Show in Birmingham, where they're launching their Mi&#124;Home range of smart home control products (electrical sockets, radiator valves and light switches).

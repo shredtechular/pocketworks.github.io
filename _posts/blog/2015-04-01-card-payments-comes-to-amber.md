@@ -3,13 +3,13 @@ title: Pocketworks - Mobile solutions for sales
 date: 2015-04-01 00:00:00 Z
 layout: blog
 type: Blog
-author: "Tobin Harris"
+author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: "Credit card payments now accepted in the Amber Cars app"
-blog-title: "Credit card payments now accepted in the Amber Cars app"
+grid-title: Credit card payments now accepted in the Amber Cars app
+blog-title: Credit card payments now accepted in the Amber Cars app
 image: https://farm8.staticflickr.com/7368/12696032183_0d9622ae98_b.jpg
 hero-image: https://farm8.staticflickr.com/7368/12696032183_0d9622ae98_b.jpg
-blog-image: "https://farm8.staticflickr.com/7368/12696032183_0d9622ae98_b.jpg"
+blog-image: https://farm8.staticflickr.com/7368/12696032183_0d9622ae98_b.jpg
 ---
 
 Amber Cars customers using Android phones can now make bookings on their credit card. This brings them added convenience whilst allowing Amber to transact £5M in the first year.

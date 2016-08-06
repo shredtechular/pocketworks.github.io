@@ -1,8 +1,8 @@
 ---
-title: 'Blog'
+title: Blog
 permalink: "/adventures/"
 layout: blog-index
-description: 'UK Mobile news'
-feat-title: "Blog: News from the Pocketworks team"
+description: UK Mobile news
+feat-title: 'Blog: News from the Pocketworks team'
 ---
 

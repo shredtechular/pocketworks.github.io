@@ -3,13 +3,13 @@ title: Pocketworks - Mobile solutions for sales
 date: 2015-03-11 00:00:00 Z
 layout: blog
 type: Blog
-author: "Tobin Harris"
+author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: "How to build a better app by knowing your customer"
-blog-title: "How to build a better app by knowing your customer"
+grid-title: How to build a better app by knowing your customer
+blog-title: How to build a better app by knowing your customer
 image: https://farm8.staticflickr.com/7629/16409711673_ee9a52a8de_b.jpg
 hero-image: https://farm8.staticflickr.com/7629/16409711673_ee9a52a8de_b.jpg
-blog-image: "https://farm8.staticflickr.com/7629/16409711673_ee9a52a8de_b.jpg"
+blog-image: https://farm8.staticflickr.com/7629/16409711673_ee9a52a8de_b.jpg
 ---
 
 Successful apps are ones that people use.
