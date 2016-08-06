@@ -1,3 +1,46 @@
 ---
 layout: default
 ---
+
+{% include blog-hero.html %}
+
+{% assign employees = site.data.employees %}
+
+<section class="section bg-white">
+  <div class="container">
+
+    <div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+
+      <div class="col-md-8 align-left">
+        <div class="section-header">
+          <h1 class="align-left" data-animation="bounceInUp">{{ page.blog-title }}</h1>
+          <p class="align-left">
+            {{ page.date | date: "%Y-%m-%d"  }}<br/>
+
+            {% assign author = page.author | downcase %}
+            {% for employee in employees.executives %}
+              {% assign empName = employee.name | downcase %}
+
+              {% if empName == author %}
+                By <a href="mailto:{{ employee.email }}">{{ employee.name }}</a>, {{ employee.title }}
+              {% endif %}
+            {% endfor %}
+
+          </p>
+          <hr/>
+        </div>
+
+        {{ content }}
+
+      </div>
+
+      <div class="col-md-3 col-md-offset-1 align-center hidden-sm">
+        <h3>You might also like</h3>
+        {% include blog-sidebar.html %}
+
+      </div>
+
+    </div>
+
+  </div>
+</section>

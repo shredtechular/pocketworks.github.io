@@ -1,12 +1,13 @@
 ---
-title: 3 ways Apple is helping businesses in 2016
-date: 2014-07-01 00:00:00 Z
+title: Pocketworks - Mobile solutions for sales
+date: 2014-06-28 00:00:00 Z
 layout: blog
 type: Blog
-description: Pocketworks offer advice, design and development around the implementation
-  of apps for business.
+author: Tobin Harris
+description: Pocketworks - Mobile solutions for sales
 grid-title: 'Git2Pdf: Scrum and Kanban cards on the wall'
-image: git2pdf-thumb.jpg
+blog-title: 'git2pdf - get your GitHub issues on the wall'
+blog-image: /images/git2pdf/git2pdf-printed.jpg
 ---
 
 *WARNING: This post is for geeks and technical folk*
@@ -15,7 +16,7 @@ We've just created an open source tool to help people visualise their project ta
 
 It's aimed at anyone managing their creative projects with Github. It helps you visualize our work by making git easy to print you github issues
 
-<!-- more -->
+<!--more-->
 
 ## Why?
 
@@ -31,15 +32,15 @@ We're also big fans of Kanban, and particularly visualising our work so we can s
 
 To get started, just do this in your bash prompt - only tested on Mac and Ruby 2.1:
 
-    ```gem install git2pdf```
+    gem install git2pdf
 
 Usage is a bit like this:
 
-    ```git2pdf gen pocketworks/amber-ios -u tobinharris -p```
+    git2pdf gen pocketworks/amber-ios -u tobinharris -p
 
 You can do multiple repositories, and specifiy organisation separately
 
-    ```git2pdf gen "amber-ios, amber-android" -o pocketworks -u tobinharris -p```
+    git2pdf gen "amber-ios, amber-android" -o pocketworks -u tobinharris -p
 
 See [our public github repo](http://github.com/pocketworks/git2pdf) for more up to date and . It's only in BETA at the moment, so expect wrinkles `:)`
 

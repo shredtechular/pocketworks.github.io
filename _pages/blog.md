@@ -1,8 +1,8 @@
 ---
-title: ''
+title: 'Blog'
 permalink: "/adventures/"
-layout: page
-description: ''
-keywords: ''
+layout: blog-index
+description: 'UK Mobile news'
+feat-title: "Blog: News from the Pocketworks team"
 ---
 
