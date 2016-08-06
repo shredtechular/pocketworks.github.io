@@ -1,15 +1,17 @@
 ---
-title: 'Pocketworks - Mobile solutions for sales'
+title: Pocketworks - Mobile solutions for sales
 permalink: "/jobs/senior-ios-developer-job-leeds-uk/"
 layout: sub-page
 type: job
-description: "Pocketworks offer advice, design and development around the implementation of apps for business."
+description: Pocketworks offer advice, design and development around the implementation
+  of apps for business.
 includes:
 - careers-hero
 careers-hero:
   bg-img: "/images/portfolio/office.jpg"
-  title: "Senior iOS Developer Role in Leeds, UK"
-  desc: "Join the Pocketworks team and help us create thoughtful and beautifully engineered technology experiences"
+  title: Senior iOS Developer Role in Leeds, UK
+  desc: Join the Pocketworks team and help us create thoughtful and beautifully engineered
+    technology experiences
 content-col: 8
 ---
 

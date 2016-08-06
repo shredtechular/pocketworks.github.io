@@ -1,9 +1,10 @@
 ---
-title: 'Pocketworks - Mobile solutions for sales'
+title: Pocketworks - Mobile solutions for sales
 permalink: "/jobs/joel-test/"
 layout: sub-page
 type: job
-description: "Pocketworks offer advice, design and development around the implementation of apps for business."
+description: Pocketworks offer advice, design and development around the implementation
+  of apps for business.
 content-col: 12
 ---
 

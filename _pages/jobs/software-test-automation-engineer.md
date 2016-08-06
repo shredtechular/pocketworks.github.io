@@ -1,15 +1,16 @@
 ---
-title: 'Pocketworks - Mobile solutions for sales'
+title: Pocketworks - Mobile solutions for sales
 permalink: "/jobs/software-test-automation-engineer/"
 layout: sub-page
 type: job
-description: "Pocketworks offer advice, design and development around the implementation of apps for business."
+description: Pocketworks offer advice, design and development around the implementation
+  of apps for business.
 includes:
 - careers-hero
 careers-hero:
   bg-img: "/images/portfolio/office.jpg"
-  title: "Test Engineer, Leeds, UK"
-  desc: "Join the Pocketworks team and help us deliver amazing technology experiences"
+  title: Test Engineer, Leeds, UK
+  desc: Join the Pocketworks team and help us deliver amazing technology experiences
 content-col: 8
 ---
 
