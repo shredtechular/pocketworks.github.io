@@ -1,6 +1,6 @@
 ---
 title: Pocketworks - Mobile solutions for sales
-date: 2014-06-28 00:00:00 Z
+date: 2014-06-28 00:00:01 Z
 layout: blog
 type: Blog
 author: Tobin Harris
