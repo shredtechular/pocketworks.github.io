@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<section class="section featured bg-orange">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 align-center">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bg-white">
+  <div class="content">
+    <div class="row">
+
+      <div class="col-sm-offset-3 col-md-6 align-center">
+        <h1>Pages</h1>
+
+        {% for page in site.pages %}
+          {% if page.layout != "four0four" %}
+            <h4> <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h4>
+          {% endif %}
+        {% endfor %}
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="content">
+    <div class="row">
+
+      <div class="col-sm-offset-3 col-md-6 align-center">
+        <h2>Blog Posts</h2>
+
+        {% for post in site.posts %}
+          <h4> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+        {% endfor %}
+
+      </div>
+
+    </div>
+  </div>
+</section>
