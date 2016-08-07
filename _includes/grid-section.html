@@ -47,6 +47,8 @@
                     {% assign img = "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/" | append: item.image %}
                   {% elsif sliced_url == "http" %}
                     {% assign img = post.image %}
+                  {% elsif post.layout == "blog" %}
+                    {% assign img = post.image %}
                   {% else %}
                     {% assign img = "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/" | append: post.image %}
                   {% endif %}
@@ -66,7 +68,7 @@
   			          	</h3>
   			          </div>
   			          <h2><a href="{{ item.url prepend: site.baseurl }}">
-                    {% if item.title %}{{ item.title }}{% else %}{{ post.grid-title }}{% endif %}
+                    {% if item.title %}{{ item.title }}{% elsif post.grid-title %}{{ post.grid-title }}{% elsif post.blog-title %}{{ post.blog-title }}{% endif %}
                   </a></h2>
   			        </div>
   			      </div>

@@ -5,11 +5,8 @@ layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: Amber Cars app taking 16,000 bookings a week
 blog-title: Amber Cars app taking 16,000 bookings a week
 image: http://farm4.staticflickr.com/3517/3176380443_8f9b6e3f9e_b.jpg
-hero-image: http://farm4.staticflickr.com/3517/3176380443_8f9b6e3f9e_b.jpg
-blog-image: http://farm4.staticflickr.com/3517/3176380443_8f9b6e3f9e_b.jpg
 ---
 
 Launched in summer 2012, after 6 months the app went from taking 2,000 bookings a week to 16,000 bookings per week.

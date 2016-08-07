@@ -5,11 +5,8 @@ layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: 10 CEOs express opinions on accessing corporate networks with iPad
 blog-title: 10 CEOs express opinions on accessing corporate networks with iPad
 image: http://farm5.staticflickr.com/4136/4909320102_6c7b25f9bd_b.jpg
-hero-image: http://farm5.staticflickr.com/4136/4909320102_6c7b25f9bd_b.jpg
-blog-image: http://farm5.staticflickr.com/4136/4909320102_6c7b25f9bd_b.jpg
 ---
 
 Last month we met with 10 CEOs at a Vistage meeting to discuss how they using iPads in their business. A key problem they all agreed on was accessing their corporate file servers from the iPad, so they can browse and update files.

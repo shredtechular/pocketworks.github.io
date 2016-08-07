@@ -5,11 +5,8 @@ layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: Tackling NHS challenges at Liverpool Hack Day
 blog-title: Tackling NHS challenges at Liverpool Hack Day
 image: http://distilleryimage2.instagram.com/2b952b3805b611e2904b22000a1cdc2a_7.jpg
-hero-image: http://distilleryimage2.instagram.com/2b952b3805b611e2904b22000a1cdc2a_7.jpg
-blog-image: http://distilleryimage2.instagram.com/2b952b3805b611e2904b22000a1cdc2a_7.jpg
 ---
 
 Friday 21st September 2012, I attended the Liverpool NHS Hack Day to meet our friends at Integrella. We were presenting our progress from the last Hack Day. Integrella have kick-started a cloud-based project to help NHS staff overcome some thorny communications problems, and were looking for a mobile partner to take it to the pockets of clinicians.

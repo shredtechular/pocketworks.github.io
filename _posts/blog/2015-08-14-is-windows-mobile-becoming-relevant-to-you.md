@@ -5,11 +5,8 @@ layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: Is Windows Mobile relevant to you now?
 blog-title: Is Windows Mobile relevant to you now?
 image: http://www.winbeta.org/sites/default/files/news/Windows-10-on-phones_2.jpg
-hero-image: http://www.winbeta.org/sites/default/files/news/Windows-10-on-phones_2.jpg
-blog-image: http://www.winbeta.org/sites/default/files/news/Windows-10-on-phones_2.jpg
 ---
 
 With Windows Mobile recently reaching a UK market share of 8.5%, it's worth looking at the ROI of developing your app for this platform.

@@ -5,11 +5,8 @@ layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: Announcing PocketFORMS - our iPad forms app
 blog-title: Announcing PocketFORMS - our iPad forms app
 image: https://pocketworks-website.s3.amazonaws.com/pocketforms-sail-away.jpg
-hero-image: https://pocketworks-website.s3.amazonaws.com/pocketforms-sail-away.jpg
-blog-image: https://pocketworks-website.s3.amazonaws.com/pocketforms-sail-away.jpg
 ---
 
 PocketFORMS is an iPad app for data capture.

@@ -39,7 +39,7 @@ layout: default
         <h2>Blog Posts</h2>
 
         {% for post in site.posts %}
-          <h4> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+          <h4> <a href="{{ post.url | prepend: site.baseurl }}">{% if post.blog-title %}{{ post.blog-title }}{% elsif post.grid-title %}{{ post.grid-title }}{% else %}{% endif %}{{ post.title }}</a></h4>
         {% endfor %}
 
       </div>

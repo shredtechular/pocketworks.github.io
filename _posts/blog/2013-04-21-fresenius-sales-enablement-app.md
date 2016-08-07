@@ -5,11 +5,8 @@ layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: Helping sales reps achieve success with iPad and CRM
 blog-title: Helping sales reps achieve success with iPad and CRM
 image: http://www.pocketworks.co.uk/images/portfolio/image-fresenius.png
-hero-image: http://www.pocketworks.co.uk/images/portfolio/image-fresenius.png
-blog-image: http://www.pocketworks.co.uk/images/portfolio/image-fresenius.png
 ---
 
 We've been working with sales and marketing at Fresenius Medical Care since last spring. Their mission was to reduce costs and increase efficiency in their sales and marketing activities.

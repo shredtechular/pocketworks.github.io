@@ -5,11 +5,8 @@ layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: Does sales rep mood correspond to sales revenue?
 blog-title: Does sales rep mood correspond to sales revenue?
 image: http://farm4.staticflickr.com/3071/2843258700_6ffd870dea_b.jpg
-hero-image: http://farm4.staticflickr.com/3071/2843258700_6ffd870dea_b.jpg
-blog-image: http://farm4.staticflickr.com/3071/2843258700_6ffd870dea_b.jpg
 ---
 
 We analysed data from 15,000 sales meetings to see if we could find a link between sales rep mood, and the sales revenues of the company.

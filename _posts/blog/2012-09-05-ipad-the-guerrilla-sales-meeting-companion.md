@@ -5,11 +5,8 @@ layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: 2012-09-05-ipad-the-guerrilla-sales-meeting-companion
 blog-title: 2012-09-05-ipad-the-guerrilla-sales-meeting-companion
 image: http://farm4.staticflickr.com/3280/5860503527_c256c28ec5_b.jpg
-hero-image: http://farm4.staticflickr.com/3280/5860503527_c256c28ec5_b.jpg
-blog-image: http://farm4.staticflickr.com/3280/5860503527_c256c28ec5_b.jpg
 ---
 
 I've not taken a laptop to a sales meeting in over 2 years. Nope, these days the iPad seems to have everything I need. The key selling point is convenience - it's easy to carry, has a long battery life, and is instant to launch. It also has a great selection of apps for note taking and presentations.

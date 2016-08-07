@@ -5,11 +5,8 @@ layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: Salesforce, the only CRM?
 blog-title: Salesforce, the only CRM?
 image: http://socialmediaweek.org/london/files/2010/10/sfdc_logo_rgb_v1.jpg
-hero-image: http://socialmediaweek.org/london/files/2010/10/sfdc_logo_rgb_v1.jpg
-blog-image: http://socialmediaweek.org/london/files/2010/10/sfdc_logo_rgb_v1.jpg
 ---
 
 If you wanted to Google your next CRM , what would you type in the search box? It's quite possible the world is only typing one thing...

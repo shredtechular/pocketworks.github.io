@@ -5,11 +5,8 @@ layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-grid-title: 5 tips to achieve a million mobile bookings
 blog-title: 5 tips to achieve a million mobile bookings
 image: https://farm1.staticflickr.com/154/363381217_3f7dd8ee36_b_d.jpg
-hero-image: https://farm1.staticflickr.com/154/363381217_3f7dd8ee36_b_d.jpg
-blog-image: https://farm1.staticflickr.com/154/363381217_3f7dd8ee36_b_d.jpg
 ---
 
 Getting 1,000,000 bookings via their mobile app is no small achievement for our £6M turnover taxi customer. As their mobile apps developer, there's things Amber are doing with mobile puts them well ahead.
