@@ -6,4 +6,4 @@ zip -r website.zip _site
 curl -H "Content-Type: application/zip" \
      -H "Authorization: Bearer $NETLIFYKEY" \
      --data-binary "@website.zip" \
-     https://api.netlify.com/api/v1/sites/pocketworks-staging.netlify.com/deploys -v
+     https://api.netlify.com/api/v1/sites/pocketworks.netlify.com/deploys -v
