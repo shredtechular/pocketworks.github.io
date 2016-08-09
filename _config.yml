@@ -19,9 +19,7 @@ defaults:
   values:
     description: ''
     image: ''
-- scope:
-    path: 'posts/blog'
-    type: 'Blog'
+    type: ''
 site_url: http://www.pocketworks.co.uk/
 version: 1.0
 excerpt_separator: "<!--more-->"
