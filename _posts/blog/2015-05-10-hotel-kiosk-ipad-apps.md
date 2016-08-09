@@ -1,11 +1,11 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: iPad Kiosks at the Hilton DoubleTree
+page-title: Pocketworks - Mobile solutions for sales
 date: 2015-05-10 00:00:00 Z
 layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-blog-title: iPad Kiosks at the Hilton DoubleTree
 image: https://pocketworks-website.s3.amazonaws.com/kiosk_dbt_01.jpg
 ---
 

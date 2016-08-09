@@ -1,11 +1,11 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: 5 tips to achieve a million mobile bookings
+page-title: Pocketworks - Mobile solutions for sales
 date: 2014-06-26 00:00:00 Z
 layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-blog-title: 5 tips to achieve a million mobile bookings
 image: https://farm1.staticflickr.com/154/363381217_3f7dd8ee36_b_d.jpg
 ---
 

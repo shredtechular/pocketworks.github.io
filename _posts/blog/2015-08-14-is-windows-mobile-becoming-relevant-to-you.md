@@ -1,11 +1,11 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: Is Windows Mobile relevant to you now?
+page-title: Pocketworks - Mobile solutions for sales
 date: 2015-08-14 00:00:00 Z
 layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-blog-title: Is Windows Mobile relevant to you now?
 image: http://www.winbeta.org/sites/default/files/news/Windows-10-on-phones_2.jpg
 ---
 

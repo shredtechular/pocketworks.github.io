@@ -1,11 +1,11 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: What we learned at the Private Hire & Taxi Exhibition
+page-title: Pocketworks - Mobile solutions for sales
 date: 2015-05-15 00:00:00 Z
 layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-blog-title: What we learned at the Private Hire & Taxi Exhibition
 image: https://pocketworks-website.s3.amazonaws.com/millbrook-prooving-ground.jpg
 ---
 

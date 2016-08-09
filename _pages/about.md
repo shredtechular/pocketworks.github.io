@@ -1,6 +1,5 @@
 ---
 title: About Pocketworks
-page-title: About Pocketworks
 permalink: "/about/"
 feat-title: 'About: Advisors, designers, authors and developers'
 layout: page

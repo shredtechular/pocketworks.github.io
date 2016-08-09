@@ -1,11 +1,11 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: 2012-09-05-ipad-the-guerrilla-sales-meeting-companion
+page-title: Pocketworks - Mobile solutions for sales
 date: 2012-09-05 00:00:00 Z
 layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-blog-title: 2012-09-05-ipad-the-guerrilla-sales-meeting-companion
 image: http://farm4.staticflickr.com/3280/5860503527_c256c28ec5_b.jpg
 ---
 

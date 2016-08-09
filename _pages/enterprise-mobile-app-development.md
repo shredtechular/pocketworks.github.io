@@ -1,6 +1,5 @@
 ---
 title: Enterprise app development UK
-page-title: Enterprise app development UK
 permalink: "/enterprise-mobile-app-development/"
 layout: hero-skills
 description: Get a connected enterprise mobile app.

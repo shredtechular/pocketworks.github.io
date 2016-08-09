@@ -26,7 +26,7 @@ layout: default
         </div>
 
         <div class="col-md-6 align-left">
-          <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.blog-title }}</a> <small>{{ post.date | date: "%Y-%m-%d"  }}</small></h3>
+          <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <small>{{ post.date | date: "%Y-%m-%d"  }}</small></h3>
 
           {% comment %}<!-- Get the blog excerpt content -->{% endcomment %}
           {% if post.content contains '<!--more-->' %}

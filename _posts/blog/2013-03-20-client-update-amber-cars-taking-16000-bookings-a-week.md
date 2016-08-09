@@ -1,11 +1,11 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: Amber Cars app taking 16,000 bookings a week
+page-title: Pocketworks - Mobile solutions for sales
 date: 2013-03-20 00:00:00 Z
 layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-blog-title: Amber Cars app taking 16,000 bookings a week
 image: http://farm4.staticflickr.com/3517/3176380443_8f9b6e3f9e_b.jpg
 ---
 

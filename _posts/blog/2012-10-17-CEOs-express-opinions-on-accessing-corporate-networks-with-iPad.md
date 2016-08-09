@@ -1,11 +1,11 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: 10 CEOs express opinions on accessing corporate networks with iPad
+page-title: Pocketworks - Mobile solutions for sales
 date: 2012-10-17 00:00:00 Z
 layout: blog
 type: Blog
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
-blog-title: 10 CEOs express opinions on accessing corporate networks with iPad
 image: http://farm5.staticflickr.com/4136/4909320102_6c7b25f9bd_b.jpg
 ---
 
