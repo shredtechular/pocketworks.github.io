@@ -8,10 +8,6 @@ collections:
   posts:
     title: Posts
     output: true
-    type:
-    - Blog
-    - Case Study
-    - Product
   uploads:
     title: Uploads
     output: true
@@ -22,7 +18,6 @@ defaults:
   values:
     description: ''
     image: ''
-    post-type:
     tagline:
     client:
     client-article:
