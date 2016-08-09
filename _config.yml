@@ -19,14 +19,17 @@ defaults:
   values:
     description: ''
     image: ''
-    post-type: ["Blog", "Case Study", "Product"]
-    tagline:
-    client:
-    client-article:
-    grid-title:
-    challenge:
-    outcome:
-    hero image:
+    post-type:
+    - Blog
+    - Case Study
+    - Product
+    tagline: 
+    client: 
+    client-article: 
+    grid-title: 
+    challenge: 
+    outcome: 
+    hero image: 
 site_url: http://www.pocketworks.co.uk/
 version: 1.0
 excerpt_separator: "<!--more-->"
