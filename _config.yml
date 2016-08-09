@@ -5,6 +5,10 @@ collections:
   posts:
     title: Posts
     output: true
+    type:
+    - Blog
+    - Case Study
+    - Product
   uploads:
     title: Uploads
     output: true
