@@ -1,7 +1,7 @@
 ---
 title: Contact - UK Mobile app developers
-page- title: Contact - UK Mobile app developers
 permalink: "/contact/"
+page- title: Contact - UK Mobile app developers
 feat-title: Contact Pocketworks
 layout: contact
 description: 'Email: hello@pocketworks.co.uk. Tel: 0113 2460225. Monarch House, Queen

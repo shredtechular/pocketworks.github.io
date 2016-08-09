@@ -1,7 +1,7 @@
 ---
 title: Sales Travel Mapper
-page-title: PocketMEDIA Sales Travel Mapper
 permalink: "/pocketmedia/sales-travel-mapper/"
+page-title: PocketMEDIA Sales Travel Mapper
 layout: sub-page
 description: Allow sales reps to plan their sales calls and visits on a map to remove
   dead travel time and prompt people who to meet.

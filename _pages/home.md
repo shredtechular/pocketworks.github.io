@@ -1,7 +1,7 @@
 ---
 title: Homepage
-page-title: Pocketworks - UK App Developers
 permalink: "/"
+page-title: Pocketworks - UK App Developers
 layout: homepage
 description: Planning, design, development and management of mobile centric products.
   We help businesses attract customers and reduce costs. Working with iPhone, Android,

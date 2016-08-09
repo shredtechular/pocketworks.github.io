@@ -1,7 +1,7 @@
 ---
 title: Jobs
-page-title: Pocketworks - Mobile solutions for sales
 permalink: "/jobs/"
+page-title: Pocketworks - Mobile solutions for sales
 layout: sub-page
 type: job
 description: Pocketworks offer advice, design and development around the implementation

@@ -1,7 +1,7 @@
 ---
 title: FREE Trial for PocketMEDIA
-page-title: FREE Trial for PocketMEDIA
 permalink: "/pocketmedia/demo_sign_up/"
+page-title: FREE Trial for PocketMEDIA
 layout: demo-signup
 description: Get a free demo of PocketMEDIA and start enhancing how your sales team
   sell.

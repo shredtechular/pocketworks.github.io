@@ -1,7 +1,7 @@
 ---
 title: Our Work
-page-title: 'Work: advice, prototypes, mobile apps and web portals'
 permalink: "/our_work/"
+page-title: 'Work: advice, prototypes, mobile apps and web portals'
 feat-title: 'Work: advice, prototypes, mobile apps and web portals'
 layout: page
 description: iPad, iPhone and Android apps to help you attract and retain customers.

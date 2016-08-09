@@ -1,7 +1,7 @@
 ---
 title: Senior iOS Devleoper Job
-page-title: Pocketworks - Mobile solutions for sales
 permalink: "/jobs/senior-ios-developer-job-leeds-uk/"
+page-title: Pocketworks - Mobile solutions for sales
 layout: sub-page
 type: job
 description: Pocketworks offer advice, design and development around the implementation
