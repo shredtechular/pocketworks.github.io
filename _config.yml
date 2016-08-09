@@ -44,8 +44,3 @@ defaults:
       date: ""
       description: ""
       image: ""
-  -
-    scope:
-      path: "posts/products"
-      layout: ""
-      type: "Product"
