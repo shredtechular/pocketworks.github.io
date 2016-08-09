@@ -1,7 +1,7 @@
 ---
 title: iPad Sales Apps
-page-title: Understanding the benefits of iPads Sales Apps in your company
 permalink: "/ipad-sales-apps/"
+page-title: Understanding the benefits of iPads Sales Apps in your company
 layout: sub-page
 description: This list helps you understand the beneifts you can expect when adopting
   iPads sales apps in your company. Pocketworks can build you a custom sales app,
