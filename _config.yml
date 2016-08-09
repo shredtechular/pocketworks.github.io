@@ -22,14 +22,14 @@ defaults:
   values:
     description: ''
     image: ''
-    post-type:
-    tagline:
-    client:
-    client-article:
-    grid-title:
-    challenge:
-    outcome:
-    hero image:
+    post-type: 
+    tagline: 
+    client: 
+    client-article: 
+    grid-title: 
+    challenge: 
+    outcome: 
+    hero image: 
 site_url: http://www.pocketworks.co.uk/
 version: 1.0
 excerpt_separator: "<!--more-->"
