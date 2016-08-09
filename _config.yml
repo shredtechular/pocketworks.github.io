@@ -2,6 +2,9 @@
 title: pocketworks
 timezone: UTC
 collections:
+  blog:
+    title: Blog
+    output: true
   posts:
     title: Posts
     output: true
@@ -19,9 +22,6 @@ defaults:
   values:
     description: ''
     image: ''
-- scope:
-    path: 'posts/blog'
-    type: 'Blog'
 site_url: http://www.pocketworks.co.uk/
 version: 1.0
 excerpt_separator: "<!--more-->"
