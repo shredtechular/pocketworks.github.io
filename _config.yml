@@ -34,3 +34,18 @@ compress_html:
   clippings: []
   blanklines: false
   profile: false
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      title: ""
+      date: ""
+      description: ""
+      image: ""
+  -
+    scope:
+      path: "posts/products"
+      layout: ""
+      type: "Product"
