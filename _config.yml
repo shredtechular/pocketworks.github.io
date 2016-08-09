@@ -8,6 +8,15 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    title: ''
+    date: ''
+    description: ''
+    image: ''
 site_url: http://www.pocketworks.co.uk/
 version: 1.0
 excerpt_separator: "<!--more-->"
@@ -34,13 +43,3 @@ compress_html:
   clippings: []
   blanklines: false
   profile: false
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      title: ""
-      date: ""
-      description: ""
-      image: ""
