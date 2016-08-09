@@ -1,5 +1,6 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: Joel Test
+page-title: Pocketworks - Mobile solutions for sales
 permalink: "/jobs/joel-test/"
 layout: sub-page
 type: job

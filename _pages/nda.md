@@ -1,5 +1,6 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: Non-Disclosure Agreement
+page-title: Pocketworks - Mobile solutions for sales
 permalink: "/nda/"
 feat-title: 'About: Advisors, designers, authors and developers'
 layout: sub-page

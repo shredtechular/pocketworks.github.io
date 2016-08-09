@@ -1,5 +1,6 @@
 ---
-title: Understanding the benefits of iPads Sales Apps in your company
+title: iPad Sales Apps
+page-title: Understanding the benefits of iPads Sales Apps in your company
 permalink: "/ipad-sales-apps/"
 layout: sub-page
 description: This list helps you understand the beneifts you can expect when adopting

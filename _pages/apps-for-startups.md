@@ -1,5 +1,6 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: Apps for Startups
+page-title: Pocketworks - Mobile solutions for sales
 permalink: "/apps-for-startups/"
 layout: sub-page
 description: Pocketworks offer advice, design and development around the implementation

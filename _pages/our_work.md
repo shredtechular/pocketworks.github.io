@@ -1,5 +1,6 @@
 ---
-title: 'Work: advice, prototypes, mobile apps and web portals'
+title: Our Work
+page-title: 'Work: advice, prototypes, mobile apps and web portals'
 permalink: "/our_work/"
 feat-title: 'Work: advice, prototypes, mobile apps and web portals'
 layout: page

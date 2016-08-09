@@ -1,5 +1,6 @@
 ---
 title: Products
+page-title: Products
 permalink: "/products/"
 layout: page
 description: PocketMEDIA - a sales enablement platform for iPad. PocketFORMS - an

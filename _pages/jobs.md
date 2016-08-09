@@ -1,5 +1,6 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: Jobs
+page-title: Pocketworks - Mobile solutions for sales
 permalink: "/jobs/"
 layout: sub-page
 type: job

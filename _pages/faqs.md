@@ -1,5 +1,6 @@
 ---
-title: FAQ for the PocketMEDIA iPad Sales App
+title: FAQs for the PocketMEDIA iPad Sales App
+page-title: FAQ for the PocketMEDIA iPad Sales App
 permalink: "/pocketmedia/faq/"
 layout: faqs
 description: Questions about how PocketMEDIA can help your marketing department use

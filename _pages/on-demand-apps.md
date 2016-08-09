@@ -1,5 +1,6 @@
 ---
-title: Pocketworks - Mobile solutions for sales
+title: On-Demand Apps
+page-title: Pocketworks - Mobile solutions for sales
 permalink: "/on-demand-apps/"
 layout: sub-page
 description: Pocketworks offer advice, design and development around the implementation
