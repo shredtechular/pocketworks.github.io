@@ -1,7 +1,7 @@
 ---
 title: Salesforce, the only CRM?
-page-title: Pocketworks - Mobile solutions for sales
 date: 2014-06-28 00:00:00 Z
+page-title: Pocketworks - Mobile solutions for sales
 layout: blog
 type: Blog
 author: Tobin Harris

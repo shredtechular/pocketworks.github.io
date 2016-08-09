@@ -1,7 +1,7 @@
 ---
 title: Does sales rep mood correspond to sales revenue?
-page-title: Pocketworks - Mobile solutions for sales
 date: 2014-02-27 00:00:00 Z
+page-title: Pocketworks - Mobile solutions for sales
 layout: blog
 type: Blog
 author: Tobin Harris

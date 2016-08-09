@@ -1,7 +1,7 @@
 ---
 title: Energenie Mi|Home at the Gadget Show, April 2015 Birmingham NEC
-page-title: Pocketworks - Mobile solutions for sales
 date: 2015-04-11 00:00:00 Z
+page-title: Pocketworks - Mobile solutions for sales
 layout: blog
 type: Blog
 author: Tobin Harris

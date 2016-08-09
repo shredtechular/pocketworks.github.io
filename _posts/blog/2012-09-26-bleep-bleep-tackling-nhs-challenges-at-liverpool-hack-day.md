@@ -1,7 +1,7 @@
 ---
 title: Tackling NHS challenges at Liverpool Hack Day
-page-title: Pocketworks - Mobile solutions for sales
 date: 2012-09-26 00:00:00 Z
+page-title: Pocketworks - Mobile solutions for sales
 layout: blog
 type: Blog
 author: Tobin Harris

@@ -1,7 +1,7 @@
 ---
 title: git2pdf - get your GitHub issues on the wall
-page-title: Pocketworks - Mobile solutions for sales
 date: 2014-06-28 00:00:01 Z
+page-title: Pocketworks - Mobile solutions for sales
 layout: blog
 type: Blog
 author: Tobin Harris

@@ -1,7 +1,7 @@
 ---
 title: What we learned at the Private Hire & Taxi Exhibition
-page-title: Pocketworks - Mobile solutions for sales
 date: 2015-05-15 00:00:00 Z
+page-title: Pocketworks - Mobile solutions for sales
 layout: blog
 type: Blog
 author: Tobin Harris

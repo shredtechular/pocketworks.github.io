@@ -1,7 +1,7 @@
 ---
 title: 3 ways Apple is helping businesses in 2016
-page-title: Pocketworks - Mobile solutions for sales
 date: 2016-06-10 00:00:00 Z
+page-title: Pocketworks - Mobile solutions for sales
 layout: blog
 type: Blog
 author: Tobin Harris

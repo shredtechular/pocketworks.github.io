@@ -1,7 +1,7 @@
 ---
 title: Credit card payments now accepted in the Amber Cars app
-page-title: Pocketworks - Mobile solutions for sales
 date: 2015-04-01 00:00:00 Z
+page-title: Pocketworks - Mobile solutions for sales
 layout: blog
 type: Blog
 author: Tobin Harris
