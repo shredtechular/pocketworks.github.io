@@ -2,7 +2,7 @@
 title: pocketworks
 timezone: UTC
 collections:
-  blog:
+  _posts-blog:
     title: Blog
     output: true
   posts:
