@@ -24,7 +24,8 @@ defaults:
     grid-title:
     challenge:
     outcome:
-    hero image:
+    hero-image:
+    post type:
 site_url: http://www.pocketworks.co.uk/
 version: 1.0
 excerpt_separator: "<!--more-->"
