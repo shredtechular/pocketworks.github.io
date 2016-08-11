@@ -5,15 +5,15 @@ collections:
   jobs:
     title: Jobs
     output: true
-  post-type:
-    title: Post-Type
-    output: false
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
+  post-type:
+    title: meta-post-type
+    output: false
 defaults:
 - scope:
     path: ''
