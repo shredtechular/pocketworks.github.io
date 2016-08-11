@@ -3,7 +3,7 @@ title: pocketworks
 timezone: UTC
 collections:
   post-type:
-    title: Post Type
+    title: Post-Type
     output: false
   posts:
     title: Posts
