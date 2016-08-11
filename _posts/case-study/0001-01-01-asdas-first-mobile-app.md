@@ -3,7 +3,7 @@ title: Asda's First Mobile App
 date: 0001-01-01 00:00:00 Z
 permalink: "/case-study/asdas-first-mobile-app/"
 layout: case-study
-type: Case Study
+post-type: Case Study
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.
 tagline: In 2008, we helped Asda put Price Guarantee into the pockets of customers

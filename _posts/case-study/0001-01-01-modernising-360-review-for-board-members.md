@@ -3,7 +3,7 @@ title: Modernising 360 reviews for board members
 date: 0001-01-01 00:00:00 Z
 permalink: "/case-study/modernising-360-review-for-board-members/"
 layout: case-study
-type: Case Study
+post-type: Case Study
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.
 tagline: Helping quinn offer a superior 360 review service to senior management

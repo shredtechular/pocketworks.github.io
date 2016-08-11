@@ -3,7 +3,7 @@ title: Helping dental students learn on the move
 date: 0001-01-01 00:00:00 Z
 permalink: "/case-study/helping-dental-students-learn-on-the-move/"
 layout: case-study
-type: Case Study
+post-type: Case Study
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.
 tagline: The Medical Protection Society offer increased value to students
