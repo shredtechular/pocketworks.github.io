@@ -1,5 +1,5 @@
 ---
-title: Blog-Type
+title: Blog
 date: 2016-08-11 00:37:00 Z
 ---
 
