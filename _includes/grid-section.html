@@ -64,7 +64,7 @@
   			          <div class="subtitle">
   			          	<h3>
   			          		<strong>{% if item.client %}{{ item.client }}{% else %}{{ post.client }}{% endif %} </strong>
-  			          		{% if item.post-type %}{{ item.post-type }}{% else %}{{ post.type }}{% endif %}
+  			          		{% if item.type %}{{ item.type }}{% else %}{{ post.post-type }}{% endif %}
   			          	</h3>
   			          </div>
   			          <h2><a href="{{ item.url prepend: site.baseurl }}">
