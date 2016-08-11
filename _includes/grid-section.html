@@ -29,7 +29,7 @@
                     <div class="subtitle">
                       <h3>
                         <strong>{% if item.client %}{{ item.client }}{% endif %}</strong>
-                        {{ item.type }}
+                        {{ item.post-type }}
                       </h3>
                     </div>
                     <h2><a href="{{ item.url prepend: site.baseurl }}">
@@ -64,7 +64,7 @@
   			          <div class="subtitle">
   			          	<h3>
   			          		<strong>{% if item.client %}{{ item.client }}{% else %}{{ post.client }}{% endif %} </strong>
-  			          		{% if item.type %}{{ item.type }}{% else %}{{ post.type }}{% endif %}
+  			          		{% if item.post-type %}{{ item.post-type }}{% else %}{{ post.type }}{% endif %}
   			          	</h3>
   			          </div>
   			          <h2><a href="{{ item.url prepend: site.baseurl }}">
