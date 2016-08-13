@@ -16,7 +16,7 @@ collections:
     output: true
   meta-our-values:
     title: meta-our-values
-    output: true
+    output: false
   meta-post-type:
     title: meta-post-type
     output: false
