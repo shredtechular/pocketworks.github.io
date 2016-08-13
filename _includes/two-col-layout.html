@@ -9,31 +9,17 @@
 -->
 {% endcomment %}
 
-{% assign roles = site.data.jobs.jobs %}
+{% assign roles = site.meta-job-role-details %}
 
 <section class="section">
   <div class="container">
     <div class="row">
+      {% for role in roles %}
       <div class="col-md-6">
-        <h2>{{ roles.developers.title }}...</h2>
-        <ul>
-
-        {% for item in roles.developers.responsibilities %}
-          <li>{{ item }}</li>
-        {% endfor %}
-
-        </ul>
+        <h2>{{ role.title }}...</h2>
+        {{ role }}
       </div>
-      <div class="col-md-6">
-        <h2>{{ roles.designers.title }}...</h2>
-        <ul>
-
-        {% for item in roles.designers.responsibilities %}
-          <li>{{ item }}</li>
-        {% endfor %}
-
-        </ul>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
