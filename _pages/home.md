@@ -2,7 +2,6 @@
 title: Homepage
 permalink: "/"
 page-title: Pocketworks - UK App Developers
-layout: homepage
 description: Planning, design, development and management of mobile centric products.
   We help businesses attract customers and reduce costs. Working with iPhone, Android,
   iPad, Wear, Apple Watch, iOS and the Cloud. We're experts at creating business apps
@@ -18,6 +17,8 @@ grid-items:
 - url: "/case-study/turning-lights-on-across-the-uk/"
 - url: "/case-study/reducing-queues-at-hotel-reception-desks/"
   cols: 8
+- url: "/blog/2016-08-13-new-blog-test/"
+  cols: 
 quote:
   blurb: '"Our mobile success makes Uber less of a threat"'
   author: Andy Pennock, Veezu
@@ -28,6 +29,7 @@ advice:
   url: "/ipad-sales-apps/"
   link-text: Read more
   bg-img: office-dim.jpg
+layout: homepage
 ---
 
 {% comment %}<!-- Get Telephone & Email information from global contact info -->{% endcomment %}
