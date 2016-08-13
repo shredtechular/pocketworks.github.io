@@ -11,6 +11,9 @@ collections:
   meta-available-jobs:
     title: meta-available-jobs
     output: false
+  meta-job-role-details:
+    title: meta-job-role-details
+    output: true
   meta-post-type:
     title: meta-post-type
     output: false
