@@ -10,11 +10,11 @@ tagline: The Medical Protection Society offer increased value to students
 client: Medical Protection Society
 grid-title: A new channel for engaging customers
 image: portfolio/mps-thumb.jpg
-case-study-challenge: Develop a new marketing channel to attract and engage dental students as
-  new customers, allowing for personalised marketing
-case-study-outcome: Your Future, an Android and iPhone app that allows MPS to distribute valuable
-  information to final year students and young dentists, to help them get through
-  their final year and post-grad interviews
+case-study-challenge: Develop a new marketing channel to attract and engage dental
+  students as new customers, allowing for personalised marketing
+case-study-outcome: Your Future, an Android and iPhone app that allows MPS to distribute
+  valuable information to final year students and young dentists, to help them get
+  through their final year and post-grad interviews
 ---
 
 Graduate doctors and dentists must have insurance to practice. MPS are one of the UK's leading providers, selling over £320M of professional insurance each year.

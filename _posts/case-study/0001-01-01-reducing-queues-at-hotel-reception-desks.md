@@ -14,8 +14,8 @@ grid-title: Reducing queues at hotel reception desks
 image: portfolio/kiosk-thumb.jpg
 hero-image: kiosk_dbt_02.jpg
 case-study-challenge: Reducing the wait time at hotel reception desks
-case-study-outcome: An iPad booking taxi kiosk that improves customer satisfaction and reduces
-  the burdon on staff
+case-study-outcome: An iPad booking taxi kiosk that improves customer satisfaction
+  and reduces the burdon on staff
 ---
 
 At busy times, reception staff can be inundated with guests requesting taxis. Our challenge was to create a self-service booking kiosk that anyone could use. The kiosk is purchased and installed by many taxi companies. In turn, it connects to their dispatch systems (the systems taxi companies use to coordinate taxi journeys).

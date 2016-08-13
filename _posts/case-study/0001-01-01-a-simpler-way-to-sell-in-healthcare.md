@@ -12,8 +12,9 @@ client-article: ENERGENIE
 grid-title: Increasing sales team efficiency with iPads
 image: https://media.glassdoor.com/o/1a/fa/dc/24/kontrolle-von-dialyseger%C3%A4ten-bei-fresenius-medical-care.jpg
 case-study-challenge: Modernise the tools used by the Fresenius sales team
-case-study-outcome: Pocketworks delivered a sales content management platform with accompanying
-  iPad sales app. Reps had instant access to current and legally compliant sales materials.
+case-study-outcome: Pocketworks delivered a sales content management platform with
+  accompanying iPad sales app. Reps had instant access to current and legally compliant
+  sales materials.
 ---
 
 Fresenius Medical Care believed iPads could reduce their marketing costs and facilitate legal compliance.

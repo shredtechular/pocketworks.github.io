@@ -10,8 +10,10 @@ tagline: Helping Veezu increase taxi booking efficiency across the UK
 client: VEEZU
 grid-title: Helping a taxi startup to scale
 image: http://i3.walesonline.co.uk/incoming/article10701782.ece/ALTERNATES/s615/Paul-Raglan-chief-executive-officer-at-Veezu-4.jpg
-case-study-challenge: Deploying a taxi booking app to several UK cities without loss of service
-case-study-outcome: Consumer booking apps launched in Leeds, Cardiff, Newport, Bridgend and Birmingham
+case-study-challenge: Deploying a taxi booking app to several UK cities without loss
+  of service
+case-study-outcome: Consumer booking apps launched in Leeds, Cardiff, Newport, Bridgend
+  and Birmingham
 ---
 
 Veezu is a large and established UK taxi operator. They focus on investing in new technology to raise the bar and create a best-in-class offering for all B2C and B2B customers.

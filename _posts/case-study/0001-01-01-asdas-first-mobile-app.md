@@ -12,9 +12,10 @@ grid-title: A fresh take on supermarket price comparison
 image: asda-store.jpg
 hero-image: asda-logo.jpg
 case-study-challenge: Helping Asda learn about mobile before mobile was 'a thing'
-case-study-outcome: The Asda Price Guarantee app for iPhone, allowing customers to enter receipt
-  details, compare prices, and receive cash back in store. It included integrated
-  into MySupermarket data feeds giving customers up-to-the-minute price data.
+case-study-outcome: The Asda Price Guarantee app for iPhone, allowing customers to
+  enter receipt details, compare prices, and receive cash back in store. It included
+  integrated into MySupermarket data feeds giving customers up-to-the-minute price
+  data.
 ---
 
 On November 9, 2007, the iPhone was officially launched in Europe. By 2008, retailers were beginning to explore the potential of this new channel. Tesco were leading the way, and had three apps on the store.
