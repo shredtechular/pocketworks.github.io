@@ -14,6 +14,9 @@ collections:
   meta-job-role-details:
     title: meta-job-role-details
     output: true
+  meta-our-values:
+    title: meta-our-values
+    output: true
   meta-post-type:
     title: meta-post-type
     output: false
