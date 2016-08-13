@@ -2,15 +2,15 @@
 title: pocketworks
 timezone: UTC
 collections:
-  jobs:
-    title: Jobs
-    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
+  meta-available-jobs:
+    title: meta-available-jobs
+    output: false
   meta-post-type:
     title: meta-post-type
     output: false
