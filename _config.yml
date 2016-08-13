@@ -19,7 +19,7 @@ collections:
     output: false
   meta-team-members:
     title: meta-team-members
-    output: true
+    output: false
 defaults:
 - scope:
     path: ''
