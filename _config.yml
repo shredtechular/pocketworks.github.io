@@ -27,14 +27,22 @@ defaults:
   values:
     description: ''
     image: ''
-    tagline: 
-    client: 
-    client-article: 
-    grid-title: 
-    case-study-challenge: 
-    case-study-outcome: 
-    hero-image: 
-    meta-post-type: 
+    tagline:
+    client:
+    client-article:
+    grid-title:
+    case-study-challenge:
+    case-study-outcome:
+    hero-image:
+    meta-post-type:
+- scope:
+    path: ''
+    type: meta-team-members
+  values:
+    image: ''
+    job-title: ''
+    email: ''
+    is-executive: false
 - scope:
     path: ''
     type: meta-available-jobs
