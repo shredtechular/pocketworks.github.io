@@ -5,3 +5,4 @@ image: "/images/about/mk.png"
 job-title: Business Development
 is-executive: false
 ---
+
