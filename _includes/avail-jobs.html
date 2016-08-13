@@ -24,7 +24,7 @@
 
         <li style="margin-bottom: 40px;">
           <h3 style="font-size: 19px;font-weight: bold;margin: 0px;">{{ opening.title }}</h3>
-          <p style="margin:0px">{{ opening }}</p>
+          {{ opening }}
           {% if opening.more-info-link %}
           <a href="{{ site.baseurl }}/jobs{{ opening.more-info-link }}">{{ opening.more-info-link-text }}</a>
           {% endif %}

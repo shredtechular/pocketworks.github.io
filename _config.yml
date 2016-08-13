@@ -43,6 +43,7 @@ defaults:
     job-title: ''
     email: ''
     is-executive: false
+    linkedin-profile: ''
 - scope:
     path: ''
     type: meta-available-jobs

@@ -18,30 +18,33 @@
 <section id="section-about" class="section appear clearfix bg-white">
   <div class="container">
 
-  {% for exec in employees %}
-
-    {% if exec.is-executive %}
-
     <div class="row align-center mar-bot40">
 
-      <div class="col-md-6">
-        <div class="team-member">
-          <figure class="member-photo"><img src="{{ exec.image }}" alt="{{ exec.title }}" /></figure>
-          <div class="team-detail">
-            <h4>{{ exec.title }} {% if exec.title == "Tobin Harris" %}<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-              <script type="IN/MemberProfile" data-id="http://www.linkedin.com/pub/tobin-harris/1/556/652" data-format="hover" data-proofer-ignore></script>{% endif %}
-            </h4>
-            <span>{{ exec.job-title }}</span>
-            <p>{{ exec }}</p>
+    {% for exec in employees %}
+
+      {% if exec.is-executive %}
+
+        <div class="col-md-6">
+          <div class="team-member">
+            <figure class="member-photo"><img src="{{ exec.image }}" alt="{{ exec.title }}" /></figure>
+            <div class="team-detail">
+              <h4>{{ exec.title }}
+                {% if exec.linkedin-profile %}
+                  <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                  <script type="IN/MemberProfile" data-id="{{ exec.linkedin-profile }}" data-format="hover" data-proofer-ignore></script>
+                {% endif %}
+              </h4>
+              <span>{{ exec.job-title }}</span>
+              {{ exec }}
+            </div>
           </div>
         </div>
-      </div>
+
+      {% endif %}
+
+    {% endfor %}
 
     </div>
-
-    {% endif %}
-
-  {% endfor %}
 
   {% assign counter = 0 %}
 
@@ -51,7 +54,7 @@
 
       {% assign counter = counter | plus: 1 %}
 
-      {% if counter == 1 or counter == 6 %}
+      {% if counter == 1 or counter == 5 %}
         <div class="row align-center mar-bot40">
       {% endif %}
 
@@ -65,7 +68,7 @@
             </div>
           </div>
 
-      {% if counter == 3 or forloop.last %}
+      {% if counter == 4 or forloop.last %}
         </div>
       {% endif %}
 
