@@ -10,9 +10,9 @@ tagline: The Medical Protection Society offer increased value to students
 client: Medical Protection Society
 grid-title: A new channel for engaging customers
 image: portfolio/mps-thumb.jpg
-challenge: Develop a new marketing channel to attract and engage dental students as
+case-study-challenge: Develop a new marketing channel to attract and engage dental students as
   new customers, allowing for personalised marketing
-outcome: Your Future, an Android and iPhone app that allows MPS to distribute valuable
+case-study-outcome: Your Future, an Android and iPhone app that allows MPS to distribute valuable
   information to final year students and young dentists, to help them get through
   their final year and post-grad interviews
 ---

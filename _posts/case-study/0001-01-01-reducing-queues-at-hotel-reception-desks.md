@@ -13,8 +13,8 @@ client-article: Many UK taxi firms
 grid-title: Reducing queues at hotel reception desks
 image: portfolio/kiosk-thumb.jpg
 hero-image: kiosk_dbt_02.jpg
-challenge: Reducing the wait time at hotel reception desks
-outcome: An iPad booking taxi kiosk that improves customer satisfaction and reduces
+case-study-challenge: Reducing the wait time at hotel reception desks
+case-study-outcome: An iPad booking taxi kiosk that improves customer satisfaction and reduces
   the burdon on staff
 ---
 

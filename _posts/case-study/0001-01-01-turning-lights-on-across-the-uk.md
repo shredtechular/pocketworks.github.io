@@ -11,8 +11,8 @@ client: Energenie
 grid-title: Helping Energenie enter the SmartHome market
 image: energenie-mi-home-booth-2.jpg
 hero-image: energenie-mihome-android-scene.jpg
-challenge: Design and develop apps for controlling lights and home appliances
-outcome: Mi|Home, an Android and iPhone app that allows consumers to remote-control
+case-study-challenge: Design and develop apps for controlling lights and home appliances
+case-study-outcome: Mi|Home, an Android and iPhone app that allows consumers to remote-control
   their homes
 ---
 

@@ -11,8 +11,8 @@ client: Asda
 grid-title: A fresh take on supermarket price comparison
 image: asda-store.jpg
 hero-image: asda-logo.jpg
-challenge: Helping Asda learn about mobile before mobile was 'a thing'
-outcome: The Asda Price Guarantee app for iPhone, allowing customers to enter receipt
+case-study-challenge: Helping Asda learn about mobile before mobile was 'a thing'
+case-study-outcome: The Asda Price Guarantee app for iPhone, allowing customers to enter receipt
   details, compare prices, and receive cash back in store. It included integrated
   into MySupermarket data feeds giving customers up-to-the-minute price data.
 ---
