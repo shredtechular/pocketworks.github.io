@@ -23,6 +23,9 @@ collections:
   meta-team-members:
     title: meta-team-members
     output: false
+  meta-why-work-with-us:
+    title: meta-why-work-with-us
+    output: true
 defaults:
 - scope:
     path: ''
