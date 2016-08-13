@@ -11,7 +11,7 @@
 
 {% for post in site.posts %}
 
-  {% if post.post-type == "Blog-Type" %}
+  {% if post.meta-post-type == "Blog-Type" %}
 
   <small>{{ post.date | date: "%Y-%m-%d"  }}</small>
   <a href="{{ post.url | prepend: site.baseurl }}"><img src='{{ post.image }}' class="img-thumbnail" alt="blog pic sidebar"></a>

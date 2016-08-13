@@ -3,7 +3,7 @@ title: Helping sales reps achieve success with iPad and CRM
 date: 2013-04-21 00:00:00 Z
 page-title: Pocketworks - Mobile solutions for sales
 layout: blog
-post-type: Blog-Type
+meta-post-type: Blog-Type
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
 image: http://www.pocketworks.co.uk/images/portfolio/image-fresenius.png

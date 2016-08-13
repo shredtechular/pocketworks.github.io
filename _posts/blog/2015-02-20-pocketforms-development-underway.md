@@ -3,7 +3,7 @@ title: Announcing PocketFORMS - our iPad forms app
 date: 2015-02-20 00:00:00 Z
 page-title: Pocketworks - Mobile solutions for sales
 layout: blog
-post-type: Blog-Type
+meta-post-type: Blog-Type
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
 image: https://pocketworks-website.s3.amazonaws.com/pocketforms-sail-away.jpg

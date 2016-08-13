@@ -3,7 +3,7 @@ title: PocketFORMS - Create forms app for the iPad
 date: 0001-01-01 00:00:00 Z
 permalink: "/ipad-forms/"
 layout: product-ipad
-post-type: Product
+meta-post-type: Product
 description: Create an iPad forms app in seconds with no technical knowledge. Perfect
   for customer data capture, field surveys, exhibition stands and in retail environments.
 image: pocketforms-thumb.jpg

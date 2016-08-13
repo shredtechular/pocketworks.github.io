@@ -3,7 +3,7 @@ title: Salesforce, the only CRM?
 date: 2014-06-28 00:00:00 Z
 page-title: Pocketworks - Mobile solutions for sales
 layout: blog
-post-type: Blog-Type
+meta-post-type: Blog-Type
 author: Tobin Harris
 description: Pocketworks - Mobile solutions for sales
 image: http://socialmediaweek.org/london/files/2010/10/sfdc_logo_rgb_v1.jpg
