@@ -19,6 +19,8 @@ grid-items:
   cols: 8
 - url: "/blog/2016-08-13-new-blog-test/"
   cols: 
+- url: "/case-study/new-case-study/"
+  cols: 
 quote:
   blurb: '"Our mobile success makes Uber less of a threat"'
   author: Andy Pennock, Veezu
