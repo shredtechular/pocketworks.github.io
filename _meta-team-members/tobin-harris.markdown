@@ -6,7 +6,4 @@ job-title: Founder &amp; CEO
 email: tobin@pocketworks.co.uk
 ---
 
-Having 20 years experience in software product development, Tobin
-    been a consultant at Wells Fargo Bank, British Telecom and the NHS. He's the creator
-    of yUML.me, a software product used by Intel, eBay, Microsoft and Bose Labs. Tobin
-    authored a book about a popular Microsoft .NET technology.
+Having 20 years experience in software product development, Tobin been a consultant at Wells Fargo Bank, British Telecom and the NHS. He's the creator of yUML.me, a software product used by Intel, eBay, Microsoft and Bose Labs. Tobin authored a book about a popular Microsoft .NET technology.
