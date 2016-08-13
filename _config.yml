@@ -11,6 +11,7 @@ collections:
   meta-available-jobs:
     title: meta-available-jobs
     output: false
+    permalink: meta-available-jobs
   meta-post-type:
     title: meta-post-type
     output: false
