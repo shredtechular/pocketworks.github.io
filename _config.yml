@@ -23,6 +23,9 @@ collections:
   meta-team-members:
     title: meta-team-members
     output: false
+  meta-what-we-do:
+    title: meta-what-we-do
+    output: true
   meta-why-work-with-us:
     title: meta-why-work-with-us
     output: false
