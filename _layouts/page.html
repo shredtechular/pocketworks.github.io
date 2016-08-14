@@ -2,27 +2,8 @@
 layout: default
 ---
 
-{% if page.feat-blue-align == "right" %}
-  {% assign alignment = "right" %}
-{% elsif page.feat-blue-align == "center" %}
-  {% assign alignment = "center" %}
-{% else %}
-  {% assign alignment = "left" %}
-{% endif %}
-{% include feat-blue.html title-align = alignment %}
+{% for include in page.includes %}
 
-{% if page.grid-items %}
-  {% include grid-section.html %}
-{% endif %}
+{% include {{include}}.html %}
 
-{% if page.sectors-section %}
-  {% include sectors.html %}
-{% endif %}
-
-{% if page.skills-section %}
-  {% include skills.html %}
-{% endif %}
-
-{% if page.employees-section %}
-  {% include employees.html %}
-{% endif %}
+{% endfor %}

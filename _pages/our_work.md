@@ -20,7 +20,9 @@ grid-items:
   title: Startup branding and launch strategy
   image: isos-thumb.jpg
 - url: "/case-study/modernising-360-review-for-board-members/"
-sectors-section: true
-skills-section: true
+includes:
+- grid-section
+- sectors
+- what-we-do
 ---
 

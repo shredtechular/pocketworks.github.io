@@ -1,8 +1,16 @@
+{% if page.feat-blue-align == "right" %}
+  {% assign alignment = "right" %}
+{% elsif page.feat-blue-align == "center" %}
+  {% assign alignment = "center" %}
+{% else %}
+  {% assign alignment = "left" %}
+{% endif %}
+
 <section class="featured bg-blue" >
   <div class="container">
     <div class="row">
-      <div class="col-md-8{% if include.title-align == "right" %} col-md-offset-4{% elsif include.title-align == "center" %} col-md-offset-2{% endif %}">
-        <div {% if include.title-align == "right" %}class="align-right"{% elsif include.title-align == "center" %}class="align-center"{% endif %}>
+      <div class="col-md-8{% if alignment == "right" %} col-md-offset-4{% elsif alignment == "center" %} col-md-offset-2{% endif %}">
+        <div {% if alignment == "right" %}class="align-right"{% elsif alignment == "center" %}class="align-center"{% endif %}>
           <h1 class="slogan color-white">{{ page.feat-title }}</h1>
 
           {% if page.feat-desc %}

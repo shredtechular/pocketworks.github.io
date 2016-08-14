@@ -1,0 +1,14 @@
+---
+about:
+  our-values: "Our Values"
+  why: "Why work with us?"
+  why-cta-txt: "Help my company create a successful mobile app"
+  why-cta-link: "/contact/"
+  why-btn-txt: "View more of our success stories"
+  why-btn-link: "/our_work/"
+our-work:
+  what-we-do: "What we do"
+expertise:
+  expertise-header: "Expertise"
+  expertise-desc: "Our areas of experience"
+---

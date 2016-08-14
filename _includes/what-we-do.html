@@ -1,0 +1,49 @@
+{% comment %}
+<!--
+  What We Do Section
+
+  This partial is for the "skills" area.  It can be included on any page or
+  layout that needs a skills section. The data for this section is coming
+  from the _data/skills.yml file.  Currently, this grid is used on the our
+  work page.
+
+-->
+{% endcomment %}
+
+{% assign skills = site.meta-what-we-do %}
+
+{% assign misc = site.data.miscellaneous-content.our-work %}
+
+<section id="section-about" class="section clearfix">
+  <div class="container">
+
+    <div class="row mar-bot40">
+      <div class="section-header">
+        <h2 class="section-heading animated" data-animation="bounceInUp">{{ misc.what-we-do }}</h2>
+
+      </div>
+    </div>
+
+{% for skill in skills %}
+
+  {% if forloop.index == 1 or forloop.index == 4 %}
+    <div class="row align-center mar-bot40">
+  {% endif %}
+
+      <div class="col-md-{% if forloop.index < 4 %}4{% else %}3{% endif %}">
+        <div class="team-member">
+          <div class="team-detail">
+            <h4>{{ skill.title }}</h4>
+            <span>{{ skill }}</span>
+          </div>
+        </div>
+      </div>
+
+  {% if forloop.index == 3 or forloop.index == 7  or forloop.last %}
+    </div>
+  {% endif %}
+
+{% endfor %}
+
+  </div>
+</section>

@@ -20,5 +20,8 @@ grid-items:
   type: product
   title: 'AppSend.me: Track your mobile marketing links'
   image: appsendme.jpg
+includes:
+- feat-blue
+- grid-section
 ---
 

@@ -1,0 +1,51 @@
+{% comment %}
+<!--
+  Why Work With Us Section
+
+  This partial is for the why work for us section that appears on
+  the about page.  The data for this section is coming from the
+  _meta-why-work-for-us collection.
+
+-->
+{% endcomment %}
+
+{% assign values = site.meta-why-work-with-us %}
+
+{% assign header = site.data.miscellaneous-content.about %}
+
+
+<section id="section-about" class="section clearfix">
+  <div class="container">
+
+    <div class="row mar-bot40">
+      <div class="col-md-offset-3 col-md-6">
+        <div class="section-header">
+          <h2 class="section-heading animated" data-animation="bounceInUp">{{ header.why }}</h2>
+        </div>
+      </div>
+    </div>
+
+  {% for value in values %}
+
+    {% if forloop.index == 1 or forloop.index == 3 %}
+    <div class="row align-center mar-bot40">
+    {% endif %}
+
+      <div class="col-md-6">
+        <h3>{{ value.title }}</h3>
+        {{ value }}
+      </div>
+
+    {% if forloop.index == 2 or forloop.index == 4 or forloop.last %}
+    </div>
+    {% endif %}
+
+  {% endfor %}
+
+      <div class="row align-center">
+      <a class="btn btn-lg btn-cta" href="{{ header.why-cta-link | prepend: site.baseurl }}">{{ header.why-cta-txt }}</a>
+      <p><a class="btn btn-lg " href="{{ header.why-btn-link | prepend: site.baseurl }}">{{ header.why-btn-txt }}</a>
+    </div>
+
+  </div>
+</section>
