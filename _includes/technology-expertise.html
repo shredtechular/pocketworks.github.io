@@ -1,0 +1,81 @@
+{% comment %}
+<!--
+  Technology Expertise Section
+
+  This partial is for the "technology expertise" area.  It can be included on
+  any page or layout that needs this section. The data for this section is
+  coming from the _meta-technology-expertise collection.  Currently, this
+  area is used on the expertise page.
+
+-->
+{% endcomment %}
+
+{% assign techs = site.meta-technology-expertise %}
+
+{% assign misc = site.data.miscellaneous-content %}
+
+{% assign counter = 0 %}
+
+<section class="section bg-white">
+  <div class="container">
+
+{% for tech in techs %}
+
+  {% if tech.is-tech-expertise %}
+
+    {% assign counter = counter | plus: 1 %}
+
+    {% if counter == 1 or counter == 3 or counter == 5 %}
+      <div class="row align-center pad-bot20">
+    {% endif %}
+
+        {% if counter == 1 %}
+        <h2>{{ misc.expertise.tech-expert-header }}</h2>
+        {% endif %}
+
+        <div class="col-md-6">
+          <h3>{{ tech.title }}</h3>
+          {{ tech }}
+        </div>
+
+    {% if counter == 2 or counter == 4 or counter == 6 %}
+      </div>
+    {% endif %}
+
+  {% endif %}
+
+{% endfor %}
+
+  </div>
+</section>
+
+<section class="section bg-white">
+    <div class="container">
+
+{% assign counter = 0 %}
+
+{% for tech in techs %}
+
+  {% if tech.is-tech-expertise == false %}
+
+    {% assign counter = counter | plus: 1 %}
+
+    {% if counter == 1 or counter == 3 or counter == 5 %}
+      <div class="row align-center pad-bot20">
+    {% endif %}
+
+        <div class="col-md-6">
+          <h2>{{ tech.title }}</h2>
+          {{ tech }}
+        </div>
+
+    {% if counter == 2 or counter == 4 or counter == 6 %}
+      </div>
+    {% endif %}
+
+  {% endif %}
+
+{% endfor %}
+
+  </div>
+</section>

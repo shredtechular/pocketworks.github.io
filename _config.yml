@@ -52,15 +52,6 @@ defaults:
     meta-post-type:
 - scope:
     path: ''
-    type: meta-team-members
-  values:
-    image: ''
-    job-title: ''
-    email: ''
-    is-executive: false
-    linkedin-profile: ''
-- scope:
-    path: ''
     type: meta-available-jobs
   values:
     more-info-link: ''
@@ -71,6 +62,25 @@ defaults:
   values:
     more-info-link: ''
     more-info-link-text: ''
+- scope:
+    path: ''
+    type: meta-our-skills
+  values:
+    image: ''
+- scope:
+    path: ''
+    type: meta-team-members
+  values:
+    image: ''
+    job-title: ''
+    email: ''
+    is-executive: false
+    linkedin-profile: ''
+- scope:
+    path: ''
+    type: meta-technology-expertise
+  values:
+    is-tech-expertise: false
 site_url: http://www.pocketworks.co.uk/
 version: 1.0
 excerpt_separator: "<!--more-->"

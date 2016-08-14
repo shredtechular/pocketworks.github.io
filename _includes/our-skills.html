@@ -1,0 +1,48 @@
+{% comment %}
+<!--
+  Our Skills Section
+
+  This partial is for the "our skills" area.  It can be included on any page or
+  layout that needs a skills section. The data for this section is coming
+  from the _meta-our-skills collection.  Currently, this area is used on the
+  expertise page.
+
+-->
+{% endcomment %}
+
+{% assign skills = site.meta-our-skills %}
+
+{% assign misc = site.data.miscellaneous-content %}
+
+<section id="section-about" class="section appear clearfix">
+  <div class="container">
+
+    <div class="row mar-bot40">
+      <div class="col-md-offset-3 col-md-6">
+        <div class="section-header">
+          <h2 class="section-heading animated" data-animation="bounceInUp">{{ misc.expertise.our-skills-header }}</h2>
+          <p><p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-center mar-bot40">
+
+    {% for skill in skills %}
+
+      <div class="col-md-3">
+        <div class="team-member">
+          <figure class="member-photo"><img src="{{ skill.image }}" alt="{{ skill.title }} image"/></figure>
+          <div class="team-detail">
+            <h4>{{ skill.title }}</h4>
+            <span>{{ skill }}</span>
+          </div>
+        </div>
+      </div>
+
+    {% endfor %}
+
+    </div>
+
+  </div>
+</section>
