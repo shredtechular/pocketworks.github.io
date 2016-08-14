@@ -9,7 +9,7 @@
 -->
 {% endcomment %}
 
-{% assign jobs = site.data.jobs.jobs.available %}
+{% assign jobs = site.data.miscellaneous-content.jobs %}
 
 {% assign avail-jobs = site.meta-available-jobs %}
 
@@ -17,7 +17,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 pad-top40">
-      <h2>{{ jobs.header }}</h2>
+      <h2>{{ jobs.available.header }}</h2>
 
       <ul>
       {% for opening in avail-jobs %}
