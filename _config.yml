@@ -16,7 +16,7 @@ collections:
     output: true
   meta-our-skills:
     title: meta-our-skills
-    output: true
+    output: false
   meta-our-values:
     title: meta-our-values
     output: false
