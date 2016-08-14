@@ -20,6 +20,9 @@ collections:
   meta-post-type:
     title: meta-post-type
     output: false
+  meta-skills:
+    title: meta-skills
+    output: true
   meta-team-members:
     title: meta-team-members
     output: false
