@@ -25,7 +25,7 @@ collections:
     output: false
   meta-what-we-do:
     title: meta-what-we-do
-    output: true
+    output: false
   meta-why-work-with-us:
     title: meta-why-work-with-us
     output: false
