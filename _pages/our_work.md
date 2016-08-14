@@ -21,6 +21,7 @@ grid-items:
   image: isos-thumb.jpg
 - url: "/case-study/modernising-360-review-for-board-members/"
 includes:
+- feat-blue
 - grid-section
 - sectors
 - what-we-do

@@ -14,8 +14,9 @@ grid-items:
   type: product
   title: 'yUML: Used by Intel, eBay and Lockheed'
   image: yuml-thumb.jpg
-- url: "/blog/2014-07-01-announcing-git2pdf/"
+- url: "/blog/2014-06-28-announcing-git2pdf/"
   type: product
+  title: "Git2Pdf: Scrum and Kanban cards on the wall"
 - url: http://appsend.me
   type: product
   title: 'AppSend.me: Track your mobile marketing links'

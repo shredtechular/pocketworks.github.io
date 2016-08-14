@@ -40,18 +40,17 @@
               </div>
 
             {% else %}
-        	    {% for post in site.posts %}
-        	    	{% if post.url == item.url %}
-                  {% assign sliced_url = post.image | slice: 0, 4 %}
-                  {% if item.image %}
-                    {% assign img = "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/" | append: item.image %}
-                  {% elsif sliced_url == "http" %}
-                    {% assign img = post.image %}
-                  {% elsif post.layout == "blog" %}
-                    {% assign img = post.image %}
-                  {% else %}
-                    {% assign img = "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/" | append: post.image %}
-                  {% endif %}
+              {% assign post = site.posts | where:"url", item.url  | first %}
+                {% assign sliced_url = post.image | slice: 0, 4 %}
+                {% if item.image %}
+                  {% assign img = "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/" | append: item.image %}
+                {% elsif sliced_url == "http" %}
+                  {% assign img = post.image %}
+                {% elsif post.layout == "blog" %}
+                  {% assign img = post.image %}
+                {% else %}
+                  {% assign img = "https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&refresh=2592000&url=https://pocketworks-website.s3.amazonaws.com/" | append: post.image %}
+                {% endif %}
   			    <div class='col-xs-12 col-sm-6 col-md-{% if item.cols %}{{ item.cols }}{% else %}4{% endif %} card'>
   			      <div class="col-xs-12 surround{% if post.theme %} {{ post.theme }}{% endif %}">
   			        <div class="row brand hidden">
@@ -75,9 +74,6 @@
   			    </div>
 
   			    		{% endif %}
-          		{% endfor %}
-
-            {% endif %}
 
         	{% endfor %}
 
