@@ -22,7 +22,7 @@ collections:
     output: false
   meta-skills:
     title: meta-skills
-    output: true
+    output: false
   meta-team-members:
     title: meta-team-members
     output: false
