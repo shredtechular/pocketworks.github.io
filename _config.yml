@@ -28,7 +28,7 @@ collections:
     output: false
   meta-technology-expertise:
     title: meta-technology-expertise
-    output: true
+    output: false
   meta-what-we-do:
     title: meta-what-we-do
     output: false
