@@ -26,6 +26,9 @@ collections:
   meta-team-members:
     title: meta-team-members
     output: false
+  meta-technology-expertise:
+    title: meta-technology-expertise
+    output: true
   meta-what-we-do:
     title: meta-what-we-do
     output: false
