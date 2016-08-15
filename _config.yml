@@ -2,6 +2,9 @@
 title: pocketworks
 timezone: UTC
 collections:
+  jobs:
+    title: Jobs
+    output: true
   posts:
     title: Posts
     output: true
@@ -10,6 +13,9 @@ collections:
     output: true
   meta-available-jobs:
     title: meta-available-jobs
+    output: false
+  meta-clients:
+    title: meta-clients
     output: false
   meta-job-role-details:
     title: meta-job-role-details
@@ -42,14 +48,14 @@ defaults:
   values:
     description: ''
     image: ''
-    tagline:
-    client:
-    client-article:
-    grid-title:
-    case-study-challenge:
-    case-study-outcome:
-    hero-image:
-    meta-post-type:
+    tagline: 
+    client: 
+    client-article: 
+    grid-title: 
+    case-study-challenge: 
+    case-study-outcome: 
+    hero-image: 
+    meta-post-type: 
 - scope:
     path: ''
     type: meta-available-jobs
