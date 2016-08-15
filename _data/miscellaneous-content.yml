@@ -14,5 +14,8 @@ expertise:
 jobs:
   available:
     header: Jobs at Pocketworks, Leeds
+clients:
+  header: Trusted by local and global brands
+  desc: We've worked with SMEs, charities and leading global brands
 ---
 

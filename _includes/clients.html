@@ -8,7 +8,9 @@
 -->
 {% endcomment %}
 
-{% assign clients = site.data.clients.clients %}
+{% assign clients = site.meta-clients %}
+
+{% assign content = site.data.miscellaneous-content.clients %}
 
 <section class="section bg-white hidden-xs hidden-sm">
   <div class="container">
@@ -21,22 +23,33 @@
       </div>
     </div>
 
-    {% for row in clients.rows %}
-    <div class="row mar-bot40 align-center">
+    {% for client in clients %}
 
-      {% for cli in row.row %}
+      {% if forloop.index == 1 or forloop.index == 6 %}
+      <div class="row mar-bot40 align-center">
 
         {% comment %}
           <!-- Calculating column offset based on row size -->
         {% endcomment %}
-        {% assign col_offset = row.row.size | times: 2 %}
-        {% assign col_offset = 12 | minus: col_offset %}
-        {% assign col_offset = col_offset | divided_by: 2 %}
-        <div class="{% if forloop.index == 1 %}col-md-offset-{{ col_offset }} {% endif %}col-md-2">
-          <img src="/images/client_logos/{{ cli.client.image }}" class="grayscalex" alt="{{ cli.client.name }}">
+        {% assign count = forloop.length - forloop.index0 %}
+        {% if forloop.rindex0 < 5 %}
+          {% assign col_offset = forloop.rindex | times: 2 %}
+          {% assign col_offset = 12 | minus: col_offset %}
+          {% assign col_offset = col_offset | divided_by: 2 %}
+        {% else %}
+          {% assign col_offset = 1 %}
+        {% endif %}
+
+      {% endif %}
+
+        <div class="{% if forloop.index == 1 or forloop.index == 6 %}col-md-offset-{{ col_offset }} {% endif %}col-md-2">
+          <img src="/images/client_logos/{{ client.image }}" class="grayscalex" alt="{{ client.title }}">
         </div>
-      {% endfor %}
-    </div>
+
+
+      {% if forloop.index == 5 or forloop.last %}
+      </div>
+      {% endif %}
 
     {% endfor %}
 

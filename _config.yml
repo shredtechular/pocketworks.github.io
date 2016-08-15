@@ -48,20 +48,25 @@ defaults:
   values:
     description: ''
     image: ''
-    tagline: 
-    client: 
-    client-article: 
-    grid-title: 
-    case-study-challenge: 
-    case-study-outcome: 
-    hero-image: 
-    meta-post-type: 
+    tagline:
+    client:
+    client-article:
+    grid-title:
+    case-study-challenge:
+    case-study-outcome:
+    hero-image:
+    meta-post-type:
 - scope:
     path: ''
     type: meta-available-jobs
   values:
     more-info-link: ''
     more-info-link-text: ''
+- scope:
+    path: ''
+    type: meta-clients
+  values:
+    image: ''
 - scope:
     path: ''
     type: meta-job-role-details
