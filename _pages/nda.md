@@ -3,7 +3,7 @@ title: Non-Disclosure Agreement
 permalink: "/nda/"
 page-title: Pocketworks - Mobile solutions for sales
 feat-title: 'About: Advisors, designers, authors and developers'
-layout: sub-page
+layout: page
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.
 download: 'true'

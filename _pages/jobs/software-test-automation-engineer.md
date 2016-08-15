@@ -2,7 +2,7 @@
 title: Software Test Automation Engineer
 permalink: "/jobs/software-test-automation-engineer/"
 page-title: Pocketworks - Mobile solutions for sales
-layout: sub-page
+layout: page
 type: job
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.

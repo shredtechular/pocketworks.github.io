@@ -2,7 +2,7 @@
 title: Joel Test
 permalink: "/jobs/joel-test/"
 page-title: Pocketworks - Mobile solutions for sales
-layout: sub-page
+layout: page
 type: job
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.

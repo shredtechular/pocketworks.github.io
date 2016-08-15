@@ -2,11 +2,11 @@
 title: Thanks for signing up
 permalink: "/pocketmedia/demo_sign_up_thanks/"
 page-title: Thanks for signing up
-layout: sub-page
+layout: page
 description: Get a free demo of PocketMEDIA and start enhancing how your sales team
   sell.
 includes:
-- form-thank-you
+- forms/form-thank-you
 ---
 
 {: .slogan .color-white}
