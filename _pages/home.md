@@ -43,7 +43,7 @@ layout: homepage
 
 ## We help businesses enhance their products with mobile and cloud technologies. We enable them to confidently innovate by offering advise, design, development and ongoing management. We [work]({{ site.baseurl }}/our_work/) with funded startups and mature businesses. You can hire us as your [dedicated mobile team]({{ site.baseurl }}/about/) to manage the entire lifecycle of your product; from ideas and research through to development, hosting and maintenance.
 
-[How we bring success]({{ site.baseurl }}/enterprise-mobile-app-development/){: .btn .btn-lg}
+[Learn how we work]({{ site.baseurl }}/enterprise-mobile-app-development/){: .btn .btn-lg}
 
 <!--more-->
 
