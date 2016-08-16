@@ -25,12 +25,14 @@ products:
     ipad-application-form:
       id: application-forms
       header: Simple effective forms for the iPad
-      desc: pocketFORMS helps companies gather data from their staff working in the field.
+      desc: pocketFORMS helps companies gather data from their staff working in the
+        field.
   pocketmedia:
     pocketmedia-features:
       id: features
-      header: "A modern, efficient way to sell"
-      desc: PocketMEDIA is a solution allowing companies to quickly adopt modern mobile technology in their sales activities.
+      header: A modern, efficient way to sell
+      desc: PocketMEDIA is a solution allowing companies to quickly adopt modern mobile
+        technology in their sales activities.
       final-btn:
         btn-text: Get your free trial, and start selling more effectively
         btn-url: "/pocketmedia/demo_sign_up/"
