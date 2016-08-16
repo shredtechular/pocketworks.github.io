@@ -10,34 +10,28 @@
 -->
 {% endcomment %}
 
-{% assign sectors = site.data.sectors.sectors %}
+{% assign sectors = site.meta-sectors %}
+
 
 <section id="section-verticals" class="section clearfix bg-white">
-
   <div class="container">
-
-    {% for row in sectors.rows %}
 
     <div class="row align-center mar-bot10">
 
-      {% for s in row.row %}
+      {% for sector in sectors %}
 
       <div class="col-md-3">
         <div class="team-member">
-          <figure class="member-photo"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&url=https://pocketworks-website.s3.amazonaws.com/{{ s.sector.image }}" alt="{{ s.sector.alt }}" /></figure>
+          <figure class="member-photo"><img src="https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&url=https://pocketworks-website.s3.amazonaws.com/{{ sector.image }}" alt="{{ sector.title}} graphic" /></figure>
           <div class="team-detail">
-              <h4>{{ s.sector.header }}</h4>
-              <p>{{ s.sector.desc }}</p>
-              <p><a class="btn btn-lg btn-border" href="{{ s.sector.url | prepend: site.baseurl }}">{{ sectors.global-link-text }}</a></p>
+            {{ sector }}
           </div>
         </div>
       </div>
+
       {% endfor %}
 
     </div>
 
-    {% endfor %}
-
   </div>
-
 </section>

@@ -51,14 +51,14 @@ defaults:
   values:
     description: ''
     image: ''
-    tagline: 
-    client: 
-    client-article: 
-    grid-title: 
-    case-study-challenge: 
-    case-study-outcome: 
-    hero-image: 
-    meta-post-type: 
+    tagline:
+    client:
+    client-article:
+    grid-title:
+    case-study-challenge:
+    case-study-outcome:
+    hero-image:
+    meta-post-type:
 - scope:
     path: ''
     type: meta-available-jobs
@@ -79,6 +79,11 @@ defaults:
 - scope:
     path: ''
     type: meta-our-skills
+  values:
+    image: ''
+- scope:
+    path: ''
+    type: meta-sectors
   values:
     image: ''
 - scope:
