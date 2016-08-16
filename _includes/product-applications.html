@@ -4,12 +4,14 @@
 
   This partial is for the grey, 2-column "applications" section that appears on
   product pages.  The data for this section is coming from the
-  _data/product-applications.yml file.
+  meta-product-applications collection.
 
 -->
 {% endcomment %}
 
-{% assign app_content = site.data.products.[include.product][include.section] %}
+{% assign app_content = site.data.miscellaneous-content.products.[include.product][include.app-type] %}
+
+{% assign apps = site.meta-product-applications | where:"application-type", include.app-type %}
 
 <section class="pad-top40 pad-bot40" id="{{ app_content.id }}">
   <div class="container">
@@ -23,18 +25,20 @@
       </div>
     </div>
 
-    {% for row in app_content.rows %}
-    <div class="row mar-bot10">
+    {% for app in apps %}
 
-      {% for col in row.row %}
-      <div class="col-sm-6 align-center">
-        <h3>{{ col.app.header }}</h3>
-        <p>{{ col.app.desc }}</p>
+      {% if forloop.index == 2 or forloop.index == 4 or forloop.index == 6 %}
+      <div class="row mar-bot10">
+      {% endif %}
 
+        <div class="col-sm-6 align-center">
+          {{ app.content | markdownify }}
+        </div>
+
+      {% if forloop.index == 2 or forloop.index == 4 or forloop.index == 6 or forloop.last %}
       </div>
-      {% endfor %}
+      {% endif %}
 
-    </div>
     {% endfor %}
 
     {% if app_content.final-btn or app_content.final-link %}
