@@ -29,6 +29,9 @@ collections:
   meta-post-type:
     title: meta-post-type
     output: false
+  meta-product-applications:
+    title: meta-product-applications
+    output: true
   meta-sectors:
     title: meta-sectors
     output: false
