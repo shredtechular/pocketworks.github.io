@@ -12,7 +12,7 @@ layout: page
 # We score 10/12 at the Joel Test?
 
 - Do you use source control? <code style="color: green">#pass</code>
-- Can you make a build in one step? <code style="color: green">#pass</code>
+- Can you make a build in one step? <code>#fail</code>
 - Do you make daily builds? <code style="">#fail</code>
 - Do you have a bug database? <code style="color: green">#pass</code>
 - Do you fix bugs before writing new code? <code style="color: green">#pass</code>
