@@ -1,6 +1,7 @@
 ---
 title: Homepage
 permalink: "/"
+position: 0
 page-title: Pocketworks - UK App Developers
 description: Planning, design, development and management of mobile centric products.
   We help businesses attract customers and reduce costs. Working with iPhone, Android,
@@ -11,10 +12,10 @@ keywords: uk,leeds,mobile,app,developers,ios,iphone,ipad,android,prototyping,sal
   enablement,sales apps,wearables
 hero-img: Logo512.png
 grid-items:
-- url: "/case-study/helping-dental-students-learn-on-the-move/"
 - url: "/case-study/asdas-first-mobile-app/"
-- url: "/blog/2016-06-10-3-ways-apple-is-helping-businesses-in-2016/"
 - url: "/case-study/turning-lights-on-across-the-uk/"
+- url: "/blog/2016-06-10-3-ways-apple-is-helping-businesses-in-2016/"
+- url: "/case-study/helping-dental-students-learn-on-the-move/"
 - url: "/case-study/reducing-queues-at-hotel-reception-desks/"
   cols: 8
 quote:
@@ -41,9 +42,9 @@ layout: homepage
   {% endif %}
 {% endfor %}
 
-## We design, develop and evolve mobile products. We [work]({{ site.baseurl }}/our_work/) with funded startups and mature businesses. You can hire us as your [dedicated mobile team]({{ site.baseurl }}/about/) to manage the entire lifecycle of your product; from ideas and research through to development, hosting and maintenance.
+## We help businesses enhance their products with mobile and cloud technologies. We enable them to confidently innovate by offering advise, design, development and ongoing management. We [work]({{ site.baseurl }}/our_work/) with funded startups and mature businesses. You can hire us as your [dedicated mobile team]({{ site.baseurl }}/about/) to manage the entire lifecycle of your product; from ideas and research through to development, hosting and maintenance.
 
-[How we bring success]({{ site.baseurl }}/enterprise-mobile-app-development/){: .btn .btn-lg}
+[Learn how we work]({{ site.baseurl }}/enterprise-mobile-app-development/){: .btn .btn-lg}
 
 <!--more-->
 
