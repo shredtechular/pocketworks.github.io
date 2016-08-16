@@ -32,6 +32,9 @@ collections:
   meta-product-applications:
     title: meta-product-applications
     output: true
+  meta-product-steps:
+    title: meta-product-steps
+    output: true
   meta-sectors:
     title: meta-sectors
     output: false
