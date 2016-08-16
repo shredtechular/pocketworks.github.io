@@ -13,36 +13,36 @@ grid-title: 'PocketMEDIA: iPad sales tool for teams'
 coming-soon:
   img: "/images/pocketmedia/pocketmedia-sales-trip-optimiserthumb.png"
   header: Coming Soon! Remove dead travel time
-  desc: Reduce dead travel time using the sales trip planner. View your upcoming
-    appointments on a map, select convenient contacts and create tentative appointments.
+  desc: Reduce dead travel time using the sales trip planner. View your upcoming appointments
+    on a map, select convenient contacts and create tentative appointments.
   link-text: Learn More
   link-url: "/pocketmedia/sales-travel-mapper/"
 quote:
   img: "/images/about/th.png"
   alt: Picture of Tobin
   text: For over four years, we've been helping companies use iPads as a tool for
-    supporting face to face sales. We've learnt that each company is different;
-    they adapt their sales to their own offering and market position. Because of
-    this, PocketMEDIA is designed to be adapted to each company, allowing teams
-    to sell in the most effective way possible.
+    supporting face to face sales. We've learnt that each company is different; they
+    adapt their sales to their own offering and market position. Because of this,
+    PocketMEDIA is designed to be adapted to each company, allowing teams to sell
+    in the most effective way possible.
   author: Tobin Harris, Director, Pocketworks
 choice:
   img: "/images/pocketmedia/pocketmedia-call-list.png"
   header: From CRM to ERP. Your choice.
   tagline: PocketMEDIA can be configured in any way you need, so if you want your
     customer, product or financial data in there, we can do it.
-  desc: PocketMEDIA can be integrated with many systems to pull information from
-    your different systems together. Including CRMs, single sign-on servers such
-    as ActiveDirectory, or your performance management system.
+  desc: PocketMEDIA can be integrated with many systems to pull information from your
+    different systems together. Including CRMs, single sign-on servers such as ActiveDirectory,
+    or your performance management system.
 pricing:
   id: costs
   header: PocketMEDIA Pricing
   header-desc-items:
-  - We aim to give companies a simple, low cost way of distributing materials to
-    workers in the field. We also have more sophisticated installation options if
-    you need them.
-  - These costs should help you get an idea, but the best thing to do is perform
-    a trial speak and speak to us; we can tweak it based on your needs and how much
+  - We aim to give companies a simple, low cost way of distributing materials to workers
+    in the field. We also have more sophisticated installation options if you need
+    them.
+  - These costs should help you get an idea, but the best thing to do is perform a
+    trial speak and speak to us; we can tweak it based on your needs and how much
     support and customisation you need.
   columns:
   - header: Simple
@@ -95,9 +95,9 @@ pricing:
       - "<b>£5-£10 per user per month</b>"
     - para:
       - ''
-      - "<i>Sometimes you need something that adapts perfectly to your business.
-        The tailored option means we come and see you, then make it all work just
-        how you need it.</i>"
+      - "<i>Sometimes you need something that adapts perfectly to your business. The
+        tailored option means we come and see you, then make it all work just how
+        you need it.</i>"
     - para:
       - Tell us what features you need
       - We can integrate with CRM or ERP

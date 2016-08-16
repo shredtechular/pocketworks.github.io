@@ -24,9 +24,9 @@ quote:
   alt: Picture of Tobin
   text: Most companies we meet want to take small steps when it comes to using the
     iPad to streamline their business. When it comes to data collection, they just
-    need an easy way to collect and analyse data without wasting time and money
-    on manual work. pocketFORMS helps with this. We give companies simple and low
-    cost tools to collect and analyze data from field workers using iPads.
+    need an easy way to collect and analyse data without wasting time and money on
+    manual work. pocketFORMS helps with this. We give companies simple and low cost
+    tools to collect and analyze data from field workers using iPads.
   author: Tobin Harris, Director, Pocketworks
 ---
 
