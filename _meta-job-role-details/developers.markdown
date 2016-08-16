@@ -1,5 +1,5 @@
 ---
-title: Why join our development team?
+title: Taking software engineering seriously
 date: 2016-08-12 15:47:00 Z
 ---
 
