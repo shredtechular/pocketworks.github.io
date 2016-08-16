@@ -17,8 +17,6 @@ grid-items:
 - url: "/case-study/turning-lights-on-across-the-uk/"
 - url: "/case-study/reducing-queues-at-hotel-reception-desks/"
   cols: 8
-- url: "/blog/2016-08-13-new-blog-test/"
-- url: "/case-study/new-case-study/"
 quote:
   blurb: '"Our mobile success makes Uber less of a threat"'
   author: Andy Pennock, Veezu
