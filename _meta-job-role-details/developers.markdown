@@ -3,7 +3,7 @@ title: Developers
 date: 2016-08-12 15:47:00 Z
 ---
 
-- You'll be working with a team that scores 11 out of 12 on the [Joel Test (see scores)]({{ site.baseurl }}/jobs/joel-test/)
+- You'll be working with a team that scores 10 out of 12 on the [Joel Test (see scores)]({{ site.baseurl }}/jobs/joel-test/)
 - You'll work on a diverse set of products and challenges
 - You'll get to do TDD, CI with Jenkins, peer reviews, Git flow and automated builds
 - You'll work in a small, friendly team where everyone is very important
