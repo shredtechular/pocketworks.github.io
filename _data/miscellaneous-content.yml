@@ -39,5 +39,11 @@ products:
       final-link:
         link-text: How PocketMEDIA could benefit your business
         link-url: "/ipad-sales-apps/"
+    pocketmedia-example:
+      id: howitworks
+      header: Example of how you could use PocketMEDIA
+    pocketmedia-process:
+      id: process
+      header: What's the process?
 ---
 

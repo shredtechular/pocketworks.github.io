@@ -27,7 +27,7 @@
 
     {% for app in apps %}
 
-      {% if forloop.index == 2 or forloop.index == 4 or forloop.index == 6 %}
+      {% if forloop.index == 1 or forloop.index == 3 or forloop.index == 5 or forloop.index == 7 %}
       <div class="row mar-bot10">
       {% endif %}
 
@@ -35,7 +35,7 @@
           {{ app.content | markdownify }}
         </div>
 
-      {% if forloop.index == 2 or forloop.index == 4 or forloop.index == 6 or forloop.last %}
+      {% if forloop.index == 2 or forloop.index == 4 or forloop.index == 6 or forloop.index == 8 or forloop.last %}
       </div>
       {% endif %}
 

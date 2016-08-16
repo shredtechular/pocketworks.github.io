@@ -4,28 +4,31 @@
 
   This partial is for the stpes section that appears on product pages.  The
   data for this section is coming from the _data/product-applications.yml file.
+{% assign steps = site.data.products[include.product][include.section] %}
 
 -->
 {% endcomment %}
 
-{% assign steps = site.data.products[include.product][include.section] %}
+{% assign app_content = site.data.miscellaneous-content.products.[include.product][include.step-type] %}
 
-<section class="section bg-white" id="{{ steps.id }}">
+{% assign steps = site.meta-product-steps | where:"step-type", include.step-type %}
+
+<section class="section bg-white" id="{{ app_content.id }}">
   <div class="container">
 
-    {% if steps.header %}
+    {% if app_content.header %}
     <div class="row section-header pad-bot40">
-        <h2 class="section-heading">{{ steps.header }}</h2>
+        <h2 class="section-heading">{{ app_content.header }}</h2>
     </div>
     {% endif %}
 
     <div class="row align-center">
 
-    {% for step in steps.items %}
+    {% for step in steps %}
 
       <div class="col-md-3">
         <div class="row mar-bot20">
-          <img src="{{ step.img | prepend: site.baseurl }}" alt="step graphic">
+          <img src="{{ step.image | prepend: site.baseurl }}" alt="step graphic">
         </div>
         <div class="row">
           {% if include.show-badge-nums %}
@@ -33,7 +36,7 @@
           {% else %}
             {{ forloop.index }}.
           {% endif %}
-          {{ step.text }}
+          {{ step }}
         </div>
       </div>
 
