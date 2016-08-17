@@ -42,9 +42,9 @@ layout: homepage
   {% endif %}
 {% endfor %}
 
-## Taking products and services to the next level with mobile apps and the cloud
+## Pocketworks helps businesses take their products and services to the next level using mobile and cloud technology
 
-We help businesses who need to offer modern, attractive software solutions to take their products and services to the next level. We [work]({{ site.baseurl }}/our_work/) with funded startups and mature businesses. You can hire us as your [dedicated mobile team]({{ site.baseurl }}/about/) to manage the entire lifecycle of your product; from ideas and research through to development, hosting and maintenance.
+### We enable businesses to offer software solutions that enhance what they already do. We [work]({{ site.baseurl }}/our_work/) with funded startups and mature businesses. You can hire us as your [dedicated mobile team]({{ site.baseurl }}/about/) to manage the entire lifecycle of your product; from ideas and research through to development, hosting and maintenance.
 
 [Learn how we work]({{ site.baseurl }}/enterprise-mobile-app-development/){: .btn .btn-lg}
 
