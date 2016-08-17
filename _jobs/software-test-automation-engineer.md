@@ -1,5 +1,6 @@
 ---
 title: Software Test Automation Engineer
+date: 2016-08-03 00:00:00
 permalink: "/jobs/software-test-automation-engineer/"
 page-title: Pocketworks - Mobile solutions for sales
 layout: page
@@ -13,6 +14,11 @@ careers-hero:
   title: Test Engineer, Leeds, UK
   desc: Join the Pocketworks team and help us deliver amazing technology experiences
 content-col: 8
+avail-title: 'Test Dev: £20K-£30K, Leeds Office Based'
+avail-desc: "If you love Cucumber, Calabash, Selenium and writing automated tests, we need you! We're looking for a software engineer who loves testing and writing automated tests. Your mission will be to make sure all our mobile apps and web sites are under automated test.  You'll be working alongside our manual tester, helping them to increase the quality bar here at Pocketworks."
+avail-more-info-link: "/software-test-automation-engineer/"
+avail-more-info-link-text: More about our Testing Automation role
+
 ---
 
 ## Position: Automated Test Engineer &pound;20K-&pound;30K
