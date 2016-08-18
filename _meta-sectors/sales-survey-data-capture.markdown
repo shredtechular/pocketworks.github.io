@@ -6,6 +6,6 @@ image: round-sales-teams-apps.jpg
 
 #### Team Efficiency
 
-We create end-to-end solutions that reduce operating costs. iPad sales apps, eDetailing, digital pocket guides, field surveys, CRM and data reporting.
+Helping companies reduce operating costs with apps for sales, training, surveys, CRM and intelligent reporting.
 
 [Read More](/ipad-sales-apps/){: .btn .btn-lg .btn-border }
