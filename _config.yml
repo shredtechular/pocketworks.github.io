@@ -11,9 +11,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  meta-available-jobs:
-    title: meta-available-jobs
-    output: false
   meta-clients:
     title: meta-clients
     output: false
