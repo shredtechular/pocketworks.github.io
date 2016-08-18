@@ -6,6 +6,6 @@ image: round-hardware-control-apps.jpg
 
 #### Smart Hardware
 
-Apps for controlling smart hardware. Home automation, industrial electronic devices and IoT
+Creating easy to use apps for controlling smart hardware for home automation, heating, smart barriers and IoT
 
 [Read More](/medicaldevices-and-iot-apps/){: .btn .btn-lg .btn-border }
