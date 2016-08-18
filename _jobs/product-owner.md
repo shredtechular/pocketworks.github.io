@@ -1,6 +1,6 @@
 ---
 title: Product Owner
-date: 2016-08-02 00:00:00
+date: 2016-08-02 00:00:00 Z
 page-title: Pocketworks - Mobile solutions for sales
 layout: page
 type: job

@@ -1,6 +1,6 @@
 ---
 title: Senior iOS Devleoper Job
-date: 2016-08-01 00:00:00
+date: 2016-08-01 00:00:00 Z
 permalink: "/jobs/senior-ios-developer-job-leeds-uk/"
 page-title: Pocketworks - Mobile solutions for sales
 layout: page
@@ -16,7 +16,9 @@ careers-hero:
     technology experiences
 content-col: 8
 avail-title: 'iOS Developer: Up to £45K, Leeds Office Based'
-avail-desc: "If you're deeply into Swift or Obj-c and love crafting modern UIs, we'd enjoy speaking to you. We need someone who can architect mobile apps in their sleep, and who understand queueing, threads, messaging and relational databases."
+avail-desc: If you're deeply into Swift or Obj-c and love crafting modern UIs, we'd
+  enjoy speaking to you. We need someone who can architect mobile apps in their sleep,
+  and who understand queueing, threads, messaging and relational databases.
 avail-more-info-link: "/senior-ios-developer-job-leeds-uk/"
 avail-more-info-link-text: More about our iOS developer role
 ---
