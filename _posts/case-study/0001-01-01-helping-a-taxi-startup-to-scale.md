@@ -4,8 +4,7 @@ date: 0001-01-01 00:00:00 Z
 permalink: "/case-study/helping-a-taxi-startup-to-scale/"
 layout: case-study
 meta-post-type: Case Study
-description: Pocketworks offer advice, design and development around the implementation
-  of apps for business.
+description: Veezu and Amber cars mobile apps
 tagline: Helping Veezu increase taxi booking efficiency across the UK
 client: VEEZU
 grid-title: Helping a taxi startup to scale

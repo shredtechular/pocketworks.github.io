@@ -27,14 +27,14 @@
                   </div>
                   <div class="row content">
                     <div class="subtitle">
-                      <h3>
+                      <h4>
                         <strong>{% if item.client %}{{ item.client }}{% endif %}</strong>
                         {{ item.type }}
-                      </h3>
+                      </h4>
                     </div>
-                    <h2><a href="{{ item.url prepend: site.baseurl }}">
+                    <h3><a href="{{ item.url prepend: site.baseurl }}">
                       {% if item.title %}{{ item.title }}{% endif %}
-                    </a></h2>
+                    </a></h3>
                   </div>
                 </div>
               </div>
@@ -61,14 +61,14 @@
   			        </div>
   			        <div class="row content">
   			          <div class="subtitle">
-  			          	<h3>
+  			          	<h4>
   			          		<strong>{% if item.client %}{{ item.client }}{% else %}{{ post.client }}{% endif %} </strong>
   			          		{% if item.type %}{{ item.type }}{% elsif post.meta-post-type =="Blog-Type" %}Blog{% else %}{{ post.meta-post-type }}{% endif %}
-  			          	</h3>
+  			          	</h4>
   			          </div>
-  			          <h2><a href="{{ item.url prepend: site.baseurl }}">
+  			          <h3><a href="{{ item.url prepend: site.baseurl }}">
                     {% if item.title %}{{ item.title }}{% elsif post.grid-title %}{{ post.grid-title }}{% elsif post.title %}{{ post.title }}{% endif %}
-                  </a></h2>
+                  </a></h3>
   			        </div>
   			      </div>
   			    </div>

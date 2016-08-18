@@ -959,7 +959,7 @@ nav#filter a {
 .card {
 
   /*border-bottom: 5px solid #F25F29;*/
-  min-height: 516px;
+  min-height: 481px;
   margin-bottom: 30px;
 
 }
@@ -967,7 +967,7 @@ nav#filter a {
 .card > .surround {
   border: 1px solid #eee;
   background-color: rgb(253,253,253);
-  min-height: 515px;
+  min-height: 480px;
   width: 100%
 
   -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.15);
@@ -994,8 +994,7 @@ nav#filter a {
 .card .content {
   margin: 10px;
 }
-.card .subtitle > h3 {
-
+.card .subtitle > h4 {
 
 
   display: inline-block;
@@ -1016,17 +1015,18 @@ nav#filter a {
   font-weight: bold;
 }
 
-.card .content > h2 {
-  font-weight: 400;
-  font-size: 35px;
+.card .content > h3 {
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 48px;
 }
 
 /* BLACK */
-.card .content > h2 a {
+.card .content > h3 a {
   color: black;
 }
 
-.card .content > h2 a:hover {
+.card .content > h3 a:hover {
   background-color: #F2EE29;
 }
 
@@ -1036,11 +1036,11 @@ nav#filter a {
   color: white;00AFFF
 }
 
-.card .surround.orange h2 a, .card .surround.orange h3 {
+.card .surround.orange h3 a, .card .surround.orange h4 {
   color: white;
 }
 
-.card .surround.orange h2 a:hover {
+.card .surround.orange h3 a:hover {
   background-color: #983A19;
 }
 
@@ -1050,11 +1050,11 @@ nav#filter a {
   color: white;
 }
 
-.card .surround.blue h2 a, .card .surround.blue h3 {
+.card .surround.blue h3 a, .card .surround.blue h4 {
   color: white;
 }
 
-.card .surround.blue h2 a:hover {
+.card .surround.blue h3 a:hover {
   background-color: #195C98;
 }
 
@@ -1064,11 +1064,11 @@ nav#filter a {
   color: white;
 }
 
-.card .surround.gray h2 a, .card .surround.gray h3 {
+.card .surround.gray h3 a, .card .surround.gray h3 {
   color: white;
 }
 
-.card .surround.gray h2 a:hover {
+.card .surround.gray h3 a:hover {
   background-color: black;
 }
 
@@ -1078,11 +1078,11 @@ nav#filter a {
   color: white;
 }
 
-.card .surround.green h2 a, .card .surround.green h3 {
+.card .surround.green h3 a, .card .surround.green h3 {
   color: white;
 }
 
-.card .surround.green h2 a:hover {
+.card .surround.green h3 a:hover {
   background-color: black;
 }
 
@@ -1092,11 +1092,11 @@ nav#filter a {
   color: white;
 }
 
-.card .surround.yellow h2 a, .card .surround.yellow h3 {
+.card .surround.yellow h3 a, .card .surround.yellow h3 {
   color: white;
 }
 
-.card .surround.yellow h2 a:hover {
+.card .surround.yellow h3 a:hover {
   background-color: #A8851C;
 }
 

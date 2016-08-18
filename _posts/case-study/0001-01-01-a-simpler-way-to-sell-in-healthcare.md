@@ -4,8 +4,7 @@ date: 0001-01-01 00:00:00 Z
 permalink: "/case-study/a-simpler-way-to-sell-in-healthcare/"
 layout: case-study
 meta-post-type: Case Study
-description: Pocketworks offer advice, design and development around the implementation
-  of apps for business.
+description: iPad sales app for pharmaceuticals
 tagline: End-to-end iPad selling solution for Fresenius Medical Care
 client: FRESENIUS MEDICAL CARE
 client-article: ENERGENIE

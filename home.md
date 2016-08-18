@@ -42,7 +42,7 @@ layout: homepage
   {% endif %}
 {% endfor %}
 
-## We help businesses to innovate and grow by launching mobile experiences that customers love 
+## We help businesses to innovate and grow by launching mobile experiences that customers love
 
 [Learn how we work]({{ site.baseurl }}/enterprise-mobile-app-development/){: .btn .btn-lg}
 
@@ -67,6 +67,3 @@ layout: homepage
 
 PocketINSIGHTS is a series of intelligence reports provided by our mobile strategy team. The reports are designed to give executives the intelligence they need to take positive next steps with their mobile apps.
 </div>
-
-
-
