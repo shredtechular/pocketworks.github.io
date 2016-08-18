@@ -1,7 +1,7 @@
 ---
 title: Blog Home
 permalink: "/adventures/"
-position: 2
+position: 3
 page-title: Blog
 layout: blog-index
 description: UK Mobile news

@@ -1,7 +1,7 @@
 ---
 title: iPad Sales Apps
 permalink: "/ipad-sales-apps/"
-position: 10
+position: 11
 page-title: Understanding the benefits of iPads Sales Apps in your company
 layout: page
 description: This list helps you understand the beneifts you can expect when adopting
