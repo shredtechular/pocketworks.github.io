@@ -1,7 +1,7 @@
 ---
 title: Expertise in Sales Enablement and App Development.
 permalink: "/expertise/"
-position: 17
+position: 18
 page-title: Expertise in Sales Enablement and App Development.
 hero-title: Expertise
 hero-desc: Our areas of experience

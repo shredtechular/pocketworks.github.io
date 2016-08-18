@@ -1,7 +1,7 @@
 ---
 title: Medical Devices and iOT Apps
 permalink: "/medicaldevices-and-iot-apps/"
-position: 11
+position: 12
 page-title: Pocketworks - Mobile solutions for sales
 layout: page
 description: Pocketworks offer advice, design and development around the implementation
