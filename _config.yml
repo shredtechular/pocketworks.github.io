@@ -54,14 +54,14 @@ defaults:
   values:
     description: ''
     image: ''
-    tagline: 
-    client: 
-    client-article: 
-    grid-title: 
-    case-study-challenge: 
-    case-study-outcome: 
-    hero-image: 
-    meta-post-type: 
+    tagline:
+    client:
+    client-article:
+    grid-title:
+    case-study-challenge:
+    case-study-outcome:
+    hero-image:
+    meta-post-type:
 - scope:
     path: ''
     type: meta-available-jobs
@@ -103,10 +103,11 @@ defaults:
     type: meta-technology-expertise
   values:
     is-tech-expertise: false
+url: http://www.pocketworks.co.uk
 site_url: http://www.pocketworks.co.uk/
 version: 1
 excerpt_separator: "<!--more-->"
-baseurl: 
+baseurl:
 permalink: "/blog/:year-:month-:day-:title/"
 sass:
   sass_dir: _sass
@@ -125,6 +126,7 @@ kramdown:
   auto_id_stripping: true
 gems:
 - jekyll-feed
+- jekyll-sitemap
 compress_html:
   blanklines: false
   profile: false
