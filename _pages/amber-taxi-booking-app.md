@@ -36,4 +36,3 @@ three-col-layout:
       touch.
 ---
 
-
