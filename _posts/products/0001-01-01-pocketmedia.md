@@ -120,4 +120,3 @@ PocketMEDIA is used by marketing and sales managers who want a simple way of kee
 
 {: .small-links }
 [Easy to understand](#howitworks), [Powerful features](#features), [Flexible pricing](#costs), [FAQ]({{ site.baseurl }}/pocketmedia/faq/)
-
