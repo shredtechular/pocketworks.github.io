@@ -38,4 +38,3 @@ Complete the form and get a FREE trial of PocketMEDIA customised to your brand
 
 {: style="font-size: 70%" }
 PocketMEDIA? It's our iPad tool for sales teams, [learn more...]({{ site.baseurl }}/pocketmedia/)
-

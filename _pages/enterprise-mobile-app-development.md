@@ -16,35 +16,35 @@ app-capabilitis:
   img: "/images/pw_illustration_02.png"
   rows:
   - row:
-    - col: 
+    - col:
       header: Attract and engage customers
       desc: Your customers spend more time using their smartphones than any other
         digital medium. We help you tap into that potential by creating convenient,
         simple and engaging mobile experiences that lead to happier customers and
         increased sales.
-    - col: 
+    - col:
       header: Improve team efficiency
       desc: We're experts at delivering solutions that make people more productive,
         and which improve business communications. We help you reduce costs and increase
         efficiency using the latest mobile, wearable and cloud technologies.
   - row:
-    - col: 
+    - col:
       header: Capture data in the field
       desc: If you have teams on the road, then technology can give them a huge competitive
         advantage. It's about by having the right data at the right time. We're able
         to develop solutions that are integrated into your existing databases and
         systems, so data can flow to those that need it, when they need it.
-    - col: 
+    - col:
       header: Enterprise apps
       desc: Apps are changing almost every industry and business vertical. We're a
         professional UK team working with £1b+ revenue companies. We work directly
         with senior managmenet, marketing directors and IT architects.
   btns:
-  - btn: 
+  - btn:
     text: Contact us to discuss your project
     class: btn-cta
     link: "/contact/"
-  - btn: 
+  - btn:
     text: Examples of our work
     class: btn-primary
     link: "/our_work/"

@@ -171,3 +171,4 @@ Sales reps may struggle to get online in meeting places such as hospitals, schoo
 - Changes to presentations and brochures are also downloaded
 - Sales reps carry out meetings, working completely offline because no connection is available
 - When WiFi becomes available at home or office, any meeting notes can be sent to the CRM
+
