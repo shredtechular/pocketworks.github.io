@@ -57,3 +57,4 @@ Salesforce is the *purple* line this time.
 The first graph on this page shows general CRM interest falling. I can't help but wonder if something is causing a drop in interest in CRM. Or is it that SalesForce has just dominated the market as the go-to solution?
 
 It's possible CRM isn't so necessary anymore. Businesses have lower cost, great tools available that reduce their need for traditional CRM. Perhaps some are realising that customer engagement is more important than customer relationship management. I'm looking forward to investing all this further.
+

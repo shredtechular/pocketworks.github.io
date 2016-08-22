@@ -38,6 +38,3 @@ Our kiosks look very attractive, being uniquely branded to the hotel. This proje
 ### Bulk buy iPad deals
 
 We work with an acredited Apple reseller, so can arrange 5%-10% discounts on iPads. Larger discounts available on Magsafe stands perfect for kiosk scenarios.
-
-
-

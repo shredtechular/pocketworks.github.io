@@ -49,4 +49,3 @@ The areas discussed were:
 * Using iPads for data forms and capturing information in the field. For example, technical sales and surveys.
 
 Clearly, having good access to the corporate file system from the iPad could help in either of these area. However, we felt it was not essential, as cloud services can help with document sharing for subgroups such as sales reps and engineers.
-

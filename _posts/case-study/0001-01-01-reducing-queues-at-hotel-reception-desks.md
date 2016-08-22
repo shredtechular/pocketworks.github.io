@@ -28,3 +28,4 @@ At busy times, reception staff can be inundated with guests requesting taxis. Ou
   The kiosk is installed in over 15 hotels.
 </figcaption>
 </figure>
+

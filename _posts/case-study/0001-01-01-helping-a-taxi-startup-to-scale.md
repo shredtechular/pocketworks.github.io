@@ -27,3 +27,4 @@ This requires with careful planning, attentive management and thorough software 
 At the same time, the Pocketworks development team continue to develop features to improve the capabilities of the app.
 
 ![phone image](https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&url=https://pocketworks-website.s3.amazonaws.com/portfolio/amber-thumb.jpg){: .img-responsive}
+

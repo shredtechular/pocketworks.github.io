@@ -42,3 +42,4 @@ If you've got 1000s of customers using your app every day or week, you don't wan
 So it's good to introduce changes gradually so they're not overwhelmed.
 
 Most of our apps receive significant updates quarterly. Small changes and bug fixes can happen weekly.
+

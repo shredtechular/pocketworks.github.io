@@ -47,4 +47,3 @@ Capturing data is one thing. That data needs to go somewhere. Our integrations t
 ## Hear from us when we launch?
 
 If you want to here from us when PocketFORMS is ready, please fill out the [form here]({{ site.baseurl }}/ipad-forms/).
-

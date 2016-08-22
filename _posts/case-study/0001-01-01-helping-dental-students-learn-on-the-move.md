@@ -62,3 +62,4 @@ The open rates for targeted and relevant push messages can be up to 85%.
 ![Wireframes were created early in the process to explore how the app could work](https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&url=https://pocketworks-website.s3.amazonaws.com/mps-wireframes.jpg){: .img-responsive}
 <figcaption>Wireframes are created early in the process to explore how the app will work</figcaption>
 </figure>
+

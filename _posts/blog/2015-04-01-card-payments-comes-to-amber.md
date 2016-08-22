@@ -40,6 +40,3 @@ The app uses a PCI-DSS compliant payment solution to take card details. No card 
   <iframe class="embed-responsive-item" src="https://pocketworks-website.s3.amazonaws.com/flip_two_cards.mp4" frameborder="0" style="width:100%; height: 600px; background-color: white;"></iframe>
 </div>
 </div>
-
-
-

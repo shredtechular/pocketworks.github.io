@@ -32,4 +32,3 @@ Amber would have struggled to achieve over 1M bookings without seeing the bigger
 ## Integration can make or break the project
 
 Many taxi apps fail because they aren't connected to the information systems that underpin the business. Integration helps an app in many ways: reducing the amount of human intervention, increasing the speed of order delivery, and increasing the amount of "magic" that an app can perform. In Amber's case, mobile app bookings don't need human intervention like call center booking do. The booking is dispatched more quickly to make customers happy. And the app allows customers to track the car as it appraoches.
-

@@ -29,3 +29,4 @@ The Quinn Partnership’s 360Scope is an intelligently designed range of focused
 </figure>
 
 [View the 360 Scope web site](http://360scope.co.uk)
+

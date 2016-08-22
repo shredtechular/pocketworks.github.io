@@ -54,3 +54,4 @@ It's great for companies that use [Kanban](http://en.wikipedia.org/wiki/Kanban) 
 *On the task board...*
 
 ![Picture showing a printout of git2pdf]({{ site.baseurl }}/images/git2pdf/git2pdf-on-wall.jpg){: .img-responsive .img-round .thumbnail}
+

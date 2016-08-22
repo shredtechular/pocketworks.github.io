@@ -39,3 +39,4 @@ Having over 50 sales reps, Fresenius needed a simple solution that was easy to l
 ![Marketing and sales managers can update content at any time, and reps automatically receive those updates.]({{ site.baseurl }}/images/portfolio/fresenius_web.png){: .img-responsive}
 <figcaption>Marketing and sales managers can update content at any time, and reps automatically receive those updates.</figcaption>
 </figure>
+

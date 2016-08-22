@@ -47,3 +47,4 @@ The showroom has all their hardware devices available for customers to play with
 * Controlling a radiator using the Mi&#124;Home radiator valves
 * Switching devices plugged into a Mi&#124;Home 4-gang plug socket
 * Using the app to control an in-wall light switch
+
