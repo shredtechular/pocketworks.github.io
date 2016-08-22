@@ -3,7 +3,6 @@ title: Jobs
 permalink: "/jobs/"
 position: 4
 page-title: Pocketworks - Mobile solutions for sales
-layout: page
 type: job
 description: Pocketworks offer advice, design and development around the implementation
   of apps for business.
@@ -19,6 +18,7 @@ careers-hero:
     technology experiences
 divider-img: BB8.jpg
 content-col: 12
+layout: page
 ---
 
 ## Why work @ Pocketworks?
@@ -32,3 +32,4 @@ content-col: 12
 - **Work from home:** You'll be in the office most of the time, but occassional home working is good too
 - **Education:** We believe that in order to be awesome, we must continually learn. Pocketworks encourages you learn and grow continually.
 - **Drink beer (or not!):** Our offices are near bars and restaurants, we go for team beers quite often, and have team breakfasts too. It's fun, even if you don't drink `:)`
+
