@@ -2,15 +2,15 @@
 title: pocketworks
 timezone: UTC
 collections:
-  jobs:
-    title: Jobs
-    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: true
+  meta-available-jobs:
+    title: meta-available-jobs
+    output: false
   meta-clients:
     title: meta-clients
     output: false
@@ -25,15 +25,6 @@ collections:
     output: false
   meta-post-type:
     title: meta-post-type
-    output: false
-  meta-product-applications:
-    title: meta-product-applications
-    output: true
-  meta-product-steps:
-    title: meta-product-steps
-    output: true
-  meta-sectors:
-    title: meta-sectors
     output: false
   meta-team-members:
     title: meta-team-members
@@ -70,11 +61,6 @@ defaults:
     more-info-link-text: ''
 - scope:
     path: ''
-    type: meta-clients
-  values:
-    image: ''
-- scope:
-    path: ''
     type: meta-job-role-details
   values:
     more-info-link: ''
@@ -82,11 +68,6 @@ defaults:
 - scope:
     path: ''
     type: meta-our-skills
-  values:
-    image: ''
-- scope:
-    path: ''
-    type: meta-sectors
   values:
     image: ''
 - scope:
@@ -104,9 +85,9 @@ defaults:
   values:
     is-tech-expertise: false
 site_url: http://www.pocketworks.co.uk/
-version: 1
+version: 1.0
 excerpt_separator: "<!--more-->"
-baseurl: 
+baseurl: ''
 permalink: "/blog/:year-:month-:day-:title/"
 sass:
   sass_dir: _sass
@@ -126,5 +107,6 @@ kramdown:
 gems:
 - jekyll-feed
 compress_html:
+  clippings: []
   blanklines: false
   profile: false
