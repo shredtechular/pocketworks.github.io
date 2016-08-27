@@ -4,6 +4,17 @@ layout: default
 
 {% include white-hero.html hero_img=page.hero-img %}
 
+{% comment %}<!-- Get Telephone & Email information from global contact info -->{% endcomment %}
+{% assign contact_info = site.data.contact-information.contact-info.location.data %}
+{% assign tele = "" %}
+{% assign email = "" %}
+
+{% for item in contact_info %}
+  {% if item.label == "Email" %}
+    {% assign email = item.value %}
+  {% endif %}
+{% endfor %}
+
 <section class="section" >
     <div class="container">
         <div class="row">
@@ -11,9 +22,9 @@ layout: default
                 <div class="align-center">
 
                   {% if page.content contains '<!--more-->' %}
-                    {{ page.content | split:'<!--more-->' | first }}
+                    {{ page.content | split:'<!--more-->' | first | replace: 'global_email', email | markdownify }}
                   {% else %}
-                    {{ content }}
+                    {{ content | replace: 'global_email', email | markdownify }}
                   {% endif %}
 
                 </div>
@@ -66,9 +77,9 @@ layout: default
   <div class="row mar-bot40">
 
     {% if page.content contains '<!--more-->' %}
-      {{ page.content | split:'<!--more-->' | last }}
+      {{ page.content | split:'<!--more-->' | last | replace: 'global_email', email | markdownify }}
     {% else %}
-      {{ content }}
+      {{ content | replace: 'global_email', email | markdownify }}
     {% endif %}
 
   </div>

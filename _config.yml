@@ -8,9 +8,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  meta-available-jobs:
-    title: meta-available-jobs
-    output: false
   meta-clients:
     title: meta-clients
     output: false
@@ -25,6 +22,15 @@ collections:
     output: false
   meta-post-type:
     title: meta-post-type
+    output: false
+  meta-product-applications:
+    title: meta-product-applications
+    output: false
+  meta-product-steps:
+    title: meta-product-steps
+    output: false
+  meta-sectors:
+    title: meta-sectors
     output: false
   meta-team-members:
     title: meta-team-members
@@ -45,20 +51,19 @@ defaults:
   values:
     description: ''
     image: ''
-    tagline: 
-    client: 
-    client-article: 
-    grid-title: 
-    case-study-challenge: 
-    case-study-outcome: 
-    hero-image: 
-    meta-post-type: 
+    tagline:
+    client:
+    client-article:
+    grid-title:
+    case-study-challenge:
+    case-study-outcome:
+    hero-image:
+    meta-post-type:
 - scope:
     path: ''
-    type: meta-available-jobs
+    type: meta-clients
   values:
-    more-info-link: ''
-    more-info-link-text: ''
+    image: ''
 - scope:
     path: ''
     type: meta-job-role-details
@@ -68,6 +73,22 @@ defaults:
 - scope:
     path: ''
     type: meta-our-skills
+  values:
+    image: ''
+- scope:
+    path: ''
+    type: meta-product-applications
+  values:
+    application-type: ''
+- scope:
+    path: ''
+    type: meta-product-steps
+  values:
+    step-type: ''
+    image: ''
+- scope:
+    path: ''
+    type: meta-sectors
   values:
     image: ''
 - scope:

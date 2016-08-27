@@ -31,20 +31,9 @@ advice:
 layout: homepage
 ---
 
-{% comment %}<!-- Get Telephone & Email information from global contact info -->{% endcomment %}
-{% assign contact_info = site.data.contact-information.contact-info.location.data %}
-{% assign tele = "" %}
-{% assign email = "" %}
-
-{% for item in contact_info %}
-  {% if item.label == "Email" %}
-    {% assign email = item.value %}
-  {% endif %}
-{% endfor %}
-
 ## We help businesses to innovate and grow by launching mobile experiences that customers love
 
-[Learn how we work]({{ site.baseurl }}/enterprise-mobile-app-development/){: .btn .btn-lg}
+[Learn how we work](/enterprise-mobile-app-development/){: .btn .btn-lg}
 
 <!--more-->
 
@@ -59,7 +48,7 @@ layout: homepage
 -  Answer key questions such as: Are people finding my app by searching in the app store? Did they find my web page first? How effective is my social media or SMS marketing?
 -  Learn how to interpret the data to increase your customer base, make better use of your marketing budget, and generate revenue
 
-[Request this PocketINSIGHTS report by email](mailto:{{ email }})
+[Request this PocketINSIGHTS report by email](mailto:global_email)
 </div>
 
 <div class="col-md-3" markdown="1">

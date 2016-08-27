@@ -29,6 +29,34 @@ demo-details:
     - If you're happy, we'll setup your demo branded to your company, pre-loaded any
       sales materials you like
     - Trial the demo for a month, buy if it works for you!
+forms:
+  fields:
+  - name: name
+    type: text
+    label: Your Name and Job Title
+    placeholder: e.g Jane Smith, International Marketing Manager
+    validation-rule: maxlen:4
+    validation-msg: Please enter at least 4 chars
+  - name: email
+    type: email
+    placeholder: e.g jane@abc.com or +31 114 1234567
+    label: Your Email OR Phone number
+    validation-rule: minlen:8
+    validation-msg: Please enter a valid email or phone number
+  - name: number-of-reps
+    type: text
+    placeholder: e.g 200 sales reps in 4 product divisions
+    label: How many sales reps will need to access sales and marketing materials
+      on the move?
+    validation-rule: maxlen:1
+    validation-msg: Please share some idea of numbers
+  - name: ready-by
+    type: text
+    placeholder: e.g within 2 days
+    label: When do you need the trial ready by?
+    validation-rule: required
+    validation-msg: Please give us some idea of timescales :)
+  btn-text: Ok, request my trial
 ---
 
 # Try PocketMEDIA for your sales team

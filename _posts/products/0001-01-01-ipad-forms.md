@@ -28,6 +28,41 @@ quote:
     manual work. pocketFORMS helps with this. We give companies simple and low cost
     tools to collect and analyze data from field workers using iPads.
   author: Tobin Harris, Director, Pocketworks
+forms:
+  intro:
+  - header: PocketFORMS iPad App
+    desc: Create forms on the iPad in seconds with no technical knowledge. Perfect
+      for customer data capture, field surveys, exhibition stands and in retail
+      environments.
+  - header: Get early access
+    desc: Get notified when we launch (we'll not share your details)
+  fields:
+  - name: name
+    type: text
+    placeholder: 'Your Name e.g: Mark Smith'
+    validation-rule: maxlen:4
+    validation-msg: Please enter at least 4 chars
+  - name: email
+    type: email
+    placeholder: 'Your Email e.g: mark@ibm.com'
+    validation-rule: email
+    validation-msg: Please enter a valid email
+  - name: subject
+    type: text
+    placeholder: 'Job Role e.g: Marketing Director'
+    validation-rule: maxlen:4
+    validation-msg: Please enter a role
+  - name: devices
+    type: text
+    placeholder: 'I want it for? e.g: iPad, iPhone, Android Tablet'
+    validation-rule: maxlen:4
+    validation-msg: Please enter at least 4 chars
+  - name: message
+    type: textarea
+    placeholder: What would you ideally use PocketFORMS for? Any specific needs?
+    validation-rule: required
+    validation-msg: What would you ideally use PocketFORMS for? Any specific needs?
+  btn-text: Get early access when we launch
 ---
 
 # iPad Forms App
