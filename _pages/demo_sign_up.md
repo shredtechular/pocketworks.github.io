@@ -46,8 +46,8 @@ forms:
   - name: number-of-reps
     type: text
     placeholder: e.g 200 sales reps in 4 product divisions
-    label: How many sales reps will need to access sales and marketing materials
-      on the move?
+    label: How many sales reps will need to access sales and marketing materials on
+      the move?
     validation-rule: maxlen:1
     validation-msg: Please share some idea of numbers
   - name: ready-by

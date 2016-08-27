@@ -32,8 +32,7 @@ forms:
   intro:
   - header: PocketFORMS iPad App
     desc: Create forms on the iPad in seconds with no technical knowledge. Perfect
-      for customer data capture, field surveys, exhibition stands and in retail
-      environments.
+      for customer data capture, field surveys, exhibition stands and in retail environments.
   - header: Get early access
     desc: Get notified when we launch (we'll not share your details)
   fields:
