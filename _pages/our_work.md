@@ -5,9 +5,7 @@ position: 1
 page-title: 'Work: advice, prototypes, mobile apps and web portals'
 feat-title: 'Work: advice, prototypes, mobile apps and web portals'
 layout: page
-description: iPad, iPhone and Android apps to help you attract and retain customers.
-  Present engaging interactive sales content. Bespke sales enablement for iPad and
-  mobile.
+description: Mobile advice, mobile apps and online solutions
 keywords: ''
 grid-items:
 - url: "/case-study/rackeye-a-safer-more-intelligent-warehouse/"
@@ -27,4 +25,3 @@ includes:
 - sectors
 - what-we-do
 ---
-

@@ -4,8 +4,7 @@ permalink: "/products/"
 position: 15
 page-title: Products
 layout: page
-description: PocketMEDIA - a sales enablement platform for iPad. PocketFORMS - an
-  iPad forms and data collection solutions for field workers.
+description: PocketMEDIA - a sales enablement platform for iPad. PocketFORMS - an iPad forms and data collection solutions for field workers.
 feat-title: 'Products: Tools for doing business'
 feat-blue-align: right
 grid-items:
@@ -26,4 +25,3 @@ includes:
 - feat-blue
 - grid-section
 ---
-
