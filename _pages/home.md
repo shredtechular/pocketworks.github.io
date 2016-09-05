@@ -3,11 +3,7 @@ title: Homepage
 permalink: "/"
 position: 0
 page-title: Pocketworks - UK App Developers
-description: Planning, design, development and management of mobile centric products.
-  We help businesses attract customers and reduce costs. Working with iPhone, Android,
-  iPad, Wear, Apple Watch, iOS and the Cloud. We're experts at creating business apps
-  for sales enablement, logistics, and workforce productivity. Based in Leeds City
-  Center, UK.
+description: Planning, design, development and management of mobile centric products.  We help businesses attract customers and reduce costs. Working with iPhone, Android,   iPad, Wear, Apple Watch, iOS and the Cloud. We're experts at creating business apps  for sales enablement, logistics, and workforce productivity. Based in Leeds City Center, UK.
 keywords: uk,leeds,mobile,app,developers,ios,iphone,ipad,android,prototyping,sales
   enablement,sales apps,wearables
 hero-img: Logo512.png
@@ -33,10 +29,10 @@ layout: homepage
 
 <div class="col-md-8 col-md-offset-2">
   <h2>Mobile success means launching apps that truly engage customers whilst seizing opportunities for business growth.</h2>
-<p>
-Whether you&rsquo;re an ambitious startup or established industry leader, we&rsquo;re here to turn vision into results. Our creative team deeply understand how to launch mobile products that work. As experienced advisors and doers, we draw on experience beyond mobile; covering the cloud, data and web.
-<br/><a href="/our_work">See how we&rsquo;re making mobile success stories every day</a>.
-</p>
+  <p>
+  Whether you&rsquo;re an ambitious startup or established industry leader, we&rsquo;re here to turn vision into results. Our creative team deeply understand how to launch mobile products that work. As experienced advisors and doers, we draw on experience beyond mobile; covering the cloud, data and web.
+  <br/><a href="/our_work">See how we&rsquo;re making mobile success stories every day</a>.
+  </p>
 </div>
 
 <!--more-->

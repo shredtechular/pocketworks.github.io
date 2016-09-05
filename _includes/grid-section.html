@@ -35,7 +35,8 @@
                     <p>
                       {% if item.title %}{{ item.title }}{% endif %}.
                     <br/>
-                    <a href="{{ item.url prepend: site.baseurl }}">Read more</a></p>
+                    <a href="{{ item.url prepend: site.baseurl }}">Read more</a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -71,7 +72,7 @@
   			          <p>
                     {% if item.title %}{{ item.title }}{% elsif post.grid-title %}{{ post.grid-title }}{% elsif post.title %}{{ post.title }}{% endif %}.
                     <br/>
-                  <a href="{{ item.url prepend: site.baseurl }}">Read more.</a></p>
+                  <a href="{{ item.url prepend: site.baseurl }}">Read more</a>                
                 </p>
   			        </div>
   			      </div>
