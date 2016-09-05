@@ -1,0 +1,27 @@
+{% comment %}
+<!--
+  Mobile Specialists Section
+
+  This partial is for the "mobile specialists" area.  It can be included on any page or
+  layout that needs a skills section.  Currently, this area is used on the
+  app development leeds page.
+
+-->
+{% endcomment %}
+
+<section id="section-about" class="section clearfix bg-white">
+  <div class="container">
+
+    <div class="row mar-bot40">
+      <div class="col-md-offset-3 col-md-6">
+        <div class="section-header">
+          <h2 class="section-heading animated" data-animation="bounceInUp">The mobile specialists in Leeds, UK</h2>
+        </div>
+      </div>
+    </div>
+
+    {{ page.content | markdownify }}
+
+  </div>
+  <hr/>
+</section>

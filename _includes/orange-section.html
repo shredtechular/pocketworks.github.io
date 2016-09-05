@@ -1,0 +1,27 @@
+{% comment %}
+<!--
+  Orange Section
+
+  This partial is for the orange section that is currently being used in the
+  app developers-uk page.  It can easily be included in other layouts and pages
+  if a orange space is needed elsewhere in the site.
+
+-->
+{% endcomment %}
+
+{% assign contact = site.data.contact-information.contact-info %}
+
+<section class="pad-top40 pad-bot40" style="background: orangered">
+    <div class="container">
+        <div class="row mar-bot10">
+            <div class="col-sm-offset-2 col-sm-8">
+                <div class="align-center">
+                    <p style="line-height: 40px;" class="color-white">{{ page.orange-section.call }}</p>
+                    <h1 class="color-white">{{ contact.location.data[0].value }}</h1>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

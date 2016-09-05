@@ -51,14 +51,14 @@ defaults:
   values:
     description: ''
     image: ''
-    tagline: 
-    client: 
-    client-article: 
-    grid-title: 
-    case-study-challenge: 
-    case-study-outcome: 
-    hero-image: 
-    meta-post-type: 
+    tagline:
+    client:
+    client-article:
+    grid-title:
+    case-study-challenge:
+    case-study-outcome:
+    hero-image:
+    meta-post-type:
 - scope:
     path: ''
     type: meta-clients
@@ -122,12 +122,12 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - scripts
+- _redirects
 markdown: kramdown
 kramdown:
   auto_ids: true
   auto_id_stripping: true
 gems:
-- jekyll-feed
 - jekyll-sitemap
 compress_html:
   clippings: []
