@@ -3,13 +3,15 @@ title: Apps for Startups
 permalink: "/app-development-leeds/"
 page-title: Mobile app development in Leeds, UK
 layout: page
-description: If you're looking to have a mobile app developed to increase staff productivity or increase sales, we can help.
+description: If you're looking to have a mobile app developed to increase staff productivity
+  or increase sales, we can help.
 includes:
 - feat-blue
 - mobile-specialists-section
 - clients
 feat-title: Howdy, neighbour
-feat-desc: Get better results by spending <em>real</em> facetime with your local Leeds based mobile developer
+feat-desc: Get better results by spending <em>real</em> facetime with your local Leeds
+  based mobile developer
 feat-blue-align: center
 ---
 

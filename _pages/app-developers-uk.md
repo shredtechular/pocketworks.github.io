@@ -3,7 +3,8 @@ title: Apps for Startups
 permalink: "/app-developers-uk/"
 page-title: Mobile App Developers, UK
 layout: page
-description: Mobile advice, insights and app development for iPhone, Android and Windows phone based in the UK.
+description: Mobile advice, insights and app development for iPhone, Android and Windows
+  phone based in the UK.
 includes:
 - white-hero
 - clients
@@ -15,7 +16,7 @@ dark-orange-section:
   call: Call to enquire about your app
   location: Leeds City Centre, UK
 orange-section:
-  call: "If you'd like to discuss your project, please case us on:"
+  call: 'If you''d like to discuss your project, please case us on:'
 ---
 
 {:.slogan color-white style="line-height: 1.4em;"}
