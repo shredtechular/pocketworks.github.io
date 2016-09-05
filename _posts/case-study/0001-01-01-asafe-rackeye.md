@@ -25,5 +25,5 @@ Since early 2016, we've developed this product from scratch and it has received 
 This project is work in progress, see the [RackEye website](http://www.asafe.com/news/post/201/a-safe-introduces-a-revolution-in-rack-protection-at-cemat) for more information.
 
 <br/>
-<img src="http://d9hhrg4mnvzow.cloudfront.net/rackeye.asafe.com/uk/eac5e141-rack-eye-2_073073073073000000.jpg">
-<img src="http://d9hhrg4mnvzow.cloudfront.net/rackeye.asafe.com/uk/1c57aa7e-rackeye_074074074074000000.jpg"/>
+<img alt="Rackeye" src="http://d9hhrg4mnvzow.cloudfront.net/rackeye.asafe.com/uk/eac5e141-rack-eye-2_073073073073000000.jpg"/>
+<img alt="Rackeye" src="http://d9hhrg4mnvzow.cloudfront.net/rackeye.asafe.com/uk/1c57aa7e-rackeye_074074074074000000.jpg"/>

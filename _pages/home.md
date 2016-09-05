@@ -16,7 +16,6 @@ grid-items:
 - url: "/case-study/asdas-first-mobile-app/"
 - url: "/case-study/turning-lights-on-across-the-uk/"
 - url: "/blog/2016-06-10-3-ways-apple-is-helping-businesses-in-2016/"
-- url: "/case-study/helping-dental-students-learn-on-the-move/"
 - url: "/case-study/reducing-queues-at-hotel-reception-desks/"
   cols: 8
 quote:
@@ -34,14 +33,12 @@ layout: homepage
 
 <div class="col-md-8 col-md-offset-2">
 <h2>Mobile success means launching apps that truly engage customers whilst seizing opportunities for business growth.</h2>
-<p>Whether you're an ambitious startup or established industry leader, we're here to turn vision into results.
+<p>
+Whether you're an ambitious startup or established industry leader, we're here to turn vision into results.
 Our creative team deeply understand how to launch mobile products that work.
 As experienced advisors and doers, we draw on experience beyond mobile; covering the cloud, data and web.
-
 <br/><a href="/our_work">See how we're making mobile success stories every day</a>.
-
 </p>
-
 </div>
 
 <!--more-->
