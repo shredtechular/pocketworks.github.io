@@ -27,14 +27,15 @@
                   </div>
                   <div class="row content">
                     <div class="subtitle">
-                      <h4>
-                        <strong>{% if item.client %}{{ item.client }}{% endif %}</strong>
-                        {{ item.type }}
-                      </h4>
+                      <h3>
+                        {% if item.client %}{{ item.client }}{% else %} Insights {% endif %}
+                      </h3>
+                      <span>{{ item.type }}</span>
                     </div>
-                    <h3><a href="{{ item.url prepend: site.baseurl }}">
-                      {% if item.title %}{{ item.title }}{% endif %}
-                    </a></h3>
+                    <p>
+                      {% if item.title %}{{ item.title }}{% endif %}.
+                    <br/>
+                    <a href="{{ item.url prepend: site.baseurl }}">Read more</a></p>
                   </div>
                 </div>
               </div>
@@ -61,14 +62,17 @@
   			        </div>
   			        <div class="row content">
   			          <div class="subtitle">
-  			          	<h4>
-  			          		<strong>{% if item.client %}{{ item.client }}{% else %}{{ post.client }}{% endif %} </strong>
-  			          		{% if item.type %}{{ item.type }}{% elsif post.meta-post-type =="Blog-Type" %}Blog{% else %}{{ post.meta-post-type }}{% endif %}
-  			          	</h4>
+  			          	<h3>
+  			          		{% if item.client %}{{ item.client }}{% else %}{{ post.client }}{% endif %}
+                    </h3>
+  			          	<span>{% if item.type %}{{ item.type }}{% elsif post.meta-post-type =="Blog-Type" %}Blog{% else %}{{ post.meta-post-type }}{% endif %}</span>
+
   			          </div>
-  			          <h3><a href="{{ item.url prepend: site.baseurl }}">
-                    {% if item.title %}{{ item.title }}{% elsif post.grid-title %}{{ post.grid-title }}{% elsif post.title %}{{ post.title }}{% endif %}
-                  </a></h3>
+  			          <p>
+                    {% if item.title %}{{ item.title }}{% elsif post.grid-title %}{{ post.grid-title }}{% elsif post.title %}{{ post.title }}{% endif %}.
+                    <br/>
+                  <a href="{{ item.url prepend: site.baseurl }}">Read more.</a></p>
+                </p>
   			        </div>
   			      </div>
   			    </div>

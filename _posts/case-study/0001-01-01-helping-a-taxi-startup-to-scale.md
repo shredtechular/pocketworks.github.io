@@ -6,7 +6,7 @@ layout: case-study
 meta-post-type: Case Study
 description: Veezu and Amber cars mobile apps
 tagline: Helping Veezu increase taxi booking efficiency across the UK
-client: VEEZU
+client: Veezu
 grid-title: Helping a taxi startup to scale
 image: http://i3.walesonline.co.uk/incoming/article10701782.ece/ALTERNATES/s615/Paul-Raglan-chief-executive-officer-at-Veezu-4.jpg
 case-study-challenge: Deploying a taxi booking app to several UK cities without loss
@@ -27,4 +27,3 @@ This requires with careful planning, attentive management and thorough software 
 At the same time, the Pocketworks development team continue to develop features to improve the capabilities of the app.
 
 ![phone image](https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=800&url=https://pocketworks-website.s3.amazonaws.com/portfolio/amber-thumb.jpg){: .img-responsive}
-

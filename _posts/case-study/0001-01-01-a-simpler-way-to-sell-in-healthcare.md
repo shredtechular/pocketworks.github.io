@@ -6,7 +6,7 @@ layout: case-study
 meta-post-type: Case Study
 description: iPad sales app for pharmaceuticals
 tagline: End-to-end iPad selling solution for Fresenius Medical Care
-client: FRESENIUS MEDICAL CARE
+client: Fresenius Medical Care
 client-article: ENERGENIE
 grid-title: Increasing sales team efficiency with iPads
 image: https://media.glassdoor.com/o/1a/fa/dc/24/kontrolle-von-dialyseger%C3%A4ten-bei-fresenius-medical-care.jpg
@@ -39,4 +39,3 @@ Having over 50 sales reps, Fresenius needed a simple solution that was easy to l
 ![Marketing and sales managers can update content at any time, and reps automatically receive those updates.]({{ site.baseurl }}/images/portfolio/fresenius_web.png){: .img-responsive}
 <figcaption>Marketing and sales managers can update content at any time, and reps automatically receive those updates.</figcaption>
 </figure>
-
