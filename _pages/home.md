@@ -32,12 +32,10 @@ layout: homepage
 ---
 
 <div class="col-md-8 col-md-offset-2">
-<h2>Mobile success means launching apps that truly engage customers whilst seizing opportunities for business growth.</h2>
+  <h2>Mobile success means launching apps that truly engage customers whilst seizing opportunities for business growth.</h2>
 <p>
-Whether you're an ambitious startup or established industry leader, we're here to turn vision into results.
-Our creative team deeply understand how to launch mobile products that work.
-As experienced advisors and doers, we draw on experience beyond mobile; covering the cloud, data and web.
-<br/><a href="/our_work">See how we're making mobile success stories every day</a>.
+Whether you&rsquo;re an ambitious startup or established industry leader, we&rsquo;re here to turn vision into results. Our creative team deeply understand how to launch mobile products that work. As experienced advisors and doers, we draw on experience beyond mobile; covering the cloud, data and web.
+<br/><a href="/our_work">See how we&rsquo;re making mobile success stories every day</a>.
 </p>
 </div>
 
