@@ -12,6 +12,7 @@ keywords: uk,leeds,mobile,app,developers,ios,iphone,ipad,android,prototyping,sal
   enablement,sales apps,wearables
 hero-img: Logo512.png
 grid-items:
+- url: "/case-study/rackeye-a-safer-more-intelligent-warehouse/"
 - url: "/case-study/asdas-first-mobile-app/"
 - url: "/case-study/turning-lights-on-across-the-uk/"
 - url: "/blog/2016-06-10-3-ways-apple-is-helping-businesses-in-2016/"
@@ -34,7 +35,7 @@ layout: homepage
 <div class="col-md-8 col-md-offset-2">
 <h2>Mobile success means launching apps that truly engage customers whilst seizing opportunities for business growth.</h2>
 <p>Whether you're an ambitious startup or established industry leader, we're here to turn vision into results.
-Our creative team deeply understand how to launch mobile solutions that work.
+Our creative team deeply understand how to launch mobile products that work.
 As experienced advisors and doers, we draw on experience beyond mobile; covering the cloud, data and web.
 
 <br/><a href="/our_work">See how we're making mobile success stories every day</a>.

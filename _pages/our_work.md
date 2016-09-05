@@ -10,7 +10,7 @@ description: iPad, iPhone and Android apps to help you attract and retain custom
   mobile.
 keywords: ''
 grid-items:
-- url: "/case-study/turning-lights-on-across-the-uk/"
+- url: "/case-study/rackeye-a-safer-more-intelligent-warehouse/"
 - url: "/case-study/a-simpler-way-to-sell-in-healthcare/"
 - url: "/case-study/reducing-queues-at-hotel-reception-desks/"
 - url: "/case-study/helping-dental-students-learn-on-the-move/"
@@ -27,4 +27,3 @@ includes:
 - sectors
 - what-we-do
 ---
-
