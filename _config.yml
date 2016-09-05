@@ -116,6 +116,7 @@ sass:
   style: compressed
 include:
 - _pages
+- _redirects
 exclude:
 - ".gitignore"
 - README.md
@@ -127,7 +128,6 @@ kramdown:
   auto_ids: true
   auto_id_stripping: true
 gems:
-- jekyll-feed
 - jekyll-sitemap
 compress_html:
   clippings: []

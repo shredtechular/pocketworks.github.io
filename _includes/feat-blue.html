@@ -9,7 +9,7 @@
 <section class="featured bg-blue" >
   <div class="container">
     <div class="row">
-      <div class="col-md-8{% if alignment == "right" %} col-md-offset-4{% elsif alignment == "center" %} col-md-offset-2{% endif %}">
+      <div class="{% if alignment == "center" %}col-md-6{% else %}col-md-8{% endif %}{% if alignment == "right" %} col-md-offset-4{% elsif alignment == "center" %} col-md-offset-3{% endif %}">
         <div {% if alignment == "right" %}class="align-right"{% elsif alignment == "center" %}class="align-center"{% endif %}>
           <h1 class="slogan color-white">{{ page.feat-title }}</h1>
 

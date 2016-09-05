@@ -1,0 +1,33 @@
+{% comment %}
+<!--
+  Dark Orange Section
+
+  This partial is for the dark orange section that is currently being used in the
+  app developers-uk page.  It can easily be included in other layouts and pages
+  if a dark orange space is needed elsewhere in the site.
+
+-->
+{% endcomment %}
+
+{% assign contact = site.data.contact-information.contact-info %}
+
+<section class="section bg-orange">
+  <div class="container">
+    <div class="row mar-top0">
+      <div class="col-md-offset-2 col-md-4 align-center">
+        <span class="glyphicon glyphicon-phone-alt"></span>
+        <br/><span style=""><b>{{ contact.location.data[0].value }}</b></span>
+        <br/>{{ page.dark-orange-section.call }}
+      </div>
+
+
+      <div class="col-md-4 align-center">
+        <span class="glyphicon glyphicon-map-marker"></span>
+        <br/><b>{{ page.dark-orange-section.location }}</b>
+
+        <br/><a href="mailto:{{ contact.location.data[1].value }}">{{ contact.location.data[1].value }}</a>
+      </div>
+    </div>
+
+  </div>
+</section>

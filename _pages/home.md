@@ -19,7 +19,7 @@ grid-items:
 - url: "/case-study/reducing-queues-at-hotel-reception-desks/"
   cols: 8
 quote:
-  blurb: '"Our mobile success makes Uber less of a threat"'
+  blurb: '"Since 2012, we''ve grown from zero to 60,000 mobile bookings a week."'
   author: Andy Pennock, Veezu
 advice:
   header: Advice

@@ -2,6 +2,8 @@ language: ruby
 rvm:
   - 2.2.3
 script:
+  - chmod +x ./scripts/redirects.sh
+  - ./scripts/redirects.sh
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site --only-4xx --check-html
 branches:

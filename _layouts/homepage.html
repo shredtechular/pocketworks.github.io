@@ -2,6 +2,7 @@
 layout: default
 ---
 
+
 {% include orange-home-hero.html hero_img=page.hero-img %}
 
 {% comment %}<!-- Get Telephone & Email information from global contact info -->{% endcomment %}
@@ -37,17 +38,20 @@ layout: default
 
 {% include grid-section.html view_all="true" top_padding="true" bg_white="true" %}
 
+{% include clients.html %}
+
 <section class="section" >
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-8 col-md-offset-2">
         <div class="align-center">
-            <h1>{{ page.quote.blurb }}<br/><small>{{ page.quote.author }}</small></h1>
+            <p class="lead">{{ page.quote.blurb }}<br/><small>{{ page.quote.author }}</small></p>
         </div>
     </div>
     </div>
   </div>
 </section>
+
 
 <section class="section bg-black pad-top0" style="height: 500px; background-image: url(https://pocketworks-website.s3.amazonaws.com/{{ page.advice.bg-img }}); background-position: 0%; background-size: 100%; background-repeat: no-repeat">
   <div class="container">
@@ -69,7 +73,7 @@ layout: default
   </div>
 </section>
 
-{% include clients.html %}
+
 
 <!-- pocket insights section -->
 <section id="" class="section clearfix bg-white">
