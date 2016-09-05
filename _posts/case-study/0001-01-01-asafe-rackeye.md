@@ -10,9 +10,13 @@ client: A-Safe
 client-article: A-Safe
 grid-title: Creating a safer, more intelligent warehouse
 image: http://www.asafe.com/data/blog/images/post/RackEye_advert.JPG
-case-study-challenge: A-Safe wanted to launch a ground-breaking digital warehouse safety solution.
-  Being new to software development, they needed to find with a partner who could offer all the advice and skills needed to deliver a result in time for their trade exhibitions.
-case-study-outcome: We worked with A-Safe to define a mobile and cloud based product that would work for their customers. We delivered all software components, and supported them through trials and demos at exhibitions.
+case-study-challenge: A-Safe wanted to launch a ground-breaking digital warehouse
+  safety solution. Being new to software development, they needed to find with a partner
+  who could offer all the advice and skills needed to deliver a result in time for
+  their trade exhibitions.
+case-study-outcome: We worked with A-Safe to define a mobile and cloud based product
+  that would work for their customers. We delivered all software components, and supported
+  them through trials and demos at exhibitions.
 ---
 
 A-Safe manufacturer barriers that protect warehouse racks. The problem is that impacts with rack can only be spotted manually.
