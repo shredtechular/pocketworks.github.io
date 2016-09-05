@@ -8,6 +8,9 @@ collections:
   uploads:
     title: Uploads
     output: true
+  jobs:
+    title: jobs
+    output: true
   meta-clients:
     title: meta-clients
     output: false
