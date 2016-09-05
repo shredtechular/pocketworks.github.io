@@ -27,12 +27,12 @@ advice:
   desc: How to modernise your field sales by deploying mobile technology.
   url: "/ipad-sales-apps/"
   link-text: Read more
-  bg-img: office-dim.jpg
+  bg-img: office-dim-orange.jpg
 layout: homepage
 ---
 
 <div class="col-md-8 col-md-offset-2">
-<h2>Mobile success means launching mobile apps that engage customers, increase revenue &amp; reduce costs</h2>
+<h2>Mobile success means launching apps that truly engage customers whilst seizing opportunities for business growth.</h2>
 <p>Whether you're an ambitious startup or established industry leader, we're here to turn vision into results.
 Our creative team deeply understand how to launch mobile solutions that work.
 As experienced advisors and doers, we draw on experience beyond mobile; covering the cloud, data and web.
