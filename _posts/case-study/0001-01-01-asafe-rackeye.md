@@ -18,7 +18,7 @@ case-study-outcome: We worked with A-Safe to define a mobile and cloud based pro
 A-Safe manufacturer barriers that protect warehouse racks. The problem is that impacts with rack can only be spotted manually.
 A-Safe believed they could increase safety by using cloud and mobile technology combined with IoT devices.
 Since early 2016, we've developed this product from scratch and it has received incredible interest from potential customers.
-This project is work in progress, see the [RackEye website](http://rackeye.asafe.com/) for more information.
+This project is work in progress, see the [RackEye website](http://www.asafe.com/news/post/201/a-safe-introduces-a-revolution-in-rack-protection-at-cemat) for more information.
 
 <br/>
 <img src="http://d9hhrg4mnvzow.cloudfront.net/rackeye.asafe.com/uk/eac5e141-rack-eye-2_073073073073000000.jpg">
