@@ -13,11 +13,11 @@ includes:
 - avail-jobs
 - jobs-divider
 careers-hero:
-  bg-img: "/images/portfolio/office.jpg"
-  title: Jobs at the Pocketworks studio
+  bg-img: BB8-dim.jpg
+  title: Careers at Pocketworks
   desc: Join the Pocketworks team and help us create thoughtful and beautifully engineered
     technology experiences
-divider-img: BB8.jpg
+divider-img: office.jpg
 content-col: 12
 ---
 

@@ -9,13 +9,13 @@
 -->
 {% endcomment %}
 
-<section class="featured bg-black" style="height: 500px; background-image: url({{ page.careers-hero.bg-img }}); background-position: 0%; background-size: 100%; background-repeat: no-repeat">
+<section class="featured bg-black" style="height: 500px; background-image: url({{ 'https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?container=focus&resize_w=1604&refresh=2592006&url=https://pocketworks-website.s3.amazonaws.com/' | append: page.careers-hero.bg-img }}); background-position: 0%; background-size: cover; background-repeat: no-repeat">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="align-center">
-                    <h1 class="slogan color-white" style="line-height: 1em; background-color: rgba(0,0,0,0.6)">{{ page.careers-hero.title }}</h1>
-                    <p style="background-color: rgba(0,0,0,0.6)">{{ page.careers-hero.desc }}</p>
+                    <h1 class="slogan color-white">{{ page.careers-hero.title }}</h1>
+                    <p>{{ page.careers-hero.desc }}</p>
                 </div>
             </div>
         </div>
