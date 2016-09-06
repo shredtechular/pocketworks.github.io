@@ -995,9 +995,9 @@ nav#filter a {
   max-height: 232px;
   overflow:hidden;
   /*border-bottom: 10px solid #F25F29;*/
-
-
-
+}
+.card .top img{
+  width: 100%;
 }
 .card .content {
   margin: 10px;
