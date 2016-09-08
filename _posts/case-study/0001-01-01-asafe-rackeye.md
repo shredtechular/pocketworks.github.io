@@ -24,13 +24,16 @@ meta-post-type: Case Study
 layout: case-study
 ---
 
-A-Safe believed they could increase safety and reduce audit costs by using an ingenious combination of electronics and software. Pocketworks were invited to help them take the product to market by developing the mobile apps for iPhone, Android and Windows Phone. And also to build the back-end cloud systems that would store data and allows executives to see reports.
-
-Typically, there is a lot of human effort invested in ensuring barriers aren't damaged. Damage typically occurs when a truck collides with a rack or barrier, or when an over-loaded rack starts to buckle.
+![A-Safe](http://www.asafe.com/assets/img/asafe-logo-retina.png)
 
 A-Safe is a leading Yorkshire based manufacturer of protective barriers for warehouses, airports and other industrial settings. 
 
-Pocketworks were involved in several stages of the project:
+A-Safe believed they could increase the safety in warehouses, and reduce their audit costs. Their idea combines electronics and software to create an intelligent damage detection system. 
+
+Typically, there is a lot of human effort invested in ensuring barriers aren't damaged. Damage typically occurs when a truck collides with a rack or barrier, or when an over-loaded rack starts to buckle.
+
+
+Pocketworks were invited to help them take the product to market, our work entailed:  
 
 * Technology problem solving and opportunity exploration
 * User experience design 
