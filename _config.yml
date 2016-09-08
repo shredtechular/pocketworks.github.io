@@ -1,6 +1,6 @@
 ---
 title: pocketworks
-timezone: UTC
+timezone: Europe/London
 collections:
   posts:
     title: Posts
@@ -110,9 +110,9 @@ defaults:
     is-tech-expertise: false
 url: http://www.pocketworks.co.uk
 site_url: http://www.pocketworks.co.uk/
-version: 1.0
+version: 1
 excerpt_separator: "<!--more-->"
-baseurl: ''
+baseurl: 
 permalink: "/blog/:year-:month-:day-:title/"
 sass:
   sass_dir: _sass
@@ -133,6 +133,5 @@ kramdown:
 gems:
 - jekyll-sitemap
 compress_html:
-  clippings: []
   blanklines: false
   profile: false
