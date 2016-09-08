@@ -10,10 +10,10 @@ client-article: A-Safe
 grid-title: RackEye - creating a safer, more intelligent warehouse
 case-study-challenge: With customers such as Coca Cola, BOSH and Jaguar - A-Safe needed
   to work with a software technology partner who could confidently help them take
-  their groundbreaking product concept to market.  This product helps warehouses reduce
-  costs and increase safety employing state of the art technologies to detect collisions
-  between forklift trucks and racking in realtime. It provides alerts and reports
-  to management to help them take pro-active steps to reduce risk.
+  a groundbreaking concept to market.  This product helps warehouses reduce costs
+  and increase safety. It employs state of the art technologies to detect collisions
+  between forklift trucks and racking. It sends damage alerts in real-time, and provides
+  reports to management to help them take pro-active steps to reduce risk.
 case-study-outcome: 'Within three months, A-Safe had a working RackEye proof of concept
   that could be demo''d at the CEBIT exhibition. We''d worked with them to explore
   possibilities, design a software architecture, and develop the necessary software
@@ -24,7 +24,7 @@ meta-post-type: Case Study
 layout: case-study
 ---
 
-<img src="http://www.asafe.com/assets/img/asafe-logo-retina.png" class="float-right img-reponsive" />
+<img src="http://www.asafe.com/assets/img/asafe-logo-retina.png" class="float-right img-reponsive" style="width: 200px; padding: 1em;" />
 
 A-Safe is a leading Yorkshire based manufacturer of protective barriers for warehouses, airports and other industrial settings. 
 
