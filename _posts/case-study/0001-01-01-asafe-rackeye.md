@@ -24,7 +24,7 @@ meta-post-type: Case Study
 layout: case-study
 ---
 
-<img src="http://www.asafe.com/assets/img/asafe-logo-retina.png" class="float-right img-reponsive" style="width: 200px; padding: 1em;" />
+<img alt="A-Safe" src="http://www.asafe.com/assets/img/asafe-logo-retina.png" class="float-right img-reponsive" style="width: 200px; padding: 1em;" />
 
 A-Safe is a leading Yorkshire based manufacturer of protective barriers for warehouses, airports and other industrial settings. 
 
