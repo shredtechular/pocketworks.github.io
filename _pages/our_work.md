@@ -8,7 +8,7 @@ layout: page
 description: Mobile advice, mobile apps and online solutions
 keywords: ''
 grid-items:
-- url: "/case-study/rackeye-a-safer-more-intelligent-warehouse/"
+- url: "/case-study/helping-a-taxi-startup-to-scale/"
 - url: "/case-study/a-simpler-way-to-sell-in-healthcare/"
 - url: "/case-study/reducing-queues-at-hotel-reception-desks/"
 - url: "/case-study/helping-dental-students-learn-on-the-move/"
@@ -25,4 +25,3 @@ includes:
 - sectors
 - what-we-do
 ---
-

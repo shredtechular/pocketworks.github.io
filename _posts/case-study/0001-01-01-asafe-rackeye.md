@@ -26,9 +26,9 @@ layout: case-study
 
 <img alt="A-Safe" src="http://www.asafe.com/assets/img/asafe-logo-retina.png" class="float-right img-reponsive" style="width: 200px; padding: 1em;" />
 
-A-Safe is a leading Yorkshire based manufacturer of protective barriers for warehouses, airports and other industrial settings. 
+A-Safe is a leading Yorkshire based manufacturer of protective barriers for warehouses, airports and other industrial settings.
 
-A-Safe believed they could increase the safety in warehouses, and reduce their audit costs. Their idea combines electronics and software to create an intelligent damage detection system. 
+A-Safe believed they could increase the safety in warehouses, and reduce their audit costs. Their idea combines electronics and software to create an intelligent damage detection system.
 
 Typically, there is a lot of human effort invested in ensuring barriers aren't damaged. Damage typically occurs when a truck collides with a rack or barrier, or when an over-loaded rack starts to buckle.
 
@@ -36,11 +36,11 @@ Typically, there is a lot of human effort invested in ensuring barriers aren't d
 Pocketworks were invited to help them take the product to market, our work entailed:  
 
 * Technology problem solving and opportunity exploration
-* User experience design 
-* Software architecture 
-* Integration with hardware devices 
+* User experience design
+* Software architecture
+* Integration with hardware devices
 * Cloud software development for management portal
-* Mobile app development 
+* Mobile app development
 * Specifying the hosting needs
 * Support during exhibitions and demos
 * Local "offline" setup for use in demos

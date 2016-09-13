@@ -12,7 +12,7 @@ keywords: uk,leeds,mobile,app,developers,ios,iphone,ipad,android,prototyping,sal
   enablement,sales apps,wearables
 hero-img: Logo512.png
 grid-items:
-- url: "/case-study/rackeye-a-safer-more-intelligent-warehouse/"
+- url: "/case-study/helping-a-taxi-startup-to-scale/"
 - url: "/case-study/asdas-first-mobile-app/"
 - url: "/case-study/turning-lights-on-across-the-uk/"
 - url: "/blog/2016-06-10-3-ways-apple-is-helping-businesses-in-2016/"
