@@ -1,6 +1,6 @@
 ---
 title: Creating a safer, more intelligent warehouse
-date: 0001-01-01 00:00:00 Z
+date: 0000-12-31 23:58:45 -00:01
 permalink: "/case-study/rackeye-a-safer-more-intelligent-warehouse/"
 description: Rack Eye Intelligent Warehouse Security
 image: http://www.asafe.com/data/blog/images/post/RackEye_advert.JPG
