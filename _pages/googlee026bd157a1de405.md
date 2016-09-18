@@ -1,5 +1,5 @@
 ---
-title: 'Google'
+title: Google
 permalink: "/googlee026bd157a1de405.html"
 position: 7
 page-title: Google Verficiation
@@ -8,4 +8,5 @@ description: Pocketworks offer advice, design and development around the impleme
   of apps for business.
 sitemap: false
 ---
+
 google-site-verification: googlee026bd157a1de405.html
