@@ -1,6 +1,6 @@
 ---
 title: Taking software engineering seriously
-date: 2016-08-12 15:47:00 Z
+date: 2016-08-12 16:47:00 +01:00
 ---
 
 - You'll be working with a team that scores 10 out of 12 on the [Joel Test (see scores)]({{ site.baseurl }}/jobs/joel-test/)
